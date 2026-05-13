@@ -1,6 +1,3 @@
-- [**Home**](index.md)
+- [**Jean Sammet - T02**](index.md)
 - **Fases**
-  - [*Fase 1*](fases/fase1.md)
-  - [*Fase 2*](fases/fase2.md)
-  - [*Fase 3*](fases/fase3.md)
-  - [*Fase 4*](fases/fase4.md)
+  - [_Fase 1_](fases/fase1.md)
