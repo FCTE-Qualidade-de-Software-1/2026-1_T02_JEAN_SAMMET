@@ -94,3 +94,11 @@ Essa abordagem permite verificar indícios de qualidade relacionados à manuten�
 A principal limitação desta avaliação é a impossibilidade de acessar o sistema em execução. Por esse motivo, não será possível validar diretamente o comportamento real da aplicação, como login, cadastro de itens, busca, recuperação de objetos ou execução de fluxos completos pelo usuário.
 
 Assim, a avaliação terá caráter documental e estático, com foco na análise dos artefatos disponíveis. Essa limitação será considerada nas fases seguintes, especialmente na definição das métricas e na interpretação dos resultados.
+
+
+## Histórico de Versão
+
+| Versão | Data | Descrição | Autor |
+| :---: | :---: | --- | --- |
+| 1.0 | 12/05/2026 | Elaboração inicial das seções 1 ao 4 | Jao Nascimento |
+| 1.1 | 12/05/2026 | Elaboração do escopo, profundidade, objetivos de avaliação e Adição do histórico de versão | Euller |
