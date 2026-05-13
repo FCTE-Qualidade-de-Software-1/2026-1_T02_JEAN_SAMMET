@@ -102,5 +102,5 @@ Assim, a avaliação terá caráter documental e estático, com foco na análise
 
 | Versão | Data | Descrição | Autor |
 | :---: | :---: | --- | --- |
-| 1.0 | 12/05/2026 | Elaboração inicial das seções 1 ao 4 | Jao Nascimento |
+| 1.0 | 12/05/2026 | Elaboração inicial das seções 1 ao 4 | João Nascimento |
 | 1.1 | 12/05/2026 | Elaboração do escopo, profundidade, objetivos de avaliação e Adição do histórico de versão | Euller |
