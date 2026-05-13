@@ -79,7 +79,7 @@ De acordo com as características escolhidas separamos suas subcaracterísticas 
 - Integridade: Para evitar que os dados sejam mexidos por quem não deve, o sistema usa o Django ORM. Ele faz todo o meio de campo com o banco de dados PostgreSQL de um jeito controlado, o que ajuda a manter as informações protegidas contra alterações indevidas.
 - Ausência de Repúdio: O sistema mantém um histórico rastreável de tudo o que é feito. Isso é possível graças ao pipeline de CI/CD do GitHub Actions, que registra as execuções e alterações submetidas ao repositório.
 - Rastreabilidade de Uso: O repositório consegue vincular as ações a usuários específicos. Essa identificação é feita pelo mecanismo de autenticação da Microsoft (MSAL), que associa cada sessão a uma identidade única da comunidade acadêmica da UnB.
-- A plataforma valida se o usuário realmente pertence à instituição. Como o login é vinculado ao sistema da Universidade de Brasília via MSAL, o acesso fica restrito apenas a quem faz parte da comunidade acadêmica.
+- Autenticidade: A plataforma valida se o usuário realmente pertence à instituição. Como o login é vinculado ao sistema da Universidade de Brasília via MSAL, o acesso fica restrito apenas a quem faz parte da comunidade acadêmica.
 
 
 <section align="center" flex="col" style="margin-top: 5rem">
@@ -187,3 +187,4 @@ Aqui estão as ODS que tem relevância direta com o projeto do AcheiUnB e suas d
 |  1.2   | 13/05/2026 | Elaboração do modelo de qualidade e descrição aprofundando                                 | Davi            |
 |  1.3   | 13/05/2026 | Elaboração do tópico sobre ODS e relação com o software e adição de bibliografia           | Davi            |
 |  1.4   | 14/05/2026 | Adição dos tópicos 9, 11 e 16 dos ODS e formatação/refatoração da documentação             | Diogo           |
+|  1.3   | 13/05/2026 | Adição de novas subcaracterísticas ao tópico 5                                             | Davi            |
