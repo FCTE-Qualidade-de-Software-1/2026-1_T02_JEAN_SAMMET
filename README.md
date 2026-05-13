@@ -46,7 +46,7 @@ Para guiar nossa avaliação, selecionamos características críticas baseadas n
 ---
 
 ## ODS Escolhidos
-- **ODS 4 — Educação de qualidade:**  A plataforma contribui para esse objetivo ao oferecer à comunidade acadêmica da UnB um canal institucional para registro e recuperação de objetos perdidos, reduzindo o impacto da perda de materiais acadêmicos como livros, documentos e equipamentos sobre a rotina dos estudantes.
+- **ODS 4 — Educação de qualidade:**  A plataforma contribui para esse objetivo ao oferecer um canal institucional para registro e recuperação de objetos perdidos, reduzindo o impacto da perda de materiais acadêmicos como livros, documentos e equipamentos sobre a rotina dos estudantes.
   
 - **ODS 9 — Indústria, Inovação e Infraestrutura:** O projeto é uma solução digital que organiza um serviço antes disperso, usando tecnologia web para melhorar a infraestrutura de comunicação e atendimento da comunidade acadêmica.
 
