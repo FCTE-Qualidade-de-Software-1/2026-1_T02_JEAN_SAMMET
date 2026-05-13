@@ -40,3 +40,57 @@ O AcheiUnB pode ser classificado como um software web de código aberto, de natu
 ## 4. Propósito da avaliação
 
 O propósito é avaliar a qualidade do AcheiUnB com ênfase nas características de {Nome da característica 1} e {Nome da característica 2}. Ademais, pode-se também verificar se a plataforma cumpre bem seu papel de centralizar o registro e a recuperação de itens perdidos na UnB, oferecendo uma experiência funcional, organizada e adequada ao uso pela comunidade acadêmica. 
+
+
+## Modelo de qualidade e descrição
+---
+
+## 6. Escopo, profundidade e objetos de avaliação
+
+### 6.1. Escopo da avaliação
+
+A avaliação do AcheiUnB será realizada com foco nas características de **Confiabilidade**, **Manutenibilidade** e **Segurança**, conforme definidas no modelo de qualidade adaptado. Considerando que o sistema não está acessível para execução no momento da avaliação, o escopo será direcionado à análise documental e estática dos artefatos disponíveis no repositório.
+
+Dessa forma, serão considerados como parte do escopo:
+
+* Estrutura geral do repositório;
+* Separação entre frontend, backend e documentação;
+* Arquivos de configuração do ambiente;
+* Evidências de autenticação e proteção de credenciais;
+* Existência de testes automatizados e configuração de pipeline;
+* Organização dos módulos e dependências;
+* Evidências técnicas disponíveis na documentação e no código-fonte.
+
+Não serão avaliados neste ciclo:
+
+* Testes funcionais executados em ambiente real;
+* Testes de carga ou desempenho;
+* Validação com usuários finais;
+* Auditoria completa de segurança;
+* Avaliação de usabilidade, pois essa característica não pode ser escolhida nesta atividade;
+* Disponibilidade real do sistema em produção.
+
+### 6.2. Profundidade da avaliação
+
+A profundidade da avaliação será limitada à análise dos artefatos disponíveis publicamente no repositório do projeto. Portanto, os resultados obtidos não devem ser interpretados como uma avaliação completa do comportamento do sistema em execução, mas sim como uma análise da qualidade observável a partir de sua documentação, código-fonte, configurações e estrutura técnica.
+
+Essa abordagem permite verificar indícios de qualidade relacionados à manutenção, segurança e confiabilidade, mesmo sem acesso à aplicação em funcionamento. Dessa forma, a avaliação mantém coerência com a situação atual do sistema e evita prometer medições que dependam da execução da aplicação.
+
+### 6.3. Objetos de avaliação
+
+| Objeto de avaliação | Relação com a qualidade | Característica associada |
+|---|---|---|
+| Estrutura de diretórios `/API`, `/web` e `/docs` | Permite verificar separação de responsabilidades e organização do projeto | Manutenibilidade |
+| Arquivos de configuração e Docker | Permitem analisar a organização do ambiente e dos serviços | Manutenibilidade / Confiabilidade |
+| Configuração de testes e pipeline CI/CD | Indica suporte à verificação automatizada do sistema | Confiabilidade |
+| Autenticação via Microsoft MSAL | Evidencia mecanismo de controle de identidade | Segurança |
+| Uso de variáveis de ambiente | Indica proteção de credenciais e dados sensíveis | Segurança |
+| Organização dos módulos de backend e frontend | Permite observar modularidade e separação de camadas | Manutenibilidade |
+| Documentação do projeto | Apoia compreensão, manutenção e evolução do sistema | Manutenibilidade |
+| Uso do Celery | Indica suporte a tarefas assíncronas e processos em segundo plano | Confiabilidade |
+
+### 6.4. Limitações da avaliação
+
+A principal limitação desta avaliação é a impossibilidade de acessar o sistema em execução. Por esse motivo, não será possível validar diretamente o comportamento real da aplicação, como login, cadastro de itens, busca, recuperação de objetos ou execução de fluxos completos pelo usuário.
+
+Assim, a avaliação terá caráter documental e estático, com foco na análise dos artefatos disponíveis. Essa limitação será considerada nas fases seguintes, especialmente na definição das métricas e na interpretação dos resultados.
