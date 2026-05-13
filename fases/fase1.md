@@ -39,7 +39,7 @@ O AcheiUnB pode ser classificado como um software web de código aberto, de natu
 
 ## 4. Propósito da avaliação
 
-O propósito é avaliar a qualidade do AcheiUnB com ênfase nas características de {Nome da característica 1} e {Nome da característica 2}. Ademais, pode-se também verificar se a plataforma cumpre bem seu papel de centralizar o registro e a recuperação de itens perdidos na UnB, oferecendo uma experiência funcional, organizada e adequada ao uso pela comunidade acadêmica. 
+O propósito é avaliar a qualidade do AcheiUnB com ênfase nas características de segurança, manutenibilidade e confiabilidade. Ademais, pode-se também verificar se a plataforma cumpre bem seu papel de centralizar o registro e a recuperação de itens perdidos na UnB, oferecendo uma experiência funcional, organizada e adequada ao uso pela comunidade acadêmica. 
 
 ---
 
