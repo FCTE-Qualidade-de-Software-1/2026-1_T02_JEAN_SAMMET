@@ -1,4 +1,4 @@
-- [**Home**](README.md)
+- [**Home**](index.md)
 - **Fases**
   - [*Fase 1*](fases/fase1.md)
   - [*Fase 2*](fases/fase2.md)
