@@ -45,6 +45,18 @@ O propósito é avaliar a qualidade do AcheiUnB com ênfase nas características
 
 ## 5. Modelo de qualidade e descrição
 
+Como dito anteriormente, o AcheiUnB é uma plataforma de achados e perdidos voltada para a comunidade acadêmica da UnB. Seus principais stakeholders são estudantes que perderam ou encontraram objetos no campus, e a equipe de desenvolvimento responsável pela manutenção contínua do sistema. A partir desse contexto, três características da norma ISO/IEC 25010 foram priorizadas: Confiabilidade, Manutenibilidade e Segurança.
+A escolha dessas três características acima de outras na norma se dá por dois critérios principais: risco e impacto para os stakeholders. Confiabilidade foi priorizada porque falhas operacionais comprometem diretamente a função central da plataforma: conectar quem perdeu a quem encontrou um item. Manutenibilidade foi escolhida por se tratar de um projeto acadêmico com equipe rotativa, em que a facilidade de evolução e entrega contínua é crítica. Segurança foi incluída porque o sistema lida com dados de identidade institucional e restringe o acesso à comunidade da UnB, tornando a autenticação e a proteção de credenciais de extrema importância.
+
+De acordo com as características escolhidas separamos suas subcaracterísticas no modelo de qualidade que serão avaliadas durante as fases e que tem relação entre elas.
+* Em Confiabilidade, as subcaracterísticas analisadas serão maturidade, observando a estabilidade do sistema por meio da quantidade de execuções do pipeline de testes CI/CD e da cobertura de código medida pelo Codecov, disponibilidade, avaliando a capacidade do sistema de permanecer operacional por meio da containerização com Docker Compose, e tolerância a falhas, analisando a capacidade do sistema de continuar operando mesmo diante de falhas parciais, observada pelo uso do Celery.
+  
+* Em Manutenibilidade, as subcaracterísticas escolhidas são modularidade, verificando a separação clara entre as camadas da aplicação (diretórios /API, /web e /docs) e testabilidade, analisando a presença de testes automatizados configurados via pytest.ini integrados ao pipeline de integração contínua do GitHub Actions.
+  
+* Em Segurança, as subcaracterísticas analisadas serão autenticidade, avaliando o mecanismo de autenticação institucional implementado via Microsoft MSAL vinculado ao login da Universidade de Brasília, garantindo que apenas usuários pertencentes à comunidade acadêmica da UnB possam acessar a plataforma, e confidencialidade, verificando o uso de variáveis de ambiente protegidas via arquivo .env e a configuração de credenciais sensíveis como Client ID e Client Secret isolados do código-fonte.
+
+![Modelo de qualidade](../images/modelo_qualidade.jpg)
+
 ---
 
 ## 6. Escopo, profundidade e objetos de avaliação
@@ -104,3 +116,5 @@ Assim, a avaliação terá caráter documental e estático, com foco na análise
 | :---: | :---: | --- | --- |
 | 1.0 | 12/05/2026 | Elaboração inicial das seções 1 ao 4 | João Nascimento |
 | 1.1 | 12/05/2026 | Elaboração do escopo, profundidade, objetivos de avaliação e Adição do histórico de versão | Euller |
+| 1.2 | 13/05/2026 | Elaboração do modelo de qualidade e descrição aprofundando | Davi |
+
