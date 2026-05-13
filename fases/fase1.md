@@ -109,12 +109,30 @@ A principal limitação desta avaliação é a impossibilidade de acessar o sist
 
 Assim, a avaliação terá caráter documental e estático, com foco na análise dos artefatos disponíveis. Essa limitação será considerada nas fases seguintes, especialmente na definição das métricas e na interpretação dos resultados.
 
+---
+
+## 7. ODS e sua relação com o software
+
+Algumas ODS que fazem relação direta com nosso software são a ODS 4 e ODS 12
+
+---
+
+## Bibliografia
+ISO. **ISO/IEC 25010:2023 — Systems and software engineering — Systems and software Quality Requirements and Evaluation (SQuaRE) — Product quality model.** International Organization for Standardization, 2023. Disponível em: [https://www.iso.org/obp/ui/en/#iso:std:iso-iec:25010:ed-2:v1:en](https://www.iso.org/obp/ui/en/#iso:std:iso-iec:25010:ed-2:v1:en).
+
+ODS. **ODS 4. Educação de qualidade.** — Instituto de Pesquisa Econômica Aplicada, 2019. Disponível em:[https://www.ipea.gov.br/ods/ods4.html](https://www.ipea.gov.br/ods/ods4.html).
+
+ODS. **ODS 12. Consumo e Produção Sustentáveis** — Instituto de Pesquisa Econômica Aplicada, 2019. Disponível em: [https://www.ipea.gov.br/ods/ods12.html](https://www.ipea.gov.br/ods/ods12.html).
+
+
+---
 
 ## Histórico de Versão
-
 | Versão | Data | Descrição | Autor |
 | :---: | :---: | --- | --- |
 | 1.0 | 12/05/2026 | Elaboração inicial das seções 1 ao 4 | João Nascimento |
 | 1.1 | 12/05/2026 | Elaboração do escopo, profundidade, objetivos de avaliação e Adição do histórico de versão | Euller |
 | 1.2 | 13/05/2026 | Elaboração do modelo de qualidade e descrição aprofundando | Davi |
+| 1.3 | 13/05/2026 | Elaboração do tópico sobre ODS e relação com o software e adição de bibliografia | Davi |
+
 
