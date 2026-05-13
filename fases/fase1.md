@@ -113,14 +113,22 @@ Assim, a avaliação terá caráter documental e estático, com foco na análise
 
 ## 7. ODS e sua relação com o software
 
-Algumas ODS que fazem relação direta com nosso software são a ODS 4 e ODS 12
+Algumas ODS que fazem relação direta com nosso software são a ODS 4 e ODS 12.
+
+*** 7.1. ODS 4 — Educação de Qualidade
+
+O AcheiUnB apresenta vínculo com a meta 4.a do ODS 4, que trata da oferta de infraestrutura e ambientes de aprendizagem seguros, inclusivos e eficazes para todos. A plataforma contribui para esse objetivo ao oferecer à comunidade acadêmica da UnB um canal institucional para registro e recuperação de objetos perdidos, reduzindo o impacto da perda de materiais acadêmicos como livros, documentos e equipamentos sobre a rotina dos estudantes. Ao substituir grupos informais de mensagens por um sistema estruturado e acessível, o AcheiUnB apoia a continuidade das atividades de estudo de forma organizada e adequada ao contexto universitário.
+
+*** 7.2. ODS 12 — Consumo e Produção Responsáveis
+
+A meta associada é a 12.5, que estabelece a redução da geração de resíduos por meio da reutilização e recuperação de materiais. Ao facilitar a devolução de objetos perdidos aos seus donos, o AcheiUnB contribui diretamente para a redução do descarte desnecessário de itens que, sem um canal adequado, seriam abandonados ou extraviados permanentemente. Esse vínculo é especialmente relevante em um campus universitário, onde o volume de pessoas em trânsito diário torna a perda e o descarte de objetos um problema recorrente.
 
 ---
 
 ## Bibliografia
 ISO. **ISO/IEC 25010:2023 — Systems and software engineering — Systems and software Quality Requirements and Evaluation (SQuaRE) — Product quality model.** International Organization for Standardization, 2023. Disponível em: [https://www.iso.org/obp/ui/en/#iso:std:iso-iec:25010:ed-2:v1:en](https://www.iso.org/obp/ui/en/#iso:std:iso-iec:25010:ed-2:v1:en).
 
-ODS. **ODS 4. Educação de qualidade.** — Instituto de Pesquisa Econômica Aplicada, 2019. Disponível em:[https://www.ipea.gov.br/ods/ods4.html](https://www.ipea.gov.br/ods/ods4.html).
+ODS. **ODS 4. Educação de qualidade.** — Instituto de Pesquisa Econômica Aplicada, 2019. Disponível em: [https://www.ipea.gov.br/ods/ods4.html](https://www.ipea.gov.br/ods/ods4.html).
 
 ODS. **ODS 12. Consumo e Produção Sustentáveis** — Instituto de Pesquisa Econômica Aplicada, 2019. Disponível em: [https://www.ipea.gov.br/ods/ods12.html](https://www.ipea.gov.br/ods/ods12.html).
 
