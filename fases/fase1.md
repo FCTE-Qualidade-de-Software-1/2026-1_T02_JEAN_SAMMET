@@ -61,9 +61,26 @@ A escolha dessas três características acima de outras na norma se dá por dois
 
 De acordo com as características escolhidas separamos suas subcaracterísticas no modelo de qualidade que serão avaliadas durante as fases e que tem relação entre elas.
 
-- Em **Confiabilidade**, as subcaracterísticas analisadas serão maturidade, observando a estabilidade do sistema por meio da quantidade de execuções do pipeline de testes CI/CD e da cobertura de código medida pelo Codecov, disponibilidade, avaliando a capacidade do sistema de permanecer operacional por meio da containerização com Docker Compose, e tolerância a falhas, analisando a capacidade do sistema de continuar operando mesmo diante de falhas parciais, observada pelo uso do Celery.
-- Em **Manutenibilidade**, as subcaracterísticas escolhidas são modularidade, verificando a separação clara entre as camadas da aplicação (diretórios /API, /web e /docs) e testabilidade, analisando a presença de testes automatizados configurados via pytest.ini integrados ao pipeline de integração contínua do GitHub Actions.
-- Em **Segurança**, as subcaracterísticas analisadas serão autenticidade, avaliando o mecanismo de autenticação institucional implementado via Microsoft MSAL vinculado ao login da Universidade de Brasília, garantindo que apenas usuários pertencentes à comunidade acadêmica da UnB possam acessar a plataforma, e confidencialidade, verificando o uso de variáveis de ambiente protegidas via arquivo .env e a configuração de credenciais sensíveis como Client ID e Client Secret isolados do código-fonte.
+### **Subcaracterísticas de Confiabilidade**
+- Maturidade: O repositório mostra que o sistema é estável através do histórico do pipeline de testes no CI/CD. Além disso, a cobertura de código medida pelo Codecov ajuda a confirmar que o que foi desenvolvido está bem validado.
+- Disponibilidade: Para garantir que o sistema continue rodando sem interrupções, o projeto utiliza a containerização com Docker Compose. Isso facilita a gestão dos serviços e ajuda a manter tudo operacional de forma mais consistente.
+- Tolerância a Falhas: Foi observado que o sistema consegue continuar funcionando mesmo se houver alguma falha parcial. O uso do Celery é o que garante essa capacidade, permitindo que tarefas pesadas ou processos secundários não derrubem a aplicação principal.
+- Recuperabilidade: Em caso de queda ou interrupção, o sistema está preparado para não perder dados. O uso do PostgreSQL como banco relacional garante a integridade das transações, permitindo que as informações sejam recuperadas corretamente após uma falha.
+
+### **Subcaracterísticas de Manutenibilidade**
+- Modularidade: O projeto apresenta uma separação clara entre as camadas da aplicação. Isso é visível na organização dos diretórios, que dividem bem o que é API, o que é parte Web e o que é Documentação.
+- Reusabilidade: Foi observado que o sistema aproveita componentes em diferentes partes. Um exemplo disso é o uso do Django ORM, que é compartilhado tanto na API quanto nos módulos de usuários e itens, evitando retrabalho.
+- Analisabilidade: O repositório facilita a identificação de falhas e pontos de melhoria. Ele utiliza o CodeCov integrado ao GitHub Actions para gerar relatórios de cobertura, o que ajuda a entender onde o código precisa de mais atenção.
+- Modificabilidade: A estrutura permite fazer alterações sem quebrar o sistema facilmente. Isso é garantido pelo uso do Docker Compose, que isola as dependências de cada serviço, e pelo pipeline do GitHub Actions, que valida automaticamente cada mudança enviada.
+- Testabilidade: O projeto está preparado para ser testado de forma eficiente. Ele já conta com testes automatizados configurados via pytest.ini, que rodam direto no pipeline de integração contínua toda vez que algo novo é submetido.
+  
+### **Subcaracterísticas de Segurança**
+- Confidencialidade: O projeto protege informações sensíveis isolando credenciais (como Client ID e Secret) do código-fonte. Isso é feito através do uso de arquivos .env, garantindo que esses dados só sejam acessados por quem realmente tem permissão.
+- Integridade: Para evitar que os dados sejam mexidos por quem não deve, o sistema usa o Django ORM. Ele faz todo o meio de campo com o banco de dados PostgreSQL de um jeito controlado, o que ajuda a manter as informações protegidas contra alterações indevidas.
+- Ausência de Repúdio: O sistema mantém um histórico rastreável de tudo o que é feito. Isso é possível graças ao pipeline de CI/CD do GitHub Actions, que registra as execuções e alterações submetidas ao repositório.
+- Rastreabilidade de Uso: O repositório consegue vincular as ações a usuários específicos. Essa identificação é feita pelo mecanismo de autenticação da Microsoft (MSAL), que associa cada sessão a uma identidade única da comunidade acadêmica da UnB.
+- A plataforma valida se o usuário realmente pertence à instituição. Como o login é vinculado ao sistema da Universidade de Brasília via MSAL, o acesso fica restrito apenas a quem faz parte da comunidade acadêmica.
+
 
 <section align="center" flex="col" style="margin-top: 5rem">
   <p>Imagem 2: Modelo de qualidade</p>
