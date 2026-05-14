@@ -25,10 +25,10 @@ Sua escolha como objeto de avaliação se deve aos seguintes fatores:
 - **Arquitetura moderna e projeto open source**: O AcheiUnB utiliza tecnologias amplamente empregadas no desenvolvimento web moderno, como Vue.js, Django e Docker, além de possuir código aberto e documentação pública no GitHub.
 - **Integração entre múltiplos componentes**: O sistema possui separação entre frontend e backend, autenticação integrada e serviços containerizados, permitindo avaliar diferentes aspectos de qualidade de software em um contexto realista de aplicações web modernas.
 
-Do ponto de vista técnico, o AcheiUnB utiliza uma arquitetura cliente-servidor com separação entre frontend e backend. O frontend web, desenvolvido em Vue.js, realiza a comunicação com uma API implementada em Python/Django, responsável pelos módulos de usuários, busca e gerenciamento de itens. O sistema também utiliza Docker para containerização dos serviços e possui integração com banco de dados e autenticação baseada em Microsoft MSAL. Além dos módulos principais, o sistema utiliza o Celery para execução de tarefas assíncronas, permitindo melhor gerenciamento de processos em segundo plano.
+Do ponto de vista técnico, o AcheiUnB utiliza uma arquitetura cliente-servidor com separação entre frontend e backend. O frontend web, desenvolvido em Vue.js, realiza a comunicação com uma API implementada em Python/Django, responsável pelos módulos de usuários, busca e gerenciamento de itens. O sistema também utiliza Docker para containerização dos serviços e possui integração com banco de dados e autenticação baseada em Microsoft MSAL. Além dos módulos principais, o sistema utiliza o Celery para execução de tarefas assíncronas, permitindo melhor gerenciamento de processos em segundo plano. Portanto, a **figura 1** demonstra, de forma ilustrativa, como a estrutura do software está organizada.      
 
 <section align="center" flex="col" style="margin-top: 5rem">
-  <p>Imagem 1: Arquitetura do Projeto </p>
+  <p><b>Figura 1: </b>Arquitetura do Projeto </p>
   <img alt="Arquitetura do Projeto" src="../images/arquitetura_AcheiUnB.png" />
 </section>
 
@@ -42,48 +42,69 @@ O AcheiUnB pode ser classificado como um software web de código aberto, de natu
 
 ## 4. Propósito da avaliação
 
-O propósito é avaliar a qualidade do AcheiUnB com ênfase nas características de **segurança**, **manutenibilidade** e **confiabilidade**. Ademais, pode-se também verificar se a plataforma cumpre bem seu papel de centralizar o registro e a recuperação de itens perdidos na UnB, oferecendo uma experiência funcional, organizada e adequada ao uso pela comunidade acadêmica.
+O propósito é avaliar a qualidade do AcheiUnB com ênfase nas características e subcaracterísticas priorizadas. Ademais, pode-se também verificar se a plataforma cumpre bem seu papel de centralizar o registro e a recuperação de itens perdidos na UnB, oferecendo uma experiência funcional, organizada e adequada ao uso pela comunidade acadêmica.
 
 Além disso, caso haja continuidade do projeto, a análise feita pode ser utilizada para futuras correções de inconsistências ou erros do projeto. Logo, o relatório e o repositório da análise da característica de Qualidade escrito pela equipe pode servir como contribuição direta para o projeto.
 
 ---
 
-## 5. Modelo de qualidade e descrição
+## 5. Modelo de qualidade, descrição e priorização
 
 Como dito anteriormente, o AcheiUnB é uma plataforma de achados e perdidos voltada para a comunidade acadêmica da UnB. Seus principais stakeholders são estudantes que perderam ou encontraram objetos no campus, e a equipe de desenvolvimento responsável pela manutenção contínua do sistema.
 
-A partir desse contexto, três características da norma ISO/IEC 25010 foram priorizadas: **Confiabilidade**, **Manutenibilidade** e **Segurança**.
-A escolha dessas três características acima de outras na norma se dá por dois critérios principais: risco e impacto para os stakeholders.
+A partir desse contexto, será feito a priorização através da matriz impacto x risco nas características que serão empregadas  pela equipe para avaliar o software, sendo que os quadrantes da matriz foram categorizadas, respectivamente, como 'prioritário', 'prioritário e exigente', 'desvirtua do propósito' e 'descartar' para o 1º, 2º, 3º e 4º quadrante, para reforçar a visão da equipe sobre a alocação dessas características. Dessa forma, as características selecionadas devem pertencer ao 1º e 2º quadrante, pois enfatizamos aquelas que terão alto impacto para o propósito da nossa avaliação. A **figura 2** expõe o resultado da priorização.      
 
-- **Confiabilidade** foi priorizada porque falhas operacionais comprometem diretamente a função central da plataforma: conectar quem perdeu a quem encontrou um item.
-- **Manutenibilidade** foi escolhida por se tratar de um projeto acadêmico com equipe rotativa, em que a facilidade de evolução e entrega contínua é crítica.
-- **Segurança** foi incluída porque o sistema lida com dados de identidade institucional e restringe o acesso à comunidade da UnB, tornando a autenticação e a proteção de credenciais de extrema importância.
+<section align="center" flex="col" style="margin-top: 5rem">
+  <p><b>Figura 2:</b> Matriz esforço x risco</p>
+  <img alt="Matriz esforço x risco" src="../images/matriz_esforco_impacto.png" />
+</section>
 
-De acordo com as características escolhidas separamos suas subcaracterísticas no modelo de qualidade que serão avaliadas durante as fases e que tem relação entre elas.
+Como é possível observar, três características da norma ISO/IEC 25010 foram priorizadas: **confiabilidade**, **manutenibilidade** e **segurança**. A confiabilidade  foi priorizada porque falhas operacionais comprometem diretamente a função central da plataforma: conectar quem perdeu a quem encontrou um item. No caso da manutenibilidade, a sua escolha se explica por se tratar de um projeto acadêmico com equipe rotativa, em que a facilidade de evolução e entrega contínua é crítica. Por fim, segurança foi incluída porque o sistema lida com dados de identidade institucional e restringe o acesso à comunidade da UnB, tornando a autenticação e a proteção de credenciais de extrema importância. 
+
+Dessa forma, é importante destacar que entre as três selecionadas, um _trade-off_ observável nessa escolha irá advir de **segurança**, pois a avaliação dessa característica será simplificada por conta da limitação de recursos acessíveis à equipe.
+
+De acordo com as características escolhidas. separamos subcaracterísticas no modelo de qualidade que serão avaliadas durante as fases e que tem relação entre elas.
 
 ### **Subcaracterísticas de Confiabilidade**
+
 - Maturidade: O repositório mostra que o sistema é estável através do histórico do pipeline de testes no CI/CD. Além disso, a cobertura de código medida pelo Codecov ajuda a confirmar que o que foi desenvolvido está bem validado.
+
 - Disponibilidade: Para garantir que o sistema continue rodando sem interrupções, o projeto utiliza a containerização com Docker Compose. Isso facilita a gestão dos serviços e ajuda a manter tudo operacional de forma mais consistente.
+
 - Tolerância a Falhas: Foi observado que o sistema consegue continuar funcionando mesmo se houver alguma falha parcial. O uso do Celery é o que garante essa capacidade, permitindo que tarefas pesadas ou processos secundários não derrubem a aplicação principal.
+
 - Recuperabilidade: Em caso de queda ou interrupção, o sistema está preparado para não perder dados. O uso do PostgreSQL como banco relacional garante a integridade das transações, permitindo que as informações sejam recuperadas corretamente após uma falha.
 
 ### **Subcaracterísticas de Manutenibilidade**
+
 - Modularidade: O projeto apresenta uma separação clara entre as camadas da aplicação. Isso é visível na organização dos diretórios, que dividem bem o que é API, o que é parte Web e o que é Documentação.
+
 - Reusabilidade: Foi observado que o sistema aproveita componentes em diferentes partes. Um exemplo disso é o uso do Django ORM, que é compartilhado tanto na API quanto nos módulos de usuários e itens, evitando retrabalho.
+
 - Analisabilidade: O repositório facilita a identificação de falhas e pontos de melhoria. Ele utiliza o CodeCov integrado ao GitHub Actions para gerar relatórios de cobertura, o que ajuda a entender onde o código precisa de mais atenção.
+
 - Modificabilidade: A estrutura permite fazer alterações sem quebrar o sistema facilmente. Isso é garantido pelo uso do Docker Compose, que isola as dependências de cada serviço, e pelo pipeline do GitHub Actions, que valida automaticamente cada mudança enviada.
+
 - Testabilidade: O projeto está preparado para ser testado de forma eficiente. Ele já conta com testes automatizados configurados via pytest.ini, que rodam direto no pipeline de integração contínua toda vez que algo novo é submetido.
-  
+
 ### **Subcaracterísticas de Segurança**
+
 - Confidencialidade: O projeto protege informações sensíveis isolando credenciais (como Client ID e Secret) do código-fonte. Isso é feito através do uso de arquivos .env, garantindo que esses dados só sejam acessados por quem realmente tem permissão.
+
 - Integridade: Para evitar que os dados sejam mexidos por quem não deve, o sistema usa o Django ORM. Ele faz todo o meio de campo com o banco de dados PostgreSQL de um jeito controlado, o que ajuda a manter as informações protegidas contra alterações indevidas.
+
 - Ausência de Repúdio: O sistema mantém um histórico rastreável de tudo o que é feito. Isso é possível graças ao pipeline de CI/CD do GitHub Actions, que registra as execuções e alterações submetidas ao repositório.
+
 - Rastreabilidade de Uso: O repositório consegue vincular as ações a usuários específicos. Essa identificação é feita pelo mecanismo de autenticação da Microsoft (MSAL), que associa cada sessão a uma identidade única da comunidade acadêmica da UnB.
+
+- A plataforma valida se o usuário realmente pertence à instituição. Como o login é vinculado ao sistema da Universidade de Brasília via MSAL, o acesso fica restrito apenas a quem faz parte da comunidade acadêmica.
+
 - Autenticidade: A plataforma valida se o usuário realmente pertence à instituição. Como o login é vinculado ao sistema da Universidade de Brasília via MSAL, o acesso fica restrito apenas a quem faz parte da comunidade acadêmica.
 
+Mediante essa descrição, a **figura 3** exibe o modelo de qualidade adaptado ao nosso ambiente avaliativo.      
 
-<section align="center" flex="col" style="margin-top: 5rem">
-  <p>Imagem 2: Modelo de qualidade</p>
+<section flex="col" style="margin-top: 5rem">
+  <p><b>Figura 3:</b> Modelo de qualidade</p>
   <img alt="Modelo de qualidade" src="../images/modelo_qualidade.jpg" />
 </section>
 
@@ -93,7 +114,7 @@ De acordo com as características escolhidas separamos suas subcaracterísticas 
 
 ### 6.1. Escopo da avaliação
 
-A avaliação do AcheiUnB será realizada com foco nas características de **Confiabilidade**, **Manutenibilidade** e **Segurança**, conforme definidas no modelo de qualidade adaptado. Considerando que o sistema não está acessível para execução no momento da avaliação, o escopo será direcionado à análise documental e estática dos artefatos disponíveis no repositório.
+A avaliação do AcheiUnB será realizada com foco nas características de **confiabilidade**, **manutenibilidade** e **segurança**, conforme definidas no modelo de qualidade adaptado. Considerando que o sistema não está acessível para execução no momento da avaliação, o escopo será direcionado à análise documental e estática dos artefatos disponíveis no repositório.
 
 Dessa forma, serão considerados como parte do escopo:
 
@@ -186,5 +207,6 @@ Aqui estão as ODS que tem relevância direta com o projeto do AcheiUnB e suas d
 |  1.1   | 12/05/2026 | Elaboração do escopo, profundidade, objetivos de avaliação e Adição do histórico de versão | Euller          |
 |  1.2   | 13/05/2026 | Elaboração do modelo de qualidade e descrição aprofundando                                 | Davi            |
 |  1.3   | 13/05/2026 | Elaboração do tópico sobre ODS e relação com o software e adição de bibliografia           | Davi            |
-|  1.4   | 14/05/2026 | Adição dos tópicos 9, 11 e 16 dos ODS e formatação/refatoração da documentação             | Diogo           |
-|  1.3   | 13/05/2026 | Adição de novas subcaracterísticas ao tópico 5                                             | Davi            |
+|  1.4   | 13/05/2026 | Adição dos tópicos 9, 11 e 16 dos ODS e formatação/refatoração da documentação             | Diogo           |
+|  1.5   | 13/05/2026 | Adição de novas subcaracterísticas ao tópico 5  | Davi              | 
+|  1.6   | 13/05/2026 | Matriz de impacto x risco das características e revisão de organização lógica  | Willian           |
