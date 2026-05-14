@@ -29,7 +29,7 @@ Do ponto de vista técnico, o AcheiUnB utiliza uma arquitetura cliente-servidor 
 
   <section style="display: flex; flex-direction: column; align-items: center">
     <p><b>Figura 1: </b>Arquitetura do Projeto </p>
-    <img alt="Arquitetura do Projeto" src="/images/arquitetura_AcheiUnB.png" />
+    <img alt="Arquitetura do Projeto" src="/images/arquiteturaAcheiUnB.png" />
   </section>
 
 ---
@@ -56,7 +56,7 @@ A partir desse contexto, será feito a priorização através da matriz impacto 
 
   <section style="display: flex; flex-direction: column; align-items: center">
     <p><b>Figura 2:</b> Matriz esforço x risco</p>
-    <img alt="Matriz esforço x risco" src="/images/matriz_esforco_impacto.png" />
+    <img alt="Matriz esforço x risco" src="/images/matrizEsforcoImpacto.png" />
   </section>
 
 Como é possível observar, três características da norma ISO/IEC 25010 foram priorizadas: **confiabilidade**, **manutenibilidade** e **segurança**. A confiabilidade  foi priorizada porque falhas operacionais comprometem diretamente a função central da plataforma: conectar quem perdeu a quem encontrou um item. No caso da manutenibilidade, a sua escolha se explica por se tratar de um projeto acadêmico com equipe rotativa, em que a facilidade de evolução e entrega contínua é crítica. Por fim, segurança foi incluída porque o sistema lida com dados de identidade institucional e restringe o acesso à comunidade da UnB, tornando a autenticação e a proteção de credenciais de extrema importância. 
@@ -105,7 +105,7 @@ Mediante essa descrição, a **figura 3** exibe o modelo de qualidade adaptado a
 
   <section style="display: flex; flex-direction: column; align-items: center">
     <p><b>Figura 3:</b> Modelo de qualidade</p>
-    <img alt="Modelo de qualidade" src="/images/modelo_qualidade.jpg" />
+    <img alt="Modelo de qualidade" src="/images/modeloQualidade.jpg" />
   </section>
 
 ---
