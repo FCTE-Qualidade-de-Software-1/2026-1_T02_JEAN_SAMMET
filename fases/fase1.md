@@ -27,10 +27,13 @@ Sua escolha como objeto de avaliação se deve aos seguintes fatores:
 
 Do ponto de vista técnico, o AcheiUnB utiliza uma arquitetura cliente-servidor com separação entre frontend e backend. O frontend web, desenvolvido em Vue.js, realiza a comunicação com uma API implementada em Python/Django, responsável pelos módulos de usuários, busca e gerenciamento de itens. O sistema também utiliza Docker para containerização dos serviços e possui integração com banco de dados e autenticação baseada em Microsoft MSAL. Além dos módulos principais, o sistema utiliza o Celery para execução de tarefas assíncronas, permitindo melhor gerenciamento de processos em segundo plano. Portanto, a **figura 1** demonstra, de forma ilustrativa, como a estrutura do software está organizada.      
 
-  <section style="display: flex; flex-direction: column; align-items: center">
-    <p><b>Figura 1: </b>Arquitetura do Projeto </p>
-    <img alt="Arquitetura do Projeto" src="/images/arquiteturaAcheiUnB.png" />
-  </section>
+<div align="center">
+
+**Figura 1:** Arquitetura do Projeto
+
+![Arquitetura do Projeto](../images/arquiteturaAcheiUnB.png)
+
+</div>
 
 ---
 
@@ -54,10 +57,13 @@ Como dito anteriormente, o AcheiUnB é uma plataforma de achados e perdidos volt
 
 A partir desse contexto, será feito a priorização através da matriz impacto x risco nas características que serão empregadas  pela equipe para avaliar o software, sendo que os quadrantes da matriz foram categorizadas, respectivamente, como 'prioritário', 'prioritário e exigente', 'desvirtua do propósito' e 'descartar' para o 1º, 2º, 3º e 4º quadrante, para reforçar a visão da equipe sobre a alocação dessas características. Dessa forma, as características selecionadas devem pertencer ao 1º e 2º quadrante, pois enfatizamos aquelas que terão alto impacto para o propósito da nossa avaliação. A **figura 2** expõe o resultado da priorização.      
 
-  <section style="display: flex; flex-direction: column; align-items: center">
-    <p><b>Figura 2:</b> Matriz esforço x risco</p>
-    <img alt="Matriz esforço x risco" src="/images/matrizEsforcoImpacto.png" />
-  </section>
+<div align="center">
+
+**Figura 2:** Matriz esforço x risco
+
+![Matriz esforço x risco](../images/matrizEsforcoImpacto.png)
+
+</div>
 
 Como é possível observar, três características da norma ISO/IEC 25010 foram priorizadas: **confiabilidade**, **manutenibilidade** e **segurança**. A confiabilidade  foi priorizada porque falhas operacionais comprometem diretamente a função central da plataforma: conectar quem perdeu a quem encontrou um item. No caso da manutenibilidade, a sua escolha se explica por se tratar de um projeto acadêmico com equipe rotativa, em que a facilidade de evolução e entrega contínua é crítica. Por fim, segurança foi incluída porque o sistema lida com dados de identidade institucional e restringe o acesso à comunidade da UnB, tornando a autenticação e a proteção de credenciais de extrema importância. 
 
@@ -103,10 +109,13 @@ De acordo com as características escolhidas. separamos subcaracterísticas no m
 
 Mediante essa descrição, a **figura 3** exibe o modelo de qualidade adaptado ao nosso ambiente avaliativo.      
 
-  <section style="display: flex; flex-direction: column; align-items: center">
-    <p><b>Figura 3:</b> Modelo de qualidade</p>
-    <img alt="Modelo de qualidade" src="/images/modeloQualidade.jpg" />
-  </section>
+<div align="center">
+
+**Figura 3:** Modelo de qualidade
+
+![Modelo de qualidade](../images/modeloQualidade.jpg)
+
+</div>
 
 ---
 
