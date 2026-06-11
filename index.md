@@ -70,6 +70,21 @@ Abaixo apresentamos a narrativa completa da nossa avaliação.
 - [**Fase 1:** Definição do Modelo de Qualidade e Escopo](fases/fase1.md)
   - _Definição do produto, partes interessadas e priorização das características de qualidade._
 
+### 2. Definição da Medição
+
+- [**Fase 2:** Definição de Métricas e GQM](fases/fase2.md)
+  - _Objetivos, questões, hipóteses, métricas e critérios de julgamento baseados no modelo GQM._
+
+### 3. Plano de Execução da Avaliação
+
+- [**Fase 3:** Plano de Execução](fases/fase3.md)
+  - _Método de avaliação, recursos, ambiente e cronograma._
+
+### 4. Execução e Análise
+
+- [**Fase 4:** Execução, Análise e Julgamento](fases/fase4.md)
+  - _Coleta de dados, análise GQM, julgamento final e sugestões de melhoria._
+
 ---
 
 ## Integrantes
