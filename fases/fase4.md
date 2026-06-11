@@ -1,5 +1,7 @@
 # Fase 4: Execução, Análise e Julgamento
 
+### Introdução
+
 ## 1. Execução (Obtenção das Medidas)
 
 <!-- Descreva como os dados foram obtidos seguindo os métodos da Fase 3 e apresente evidências da coleta (ex. logs, screenshots). -->
@@ -26,4 +28,4 @@
 
 | Versão |    Data    | Descrição                                                                                  | Autor           |
 | :----: | :--------: | ------------------------------------------------------------------------------------------ | --------------- |
-|  1.0   | 10/06/2026 | Criação da estrutura base do documento Fase 4                                              | [Euller Júlio](https://github.com/potatoyz908)          |
+|  1.0   | 10/06/2026 | Criação da estrutura base do documento Fase 4                                              | [Euller Júlio](https://github.com/potatoyz908) |

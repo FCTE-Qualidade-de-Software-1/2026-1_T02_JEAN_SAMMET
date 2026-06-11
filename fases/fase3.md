@@ -1,4 +1,6 @@
-# Fase 3: Plano de Execução da Avaliação
+# Fase 3: Plano de Execução
+
+### Introdução
 
 ## 1. Definição do Método e Instruções
 
@@ -22,4 +24,4 @@
 
 | Versão |    Data    | Descrição                                                                                  | Autor           |
 | :----: | :--------: | ------------------------------------------------------------------------------------------ | --------------- |
-|  1.0   | 10/06/2026 | Criação da estrutura base do documento Fase 3                                              | [Euller Júlio](https://github.com/potatoyz908)          |
+|  1.0   | 10/06/2026 | Criação da estrutura base do documento Fase 3                                              | [Euller Júlio](https://github.com/potatoyz908) |
