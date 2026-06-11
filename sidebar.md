@@ -1,3 +1,7 @@
 - [**Jean Sammet - T02**](index.md)
 - **Fases**
   - [_Fase 1_](fases/fase1.md)
+  - [_Fase 2_](fases/fase2.md)
+  - [_Fase 3_](fases/fase3.md)
+  - [_Fase 4_](fases/fase4.md)
+- [**Contribuições**](contribuicoes.md)
