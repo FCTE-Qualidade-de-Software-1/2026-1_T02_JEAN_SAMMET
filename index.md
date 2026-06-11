@@ -72,7 +72,7 @@ Abaixo apresentamos a narrativa completa da nossa avaliação.
 
 ### 2. Definição da Medição
 
-- [**Fase 2:** Definição de Métricas e GQM](fases/fase2.md)
+- [**Fase 2:** Definição de Objetivos de Medição e Métricas](fases/fase2.md)
   - _Objetivos, questões, hipóteses, métricas e critérios de julgamento baseados no modelo GQM._
 
 ### 3. Plano de Execução da Avaliação
@@ -152,12 +152,18 @@ Abaixo apresentamos a narrativa completa da nossa avaliação.
 
 - **ODS 16. Paz, Justiça e Instituições Eficazes.** — Instituto de Pesquisa Econômica Aplicada, 2019. Disponível em: [https://www.ipea.gov.br/ods/ods16.html](https://www.ipea.gov.br/ods/ods16.html).
 
+- **MARTINEZ, L. et al.** Assistant for the Evaluation of Software Product Quality Characteristics Proposed by ISO/IEC 25010 Based on GQM-Defined Metrics. *SEDICI*, 2018. Disponível em: <https://sedici.unlp.edu.ar>.
+
+- **BASILI, V. R. et al.** The Goal/Question/Metric Paradigm. *Fraunhofer IESE*, 2003.
+
+- **SOLLAMI, T.; AL-ZUBAIDI, L.** Software Quality Metrics and Evaluation Using GQM Approach. *International Journal of Computer Applications*, 2019.
+
 ---
 
 <div align="center">
 
 **Projeto da Disciplina de Qualidade de Software 1 - FGA/UnB**
 
-**Versão Atual:** 1.1 | **Data de Atualização:** 14/05/2026
+**Versão Atual:** 2.0 | **Data de Atualização:** 11/06/2026
 
 </div>
