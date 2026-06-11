@@ -212,10 +212,10 @@ Aqui estão as ODS que tem relevância direta com o projeto do AcheiUnB e suas d
 
 | Versão |    Data    | Descrição                                                                                  | Autor           |
 | :----: | :--------: | ------------------------------------------------------------------------------------------ | --------------- |
-|  1.0   | 12/05/2026 | Elaboração inicial das seções 1 ao 4                                                       | João Nascimento |
-|  1.1   | 12/05/2026 | Elaboração do escopo, profundidade, objetivos de avaliação e Adição do histórico de versão | Euller          |
-|  1.2   | 13/05/2026 | Elaboração do modelo de qualidade e descrição aprofundando                                 | Davi            |
-|  1.3   | 13/05/2026 | Elaboração do tópico sobre ODS e relação com o software e adição de bibliografia           | Davi            |
-|  1.4   | 13/05/2026 | Adição dos tópicos 9, 11 e 16 dos ODS e formatação/refatoração da documentação             | Diogo           |
-|  1.5   | 13/05/2026 | Adição de novas subcaracterísticas ao tópico 5  | Davi              | 
-|  1.6   | 13/05/2026 | Matriz de impacto x risco das características e revisão de organização lógica  | Willian           |
+|  1.0   | 12/05/2026 | Elaboração inicial das seções 1 ao 4                                                       | [João Nascimento](https://github.com/JMPNascimento) |
+|  1.1   | 12/05/2026 | Elaboração do escopo, profundidade, objetivos de avaliação e Adição do histórico de versão | [Euller Júlio](https://github.com/potatoyz908) |
+|  1.2   | 13/05/2026 | Elaboração do modelo de qualidade e descrição aprofundando                                 | [Davi Leite](https://github.com/Withy-S) |
+|  1.3   | 13/05/2026 | Elaboração do tópico sobre ODS e relação com o software e adição de bibliografia           | [Davi Leite](https://github.com/Withy-S) |
+|  1.4   | 13/05/2026 | Adição dos tópicos 9, 11 e 16 dos ODS e formatação/refatoração da documentação             | [Diogo Oliveira](https://github.com/Diogo-Olivv) |
+|  1.5   | 13/05/2026 | Adição de novas subcaracterísticas ao tópico 5  | [Davi Leite](https://github.com/Withy-S) |
+|  1.6   | 13/05/2026 | Matriz de impacto x risco das características e revisão de organização lógica  | [Willian Silva](https://github.com/Wooo589) |
