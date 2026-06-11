@@ -1,20 +1,20 @@
 # Fase 3: Plano de Execução
 
-### Introdução
+## 1. Introdução
 
-## 1. Definição do Método e Instruções
+## 2. Definição do Método e Instruções
 
 <!-- Descreva o método de avaliação de forma detalhada e justificada, com instruções claras e reprodutíveis para obter as medições. -->
 
-## 2. Especificação dos Recursos e Ambiente de Avaliação
+## 3. Especificação dos Recursos e Ambiente de Avaliação
 
 <!-- Detalhe os requisitos de hardware, software e conhecimento necessário dos avaliadores. Especifique a massa de dados para os testes. -->
 
-## 3. Cronograma de Avaliação
+## 4. Cronograma de Avaliação
 
 <!-- Defina um cronograma realista, alinhando as ações à execução da Fase 4. -->
 
-## 4. Consistência entre Fase 2 e Fase 3
+## 5. Consistência entre Fase 2 e Fase 3
 
 <!-- Demonstre que os métodos, recursos e ferramentas do Plano de Avaliação são perfeitamente coerentes com as métricas e critérios estabelecidos na Fase 2. -->
 

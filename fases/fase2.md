@@ -1,10 +1,12 @@
 # Fase 2: Definição de Objetivos de Medição
 
-## Introdução
+## 1. Introdução
 
 O objetivo desta fase é definir [objetivos de medição](#_1-objetivos-de-medição) e estabelecer métricas para avaliar a qualidade do [AcheiUnB](https://github.com/unb-mds/2024-2-AcheiUnB), utilizando a abordagem GQM, que conecta metas de alto nível a métricas de avaliação. Os objetivos serão fundamentados nas prioridades identificadas na [Fase 1](/fases/fase1#_5-modelo-de-qualidade-descri%c3%a7%c3%a3o-e-prioriza%c3%a7%c3%a3o), com foco em **Confiabilidade**, **Manutenibilidade** e **Segurança**, considerando os diversos pontos de vista (como desenvolvedores, comunidade acadêmica e administração) e o contexto de uso do sistema na Universidade de Brasília.
 
-## 1. Objetivos de Medição
+> Os objetivos acima fundamentam as questões de medição definidas na [Seção 3](#_3-questões-e-hipóteses-de-medição).
+
+## 2. Objetivos de Medição
 
 A definição dos objetivos de medição segue o template estruturado do paradigma GQM (Goal, Question, Metric), alinhando-se às três características de qualidade priorizadas na Fase 1 (**Confiabilidade**, **Manutenibilidade** e **Segurança**) e ao propósito de avaliação do sistema **AcheiUnB** por meio de análise estática e documental.
 
@@ -35,11 +37,11 @@ A definição dos objetivos de medição segue o template estruturado do paradig
 | **Do ponto de vista de** | Administração da universidade e estudantes (titulares dos dados). |
 | **No contexto de** | Disciplina de Qualidade de Software, proteção de dados institucionais, identidade estudantil e restrição de acesso exclusivo à comunidade da UnB. |
 
-> Os objetivos acima fundamentam as questões de medição definidas na [Seção 2](#_2-questões-e-hipóteses-de-medição).
+> Os objetivos acima fundamentam as questões de medição definidas na [Seção 3](#_3-questões-e-hipóteses-de-medição).
 
-## 2. Questões e Hipóteses de medição
+## 3. Questões e Hipóteses de medição
 
-As questões foram formuladas visando tornar os [objetivos de avaliação](#_1-objetivos-de-medição) em perguntas práticas que podem ser respondidas por meio da análise estática do repositório do [AcheiUnB](https://github.com/unb-mds/2024-2-AcheiUnB). As hipóteses representam as expectativas da equipe baseadas no entendimento prévio do *software*, guiando o processo de interpretação dos resultados.
+As questões foram formuladas visando tornar os [objetivos de avaliação](#_2-objetivos-de-medição) em perguntas práticas que podem ser respondidas por meio da análise estática do repositório do [AcheiUnB](https://github.com/unb-mds/2024-2-AcheiUnB). As hipóteses representam as expectativas da equipe baseadas no entendimento prévio do *software*, guiando o processo de interpretação dos resultados.
 
 ### Confiabilidade
 
@@ -83,9 +85,9 @@ O mecanismo de autenticação via MSAL restringe adequadamente o acesso aos *end
 
 > **Hipótese 3.2:** Espera-se que todas as rotas que realizam manipulação de dados sensíveis e transações exijam validação através de *tokens* de autenticação válidos.
 
-> Cada questão formulada acima é respondida por uma métrica específica, conforme detalhado na [Seção 3](#_3-seleção-de-métricas).
+> Cada questão formulada acima é respondida por uma métrica específica, conforme detalhado na [Seção 4](#_4-seleção-de-métricas).
 
-## 3. Seleção de Métricas
+## 4. Seleção de Métricas
 
 As métricas selecionadas visam ser objetivas e quantificáveis através de ferramentas de análise estática e inspeção visual do código.
 
@@ -100,13 +102,13 @@ As métricas selecionadas visam ser objetivas e quantificáveis através de ferr
 
 As métricas selecionadas atendem às seguintes propriedades desejáveis: **Simplicidade** — podem ser coletadas com ferramentas padrão de mercado (`pytest-cov`, ESLint, Flake8, Codecov) sem configuração especial; **Objetividade** — produzem valores numéricos ou categóricos sem margem de ambiguidade na interpretação; **Validade** — estão fundamentadas na literatura de Engenharia de Software (BASILI et al., 2003; SOLLAMI; AL-ZUBAIDI, 2019) e em práticas consolidadas de avaliação estática de qualidade.
 
-> Os critérios de julgamento para interpretação dos valores coletados estão definidos na [Seção 4](#_4-níveis-de-pontuação-e-critérios-de-julgamento).
+> Os critérios de julgamento para interpretação dos valores coletados estão definidos na [Seção 5](#_5-níveis-de-pontuação-e-critérios-de-julgamento).
 
-## 4. Níveis de Pontuação e Critérios de Julgamento
+## 5. Níveis de Pontuação e Critérios de Julgamento
 
 Para remover a subjetividade, cada métrica receberá uma nota baseada em uma escala de 1 a 4, onde 1 representa a pior classificação e 4 representa a excelência, conforme os limiares abaixo:
 
-### 4.1 Níveis de Pontuação
+### 5.1 Níveis de Pontuação
 
 | Métrica | Nível 1 (Insuficiente) | Nível 2 (Satisfatório) | Nível 3 (Bom) | Nível 4 (Excelente) |
 | :--- | :--- | :--- | :--- | :--- |
@@ -117,7 +119,7 @@ Para remover a subjetividade, cada métrica receberá uma nota baseada em uma es
 | **M3.1** (Ocorrências *Hardcoded*) | 1 ou mais no código fonte ou rotas de produção | 1 a 2 ocorrências exclusivas em *logs* ou *prints* | 1 a 2 ocorrências apenas em testes/mocks locais | Nenhuma ocorrência em todo o projeto |
 | **M3.2** (Rotas Sensíveis Protegidas) | < 70% | De 70% a 89% | De 90% a 99% | 100% |
 
-### 4.2 Critérios de Julgamento Geral
+### 5.2 Critérios de Julgamento Geral
 
 Os resultados obtidos definirão o **Índice de Qualidade (IQ)** de cada Característica e, finalmente, o Índice Global.
 Como não utilizaremos ponderação entre as métricas, todas possuem peso 1.
@@ -131,9 +133,9 @@ O valor final do IQG será mapeado no seguinte julgamento de qualidade para entr
 *   **2,51 a 3,25:** Aceito (Qualidade de mercado, pequenos ajustes recomendados)
 *   **3,26 a 4,00:** Excelente (Nível exemplar de maturidade de engenharia)
 
-## 5. Representação da Hierarquia GQM (Gráfico GQM)
+## 6. Representação da Hierarquia GQM (Gráfico GQM)
 
-A **Figura 4** apresenta a representação visual da hierarquia GQM (Goal-Question-Metric) adotada neste plano de medição. O diagrama ilustra como os [Objetivos de Medição](#_1-objetivos-de-medição) de alto nível (**Confiabilidade**, **Manutenibilidade** e **Segurança**) são decompostos em [Questões](#_2-questões-e-hipóteses-de-medição) específicas para avaliação. Por sua vez, cada Questão é conectada às [Métricas](#_3-seleção-de-métricas) quantitativas que fornecerão os dados necessários para respondê-las. A estrutura evidencia os três níveis lógicos da abordagem GQM, sendo eles o Conceitual (Objetivos), Operacional (Questões e Hipóteses) e Quantitativo (Métricas).
+A **Figura 4** apresenta a representação visual da hierarquia GQM (Goal-Question-Metric) adotada neste plano de medição. O diagrama ilustra como os [Objetivos de Medição](#_2-objetivos-de-medição) de alto nível (**Confiabilidade**, **Manutenibilidade** e **Segurança**) são decompostos em [Questões](#_3-questões-e-hipóteses-de-medição) específicas para avaliação. Por sua vez, cada Questão é conectada às [Métricas](#_4-seleção-de-métricas) quantitativas que fornecerão os dados necessários para respondê-las. A estrutura evidencia os três níveis lógicos da abordagem GQM, sendo eles o Conceitual (Objetivos), Operacional (Questões e Hipóteses) e Quantitativo (Métricas).
 
 <div align="center">
 
@@ -145,7 +147,7 @@ A **Figura 4** apresenta a representação visual da hierarquia GQM (Goal-Questi
 
 </div>
 
-## 6. Consistência entre Fase 1 e Fase 2
+## 7. Consistência entre Fase 1 e Fase 2
 
 A formulação das questões e métricas nesta fase respeita rigorosamente o **Escopo da Avaliação** definido na [Fase 1](/fases/fase1#_61-escopo-da-avalia%c3%a7%c3%a3o). Como a Fase 1 concluiu de forma explícita que o sistema não está acessível em produção (impedindo medições ativas como Testes de Desempenho e de Carga), a Fase 2 definiu intencionalmente **Métricas Estáticas e de Inspeção Documental**.
 
@@ -155,7 +157,7 @@ Os objetivos GQM (Nível Conceitual) refletem diretamente:
 
 O alinhamento garante a rastreabilidade total do projeto e fundamenta o plano metodológico adotado para o processo avaliativo do AcheiUnB.
 
-## 7. Uso de Inteligência Artificial
+## 8. Uso de Inteligência Artificial
 
 Em conformidade com a exigência e a ética da disciplina de Qualidade de Software, certificamos que a Inteligência Artificial (Modelo LLM *Antigravity/Gemini*) foi utilizada no papel de **Assistente de Redação**, corrigindo erros gramaticais e de formatação.
 
@@ -187,3 +189,4 @@ A formulação crítica dos critérios de julgamento, dos pesos, dos limites qua
 |  1.3   | 11/06/2026 | Implementação final das seções 5 até 8, da Fase 2 (representação da hierarquia GQM, consistência entre fases, declaração de uso de IA e referências) | [Euller Júlio](https://github.com/potatoyz908) |
 |  1.3   | 11/06/2026 | Adição da Introdução, unificação de Questões e Hipóteses e inclusão de hiperlinks de rastreabilidade | [Euller Júlio](https://github.com/potatoyz908) |
 |  1.4   | 11/06/2026 | Expansão dos objetivos GQM, adição de referências bibliográficas, melhoria da declaração de uso de IA e correções de formatação | [Euller Júlio](https://github.com/potatoyz908) |
+|  1.5   | 11/06/2026 | Correções de digitação e enumeração                              | [Euller Júlio](https://github.com/potatoyz908) |
