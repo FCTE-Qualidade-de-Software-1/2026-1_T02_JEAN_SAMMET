@@ -131,7 +131,7 @@ O cronograma abaixo distribui as atividades da Fase 4 ao longo de **sete dias ú
 | :---: | :--- | :--- | :--- | :--- |
 | D1 | Preparação do ambiente, *clone* do repositório, registro do *commit* de referência | — | Toda a equipe | `commit-referencia.txt` |
 | D2 | Coleta das métricas de **Confiabilidade** | M1.1, M1.2 | Todos | `coverage.xml`, *checklist* M1.2 |
-| D3 | Coleta das métricas de **Manutenibilidade** | M2.1, M2.2 | Todos | `flake8.txt`, `eslint.json`, `cloc.json`, *checklist* M2.2 |
+| D3 | Coleta das métricas de **Manutenibilidade** | M2.1, M2.2 | Todos | `ruff.json`, `black.txt`, `prettier.txt`, `cloc.json`, *checklist* M2.2 |
 | D4 | Coleta das métricas de **Segurança** | M3.1, M3.2 | Todos | `gitleaks.json`, inventário de rotas |
 | D5 | Consolidação dos dados brutos no repositório (`/dados-brutos/`) e validação cruzada entre duplas | Todas | Toda a equipe | Diretório `/dados-brutos/` organizado |
 | D6 | Cálculo dos níveis de pontuação por métrica, IQ por característica e IQG global | Todas | Toda a equipe | Planilha consolidada de resultados |
@@ -151,6 +151,8 @@ A **Tabela 6** explicita a rastreabilidade entre cada métrica estabelecida na [
 | **M2.2** | Faixas de separação arquitetural | Inspeção + `madge` | Seção 2.2 + Tabela 3 (6 itens) | A Fase 2 definiu o uso de *checklist*; a Fase 3 formaliza seus itens, com apoio do `madge` para detecção objetiva de ciclos no frontend Vue |
 | **M3.1** | Faixas por número e localização de ocorrências | `gitleaks` + revisão manual (+ `bandit` da CI) | Seção 2.2 — classificação por categoria (produção / *logs* / testes) | A ferramenta endereça diretamente as três categorias previstas nos níveis de pontuação da F2; relatórios Bandit/Safety da CI servem como evidência complementar |
 | **M3.2** | Faixas de percentual de rotas protegidas | Inspeção dos `urls.py` + `views.py` | Seção 2.2 — inventário dos cinco arquivos `urls.py` e verificação de `@permission_classes`/JWT/MSAL | Reproduz a fórmula percentual definida na F2 sobre o conjunto real de *endpoints* da API |
+
+Como pode-se ver, cada métrica da Fase 2 foi transformada em um procedimento operacional específico na Fase 3, preservando a mesma unidade de análise, o mesmo foco de qualidade e o mesmo critério de julgamento.
 
 Adicionalmente, o método de análise estática, os recursos de ferramentas de mercado e o cronograma de 7 dias são integralmente compatíveis com o [Escopo da Avaliação declarado na Fase 1](/fases/fase1#_61-escopo-da-avalia%c3%a7%c3%a3o) e reforçado na [Seção 7 da Fase 2](/fases/fase2#_7-consistência-entre-fase-1-e-fase-2), garantindo **rastreabilidade total** das fases do projeto.
 
@@ -184,3 +186,4 @@ A seleção das ferramentas de avaliação, a definição dos itens dos *checkli
 | :----: | :--------: | ------------------------------------------------------------------------------------------ | --------------- |
 |  1.0   | 10/06/2026 | Criação da estrutura base do documento Fase 3                                              | [Euller Júlio](https://github.com/potatoyz908) |
 |  1.1   | 10/06/2026 | Popula documento da Fase 3                                              | [Diogo Oliveira](https://github.com/Diogo-Olivv) |
+|  1.2   | 12/06/2026 | Correções de formatação e informações e reforço de algumas ideias, conforme  especificações de entrega | [João Nascimento](https://github.com/JMPNascimento) |

@@ -115,8 +115,8 @@ Para remover a subjetividade, cada métrica receberá uma nota baseada em uma es
 | **M1.1** (Cobertura de Testes) | < 40% | De 40% a 59% | De 60% a 79% | ≥ 80% |
 | **M1.2** (Checklist de Infraestrutura) | < 50% dos itens | De 50% a 74% dos itens | De 75% a 99% dos itens | 100% dos itens adequados |
 | **M2.1** (Densidade de *Linting*) | > 30 erros / KLOC | De 16 a 30 erros / KLOC | De 6 a 15 erros / KLOC | ≤ 5 erros / KLOC |
-| **M2.2** (Desacoplamento Arquitetural) | Sem separação (Código fortemente acoplado) | Separação parcial (Muitas dependências cruzadas) | Separação majoritária (Poucos acoplamentos incorretos) | Separação Total (Backend servindo apenas API) |
-| **M3.1** (Ocorrências *Hardcoded*) | 1 ou mais no código fonte ou rotas de produção | 1 a 2 ocorrências exclusivas em *logs* ou *prints* | 1 a 2 ocorrências apenas em testes/mocks locais | Nenhuma ocorrência em todo o projeto |
+| **M2.2** (Desacoplamento Arquitetural) | Sem separação (código fortemente acoplado) | Separação parcial (muitas dependências cruzadas) | Separação majoritária (poucos acoplamentos incorretos) | Separação total (backend expõe apenas a API, sem dependências do frontend) |
+| **M3.1** (Ocorrências *Hardcoded*) | Uma ou mais ocorrências no código-fonte ou em rotas de produção | Uma a duas ocorrências exclusivas em *logs* ou *prints* | Uma a duas ocorrências apenas em testes/*mocks* locais | Nenhuma ocorrência em todo o projeto |
 | **M3.2** (Rotas Sensíveis Protegidas) | < 70% | De 70% a 89% | De 90% a 99% | 100% |
 
 ### 5.2 Critérios de Julgamento Geral
@@ -155,7 +155,7 @@ Os objetivos GQM (Nível Conceitual) refletem diretamente:
 1.  **As características priorizadas:** Confiabilidade, Manutenibilidade e Segurança foram preservadas como o núcleo dos focos de medição (ver [Modelo de Qualidade, Fase 1](/fases/fase1#_5-modelo-de-qualidade-descri%c3%a7%c3%a3o-e-prioriza%c3%a7%c3%a3o)).
 2.  **Os *stakeholders* elencados:** As visões dos desenvolvedores (focados em código e infraestrutura) e da administração/estudantes (preocupados com segurança de dados) conduziram a seleção das questões de qualidade do *software* (ver [Partes Interessadas, Fase 1](/fases/fase1#_12-partes-interessadas)).
 
-O alinhamento garante a rastreabilidade total do projeto e fundamenta o plano metodológico adotado para o processo avaliativo do AcheiUnB.
+O alinhamento garante a rastreabilidade total do projeto e fundamenta o plano metodológico adotado para o processo avaliativo do AcheiUnB. Para deixar essaa rastreabilidade totalmente explícita, reforça-se que os objetivos de medição foram derivados diretamente das prioridades definidas na Fase 1: Confiabilidade -> Objetivo 1; Manutenibilidade -> Objetivo 2; Segurança -> Objetivo 3. Os pontos de vista adotados também seguem os stakeholders priorizados na Fase 1: desenvolvedores, estudantes e administração da universidade.
 
 ## 8. Uso de Inteligência Artificial
 
@@ -190,3 +190,4 @@ A formulação crítica dos critérios de julgamento, dos pesos, dos limites qua
 |  1.3   | 11/06/2026 | Adição da Introdução, unificação de Questões e Hipóteses e inclusão de hiperlinks de rastreabilidade | [Euller Júlio](https://github.com/potatoyz908) |
 |  1.4   | 11/06/2026 | Expansão dos objetivos GQM, adição de referências bibliográficas, melhoria da declaração de uso de IA e correções de formatação | [Euller Júlio](https://github.com/potatoyz908) |
 |  1.5   | 11/06/2026 | Correções de digitação e enumeração                              | [Euller Júlio](https://github.com/potatoyz908) |
+|  1.6   | 12/06/2026 | Correções de formatação e reforço de algumas ideias, conforme  especificações de entrega | [João Nascimento](https://github.com/JMPNascimento) |
