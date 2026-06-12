@@ -1,0 +1,74 @@
+{"header" : {
+  "cloc_url"           : "github.com/AlDanial/cloc",
+  "cloc_version"       : "2.08",
+  "elapsed_seconds"    : 0.169679880142212,
+  "n_files"            : 143,
+  "n_lines"            : 16773,
+  "files_per_second"   : 842.763443020758,
+  "lines_per_second"   : 98850.8477607494,
+  "report_file"        : "dados-brutos/manutenibilidade/cloc_limpo.json"},
+"Vuejs Component" :{
+  "nFiles": 44,
+  "blank": 717,
+  "comment": 87,
+  "code": 7770},
+"Python" :{
+  "nFiles": 59,
+  "blank": 967,
+  "comment": 333,
+  "code": 4388},
+"JSON" :{
+  "nFiles": 3,
+  "blank": 0,
+  "comment": 0,
+  "code": 1161},
+"HTML" :{
+  "nFiles": 5,
+  "blank": 51,
+  "comment": 5,
+  "code": 423},
+"JavaScript" :{
+  "nFiles": 9,
+  "blank": 39,
+  "comment": 2,
+  "code": 381},
+"YAML" :{
+  "nFiles": 2,
+  "blank": 15,
+  "comment": 0,
+  "code": 206},
+"SVG" :{
+  "nFiles": 14,
+  "blank": 0,
+  "comment": 2,
+  "code": 87},
+"Text" :{
+  "nFiles": 1,
+  "blank": 0,
+  "comment": 0,
+  "code": 33},
+"Dockerfile" :{
+  "nFiles": 2,
+  "blank": 16,
+  "comment": 0,
+  "code": 21},
+"CSS" :{
+  "nFiles": 2,
+  "blank": 3,
+  "comment": 5,
+  "code": 20},
+"Bourne Shell" :{
+  "nFiles": 1,
+  "blank": 7,
+  "comment": 2,
+  "code": 18},
+"TOML" :{
+  "nFiles": 1,
+  "blank": 4,
+  "comment": 0,
+  "code": 10},
+"SUM": {
+  "blank": 1819,
+  "comment": 436,
+  "code": 14518,
+  "nFiles": 143} }

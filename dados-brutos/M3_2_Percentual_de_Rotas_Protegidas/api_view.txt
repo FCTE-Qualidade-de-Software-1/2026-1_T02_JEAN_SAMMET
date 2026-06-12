@@ -1,0 +1,10 @@
+Binary file API/.venv/lib/python3.10/site-packages/drf_yasg/__pycache__/utils.cpython-310.pyc matches
+API/.venv/lib/python3.10/site-packages/drf_yasg/utils.py:215:        # if the method is actually a function based view (@api_view), it will have a
+API/.venv/lib/python3.10/site-packages/drf_yasg/utils.py:230:                "`method` or `methods` can only be specified on @action or @api_view "
+Binary file API/.venv/lib/python3.10/site-packages/rest_framework/__pycache__/decorators.cpython-310.pyc matches
+API/.venv/lib/python3.10/site-packages/rest_framework/decorators.py:2:The most important decorator in this module is `@api_view`, which is used
+API/.venv/lib/python3.10/site-packages/rest_framework/decorators.py:40:            '@api_view missing list of allowed HTTP methods'
+API/.venv/lib/python3.10/site-packages/rest_framework/decorators.py:44:            '@api_view expected a list of strings, received %s' % type(http_method_names).__name__
+API/.venv/lib/python3.10/site-packages/rest_framework/decorators.py:92:    Check if an API policy decorator is being applied after @api_view.
+API/.venv/lib/python3.10/site-packages/rest_framework/decorators.py:97:            f"@{decorator_name} must come after (below) the @api_view decorator. "
+API/.venv/lib/python3.10/site-packages/rest_framework/decorators.py:99:            "    @api_view(['GET'])\n"

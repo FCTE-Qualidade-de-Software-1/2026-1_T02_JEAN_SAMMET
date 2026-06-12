@@ -1,0 +1,20 @@
+Binary file API/.venv/lib/python3.10/site-packages/drf_yasg/__pycache__/views.cpython-310.pyc matches
+API/.venv/lib/python3.10/site-packages/drf_yasg/views.py:62:    authentication_classes=None,
+API/.venv/lib/python3.10/site-packages/drf_yasg/views.py:78:    :param list authentication_classes: authentication classes for the schema view
+API/.venv/lib/python3.10/site-packages/drf_yasg/views.py:86:    _auth_classes = authentication_classes
+API/.venv/lib/python3.10/site-packages/drf_yasg/views.py:118:        authentication_classes = _auth_classes
+Binary file API/.venv/lib/python3.10/site-packages/rest_framework_simplejwt/__pycache__/views.cpython-310.pyc matches
+API/.venv/lib/python3.10/site-packages/rest_framework_simplejwt/views.py:16:    authentication_classes = ()
+Binary file API/.venv/lib/python3.10/site-packages/rest_framework/__pycache__/views.cpython-310.pyc matches
+Binary file API/.venv/lib/python3.10/site-packages/rest_framework/__pycache__/decorators.cpython-310.pyc matches
+API/.venv/lib/python3.10/site-packages/rest_framework/schemas/__init__.py:32:        authentication_classes=api_settings.DEFAULT_AUTHENTICATION_CLASSES,
+API/.venv/lib/python3.10/site-packages/rest_framework/schemas/__init__.py:52:        authentication_classes=authentication_classes,
+Binary file API/.venv/lib/python3.10/site-packages/rest_framework/schemas/__pycache__/__init__.cpython-310.pyc matches
+API/.venv/lib/python3.10/site-packages/rest_framework/views.py:110:    authentication_classes = api_settings.DEFAULT_AUTHENTICATION_CLASSES
+API/.venv/lib/python3.10/site-packages/rest_framework/views.py:278:        return [auth() for auth in self.authentication_classes]
+API/.venv/lib/python3.10/site-packages/rest_framework/decorators.py:64:        WrappedAPIView.authentication_classes = getattr(func, 'authentication_classes',
+API/.venv/lib/python3.10/site-packages/rest_framework/decorators.py:65:                                                        APIView.authentication_classes)
+API/.venv/lib/python3.10/site-packages/rest_framework/decorators.py:123:def authentication_classes(authentication_classes):
+API/.venv/lib/python3.10/site-packages/rest_framework/decorators.py:125:        _check_decorator_order(func, 'authentication_classes')
+API/.venv/lib/python3.10/site-packages/rest_framework/decorators.py:126:        func.authentication_classes = authentication_classes
+API/.venv/lib/python3.10/site-packages/drf_yasg-1.21.15.dist-info/METADATA:234:- ``authentication_classes`` - authentication classes for the schema view itself

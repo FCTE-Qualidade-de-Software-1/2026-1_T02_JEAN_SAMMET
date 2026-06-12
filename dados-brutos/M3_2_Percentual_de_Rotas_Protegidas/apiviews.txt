@@ -1,0 +1,126 @@
+Binary file API/chat/__pycache__/views.cpython-310.pyc matches
+API/chat/views.py:8:from rest_framework.views import APIView
+API/chat/views.py:218:class ClearChatsView(APIView):
+Binary file API/.ruff_cache/content/6629133451771106775 matches
+Binary file API/support/__pycache__/views.cpython-310.pyc matches
+API/support/views.py:8:from rest_framework.views import APIView
+API/support/views.py:15:class ReportProblemView(APIView):
+Binary file API/users/__pycache__/views.cpython-310.pyc matches
+API/users/views.py:23:from rest_framework.views import APIView
+API/users/views.py:208: class MatchItemViewSet(APIView):
+API/users/views.py:232:class MyItemsLostView(APIView):
+API/users/views.py:255:class MyItemsFoundView(APIView):
+API/users/views.py:343:class UserValidateView(APIView):
+API/users/views.py:350:class UserDetailView(APIView):
+API/users/views.py:548:class TestUserView(APIView):
+API/users/views.py:639:class LogoutView(APIView):
+API/users/views.py:652:class UserProfileView(APIView):
+API/users/views.py:743:class UserStatsView(APIView):
+API/users/views.py:791:class UserRecentItemsView(APIView):
+Binary file API/.venv/lib/python3.10/site-packages/drf_yasg/management/commands/__pycache__/generate_swagger.cpython-310.pyc matches
+API/.venv/lib/python3.10/site-packages/drf_yasg/management/commands/generate_swagger.py:10:from rest_framework.views import APIView
+API/.venv/lib/python3.10/site-packages/drf_yasg/management/commands/generate_swagger.py:119:        request = APIView().initialize_request(request)
+Binary file API/.venv/lib/python3.10/site-packages/drf_yasg/__pycache__/views.cpython-310.pyc matches
+Binary file API/.venv/lib/python3.10/site-packages/drf_yasg/__pycache__/utils.cpython-310.pyc matches
+Binary file API/.venv/lib/python3.10/site-packages/drf_yasg/__pycache__/generators.cpython-310.pyc matches
+API/.venv/lib/python3.10/site-packages/drf_yasg/generators.py:390:        :param rest_framework.views.APIView view: associated view
+API/.venv/lib/python3.10/site-packages/drf_yasg/generators.py:410:        :rtype: dict[str,(type,list[(str,rest_framework.views.APIView)])]
+API/.venv/lib/python3.10/site-packages/drf_yasg/utils.py:20:from rest_framework.views import APIView
+API/.venv/lib/python3.10/site-packages/drf_yasg/utils.py:176:        assert not any(hm in extra_overrides for hm in APIView.http_method_names), (
+API/.venv/lib/python3.10/site-packages/drf_yasg/utils.py:312:    :param APIView view: target view
+API/.venv/lib/python3.10/site-packages/drf_yasg/utils.py:334:    # for GenericAPIView, if it's a detail view it can't also be a list view
+Binary file API/.venv/lib/python3.10/site-packages/drf_yasg/inspectors/__pycache__/base.cpython-310.pyc matches
+API/.venv/lib/python3.10/site-packages/drf_yasg/inspectors/base.py:36:    :type view: rest_framework.views.APIView or type[rest_framework.views.APIView]
+API/.venv/lib/python3.10/site-packages/drf_yasg/inspectors/base.py:68:        :param rest_framework.views.APIView view: the view associated with this endpoint
+API/.venv/lib/python3.10/site-packages/drf_yasg/views.py:10:from rest_framework.views import APIView
+API/.venv/lib/python3.10/site-packages/drf_yasg/views.py:113:    class SchemaView(APIView):
+Binary file API/.venv/lib/python3.10/site-packages/rest_framework_simplejwt/__pycache__/views.cpython-310.pyc matches
+API/.venv/lib/python3.10/site-packages/rest_framework_simplejwt/views.py:14:class TokenViewBase(generics.GenericAPIView):
+Binary file API/.venv/lib/python3.10/site-packages/rest_framework/authtoken/__pycache__/views.cpython-310.pyc matches
+API/.venv/lib/python3.10/site-packages/rest_framework/authtoken/views.py:5:from rest_framework.views import APIView
+API/.venv/lib/python3.10/site-packages/rest_framework/authtoken/views.py:8:class ObtainAuthToken(APIView):
+API/.venv/lib/python3.10/site-packages/rest_framework/viewsets.py:220:class ViewSet(ViewSetMixin, views.APIView):
+API/.venv/lib/python3.10/site-packages/rest_framework/viewsets.py:227:class GenericViewSet(ViewSetMixin, generics.GenericAPIView):
+API/.venv/lib/python3.10/site-packages/rest_framework/response.py:28:        For example being set automatically by the `APIView`.
+Binary file API/.venv/lib/python3.10/site-packages/rest_framework/utils/__pycache__/breadcrumbs.cpython-310.pyc matches
+API/.venv/lib/python3.10/site-packages/rest_framework/utils/breadcrumbs.py:10:    from rest_framework.views import APIView
+API/.venv/lib/python3.10/site-packages/rest_framework/utils/breadcrumbs.py:26:            if cls is not None and issubclass(cls, APIView):
+Binary file API/.venv/lib/python3.10/site-packages/rest_framework/__pycache__/generics.cpython-310.pyc matches
+Binary file API/.venv/lib/python3.10/site-packages/rest_framework/__pycache__/viewsets.cpython-310.pyc matches
+Binary file API/.venv/lib/python3.10/site-packages/rest_framework/__pycache__/views.cpython-310.pyc matches
+Binary file API/.venv/lib/python3.10/site-packages/rest_framework/__pycache__/routers.cpython-310.pyc matches
+Binary file API/.venv/lib/python3.10/site-packages/rest_framework/__pycache__/response.cpython-310.pyc matches
+Binary file API/.venv/lib/python3.10/site-packages/rest_framework/__pycache__/decorators.cpython-310.pyc matches
+API/.venv/lib/python3.10/site-packages/rest_framework/schemas/inspectors.py:17:    Descriptor class on APIView.
+API/.venv/lib/python3.10/site-packages/rest_framework/schemas/inspectors.py:37:        `owner` is always the owner class. (An APIView, or subclass for us.)
+API/.venv/lib/python3.10/site-packages/rest_framework/schemas/openapi.py:237:            if name.endswith('APIView'):
+API/.venv/lib/python3.10/site-packages/rest_framework/schemas/openapi.py:244:            if name.endswith(action.title()):  # ListView, UpdateAPIView, ThingDelete ...
+API/.venv/lib/python3.10/site-packages/rest_framework/schemas/openapi.py:317:        Default implementation looks for ModelViewSet or GenericAPIView
+API/.venv/lib/python3.10/site-packages/rest_framework/schemas/__init__.py:9:    views.py        # Houses `SchemaView`, `APIView` subclass.
+API/.venv/lib/python3.10/site-packages/rest_framework/schemas/__init__.py:46:    # Avoid import cycle on APIView
+Binary file API/.venv/lib/python3.10/site-packages/rest_framework/schemas/__pycache__/inspectors.cpython-310.pyc matches
+Binary file API/.venv/lib/python3.10/site-packages/rest_framework/schemas/__pycache__/views.cpython-310.pyc matches
+Binary file API/.venv/lib/python3.10/site-packages/rest_framework/schemas/__pycache__/openapi.cpython-310.pyc matches
+Binary file API/.venv/lib/python3.10/site-packages/rest_framework/schemas/__pycache__/generators.cpython-310.pyc matches
+Binary file API/.venv/lib/python3.10/site-packages/rest_framework/schemas/__pycache__/__init__.cpython-310.pyc matches
+API/.venv/lib/python3.10/site-packages/rest_framework/schemas/generators.py:30:    # Avoid import cycle on APIView
+API/.venv/lib/python3.10/site-packages/rest_framework/schemas/generators.py:31:    from rest_framework.views import APIView
+API/.venv/lib/python3.10/site-packages/rest_framework/schemas/generators.py:33:    return (cls is not None) and issubclass(cls, APIView)
+API/.venv/lib/python3.10/site-packages/rest_framework/schemas/views.py:2:views.py        # Houses `SchemaView`, `APIView` subclass.
+API/.venv/lib/python3.10/site-packages/rest_framework/schemas/views.py:9:from rest_framework.views import APIView
+API/.venv/lib/python3.10/site-packages/rest_framework/schemas/views.py:12:class SchemaView(APIView):
+API/.venv/lib/python3.10/site-packages/rest_framework/routers.py:314:class APIRootView(views.APIView):
+API/.venv/lib/python3.10/site-packages/rest_framework/generics.py:24:class GenericAPIView(views.APIView):
+API/.venv/lib/python3.10/site-packages/rest_framework/generics.py:188:class CreateAPIView(mixins.CreateModelMixin,
+API/.venv/lib/python3.10/site-packages/rest_framework/generics.py:189:                    GenericAPIView):
+API/.venv/lib/python3.10/site-packages/rest_framework/generics.py:197:class ListAPIView(mixins.ListModelMixin,
+API/.venv/lib/python3.10/site-packages/rest_framework/generics.py:198:                  GenericAPIView):
+API/.venv/lib/python3.10/site-packages/rest_framework/generics.py:206:class RetrieveAPIView(mixins.RetrieveModelMixin,
+API/.venv/lib/python3.10/site-packages/rest_framework/generics.py:207:                      GenericAPIView):
+API/.venv/lib/python3.10/site-packages/rest_framework/generics.py:215:class DestroyAPIView(mixins.DestroyModelMixin,
+API/.venv/lib/python3.10/site-packages/rest_framework/generics.py:216:                     GenericAPIView):
+API/.venv/lib/python3.10/site-packages/rest_framework/generics.py:224:class UpdateAPIView(mixins.UpdateModelMixin,
+API/.venv/lib/python3.10/site-packages/rest_framework/generics.py:225:                    GenericAPIView):
+API/.venv/lib/python3.10/site-packages/rest_framework/generics.py:236:class ListCreateAPIView(mixins.ListModelMixin,
+API/.venv/lib/python3.10/site-packages/rest_framework/generics.py:238:                        GenericAPIView):
+API/.venv/lib/python3.10/site-packages/rest_framework/generics.py:249:class RetrieveUpdateAPIView(mixins.RetrieveModelMixin,
+API/.venv/lib/python3.10/site-packages/rest_framework/generics.py:251:                            GenericAPIView):
+API/.venv/lib/python3.10/site-packages/rest_framework/generics.py:265:class RetrieveDestroyAPIView(mixins.RetrieveModelMixin,
+API/.venv/lib/python3.10/site-packages/rest_framework/generics.py:267:                             GenericAPIView):
+API/.venv/lib/python3.10/site-packages/rest_framework/generics.py:278:class RetrieveUpdateDestroyAPIView(mixins.RetrieveModelMixin,
+API/.venv/lib/python3.10/site-packages/rest_framework/generics.py:281:                                   GenericAPIView):
+API/.venv/lib/python3.10/site-packages/rest_framework/views.py:2:Provides an APIView class that is the base of all views in REST framework.
+API/.venv/lib/python3.10/site-packages/rest_framework/views.py:105:class APIView(View):
+API/.venv/lib/python3.10/site-packages/rest_framework/decorators.py:13:from rest_framework.views import APIView
+API/.venv/lib/python3.10/site-packages/rest_framework/decorators.py:18:    Decorator that converts a function-based view into an APIView subclass.
+API/.venv/lib/python3.10/site-packages/rest_framework/decorators.py:25:        WrappedAPIView = type(
+API/.venv/lib/python3.10/site-packages/rest_framework/decorators.py:26:            'WrappedAPIView',
+API/.venv/lib/python3.10/site-packages/rest_framework/decorators.py:27:            (APIView,),
+API/.venv/lib/python3.10/site-packages/rest_framework/decorators.py:34:        #     class WrappedAPIView(APIView):
+API/.venv/lib/python3.10/site-packages/rest_framework/decorators.py:36:        #     WrappedAPIView.__doc__ = func.doc    <--- Not possible to do this
+API/.venv/lib/python3.10/site-packages/rest_framework/decorators.py:47:        WrappedAPIView.http_method_names = [method.lower() for method in allowed_methods]
+API/.venv/lib/python3.10/site-packages/rest_framework/decorators.py:53:            setattr(WrappedAPIView, method.lower(), handler)
+API/.venv/lib/python3.10/site-packages/rest_framework/decorators.py:55:        WrappedAPIView.__name__ = func.__name__
+API/.venv/lib/python3.10/site-packages/rest_framework/decorators.py:56:        WrappedAPIView.__module__ = func.__module__
+API/.venv/lib/python3.10/site-packages/rest_framework/decorators.py:58:        WrappedAPIView.renderer_classes = getattr(func, 'renderer_classes',
+API/.venv/lib/python3.10/site-packages/rest_framework/decorators.py:59:                                                  APIView.renderer_classes)
+API/.venv/lib/python3.10/site-packages/rest_framework/decorators.py:61:        WrappedAPIView.parser_classes = getattr(func, 'parser_classes',
+API/.venv/lib/python3.10/site-packages/rest_framework/decorators.py:62:                                                APIView.parser_classes)
+API/.venv/lib/python3.10/site-packages/rest_framework/decorators.py:64:        WrappedAPIView.authentication_classes = getattr(func, 'authentication_classes',
+API/.venv/lib/python3.10/site-packages/rest_framework/decorators.py:65:                                                        APIView.authentication_classes)
+API/.venv/lib/python3.10/site-packages/rest_framework/decorators.py:67:        WrappedAPIView.throttle_classes = getattr(func, 'throttle_classes',
+API/.venv/lib/python3.10/site-packages/rest_framework/decorators.py:68:                                                  APIView.throttle_classes)
+API/.venv/lib/python3.10/site-packages/rest_framework/decorators.py:70:        WrappedAPIView.permission_classes = getattr(func, 'permission_classes',
+API/.venv/lib/python3.10/site-packages/rest_framework/decorators.py:71:                                                    APIView.permission_classes)
+API/.venv/lib/python3.10/site-packages/rest_framework/decorators.py:73:        WrappedAPIView.content_negotiation_class = getattr(func, 'content_negotiation_class',
+API/.venv/lib/python3.10/site-packages/rest_framework/decorators.py:74:                                                           APIView.content_negotiation_class)
+API/.venv/lib/python3.10/site-packages/rest_framework/decorators.py:76:        WrappedAPIView.metadata_class = getattr(func, 'metadata_class',
+API/.venv/lib/python3.10/site-packages/rest_framework/decorators.py:77:                                                APIView.metadata_class)
+API/.venv/lib/python3.10/site-packages/rest_framework/decorators.py:79:        WrappedAPIView.versioning_class = getattr(func, "versioning_class",
+API/.venv/lib/python3.10/site-packages/rest_framework/decorators.py:80:                                                  APIView.versioning_class)
+API/.venv/lib/python3.10/site-packages/rest_framework/decorators.py:82:        WrappedAPIView.schema = getattr(func, 'schema',
+API/.venv/lib/python3.10/site-packages/rest_framework/decorators.py:83:                                        APIView.schema)
+API/.venv/lib/python3.10/site-packages/rest_framework/decorators.py:85:        return WrappedAPIView.as_view()
+API/.venv/lib/python3.10/site-packages/rest_framework/decorators.py:94:    # Check if func is actually a view function (result of APIView.as_view())
+API/.venv/lib/python3.10/site-packages/rest_framework/decorators.py:95:    if hasattr(func, 'cls') and issubclass(func.cls, APIView):
+API/.venv/lib/python3.10/site-packages/drf_yasg-1.21.15.dist-info/METADATA:381:provided out of the box - if you have ``djangorestframework-camel-case`` installed and your ``APIView`` uses

@@ -1,0 +1,18 @@
+ID,Módulo,Endpoint,Método,Sensível?,Mecanismo de Proteção,Protegida?,Evidência
+R01,users,/auth/validate/,GET,Sim,IsAuthenticated,Sim,users/views.py
+R02,users,/auth/user/,GET,Sim,IsAuthenticated,Sim,users/views.py
+R03,users,/auth/user-profile/<id>/,GET,Sim,IsAuthenticated,Sim,users/views.py
+R04,users,/auth/user-stats/<id>/,GET,Sim,IsAuthenticated,Sim,users/views.py
+R05,users,/items/lost/my-items/,GET,Sim,IsAuthenticated,Sim,users/views.py
+R06,users,/items/found/my-items/,GET,Sim,IsAuthenticated,Sim,users/views.py
+R07,users,/items/user/<id>/recent/,GET,Sim,IsAuthenticated,Sim,users/views.py
+R08,users,/logout/,POST,Sim,IsAuthenticated,Sim,users/views.py
+R09,users,/users/,GET,Sim,IsAuthenticatedOrReadOnly,Sim,users/views.py
+R10,users,/users/<id>/,GET,Sim,IsAuthenticatedOrReadOnly,Sim,users/views.py
+R11,users,/delete-user/<id>/,DELETE,Sim,Verificar DeleteUserView,Sim*,AcheiUnB/urls.py
+R12,chat,/chatrooms/,GET/POST,Sim,IsAuthenticated,Sim,chat/views.py
+R13,chat,/messages/,GET/POST,Sim,IsAuthenticated,Sim,chat/views.py
+R14,chat,/clear_chats/,POST,Sim,IsAuthenticated,Sim,chat/views.py
+R15,reports,/reports/,POST,Sim,IsAdminUser,Sim,reports/views.py
+R16,reports,/user/,POST,Sim,IsAdminUser,Sim,reports/views.py
+R17,support,/support/report-problem/,POST,Sim,IsAuthenticated,Sim,support/views.py
