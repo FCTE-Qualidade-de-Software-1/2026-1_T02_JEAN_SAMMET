@@ -74,7 +74,7 @@ Os dados coletados foram transformados em métricas e comparados com os níveis 
 | M1.2 – Conformidade da Infraestrutura      |                               6/9 itens conformes (66,7%) |    2 | Q1.2    |
 | M2.1 – Densidade de Violações de Estilo    |                                       2,14 violações/KLOC |    4 | Q2.1    |
 | M2.2 – Grau de Desacoplamento Arquitetural |                                 0 dependências circulares |    4 | Q2.2    |
-| M3.1 – Taxa de Credenciais Hardcoded       |                             1 ocorrência de chave privada |    3 | Q3.1    |
+| M3.1 – Taxa de Credenciais Hardcoded       |                               Ocorrência de chave privada |    1 | Q3.1    |
 | M3.2 – Percentual de Rotas Protegidas      |                                                      100% |    4 | Q3.2    |
 
 ### 4.2 Interpretação por questão
@@ -92,7 +92,7 @@ A análise estática mostrou que o `ruff` não encontrou violações e o `black`
 A análise do frontend com `madge` processou os arquivos `src` com sucesso e não encontrou dependências circulares. Em conjunto com a organização do repositório, isso evidencia uma separação clara entre backend e frontend. O backend está dividido em apps Django com responsabilidades distintas, enquanto o frontend se organiza em componentes, views, assets e rotas. O resultado mostra que a estrutura modular foi preservada, sem sinais de acoplamento circular que dificultassem manutenção ou evolução. Assim, a hipótese de isolamento físico e baixo acoplamento interno se confirma, e a métrica atinge o nível mais alto da escala.
 
 **Q3.1 – Confidencialidade e exposição de segredos**
-O `gitleaks` detectou uma ocorrência de `private-key` em `API/certs/localhost.key`. A análise manual mostrou que essa chave está associada ao certificado `localhost.crt`, montado no `docker-compose.yml` para o serviço Nginx local, e não apareceu no arquivo de produção. Por se tratar apenas um artefato de desenvolvimento local, essa métrica é classficada como nível 3, pois, sgundo os níveis definidos na Fase 2, a presença de uma única credencial exposta, sem evidência de uso em produção, enquadra a métrica no nível 3. Ainda assim, a prática recomendada seria remover a chave do repositório e gerar certificados localmente durante o processo de desenvolvimento. A questão de confidencialidade, portanto, não mostra vazamento de credenciais operacionais de produção, mas mostra como uma falta de atenção poderia comprometer gravemente a segurança do projeto.
+O gitleaks detectou uma chave privada versionada em `API/certs/localhost.key`. A análise complementar mostrou que a chave é referenciada pela configuração do Nginx e distribuída juntamente com o código-fonte do projeto. Como a ocorrência encontra-se em artefato versionado da aplicação e não apenas em logs, capturas de tela ou evidências de execução, a métrica enquadra-se no nível 1 da escala definida na Fase 2. A situação caracteriza falha relevante na gestão de segredos, exigindo remoção imediata do repositório, revogação da chave exposta e adoção de mecanismos adequados para armazenamento de credenciais.
 
 **Q3.2 – Autenticidade e proteção de rotas**
 A métrica M3.2 avaliou o percentual de rotas que manipulam dados sensíveis e que possuem mecanismos explícitos de autenticação ou autorização. Para isso, foi feito um inventário dos endpoints definidos nos módulos `users`, `chat`, `reports` e `support`, seguido da verificação das classes de permissão nas views do Django REST Framework. Foram consideradas sensíveis as rotas associadas a autenticação, perfis de usuários, mensagens, denúncias, suporte, itens do próprio usuário e operações administrativas, pois todas envolvem algum grau de exposição de dados pessoais ou de controle da aplicação. A análise dos arquivos `permission_classes.txt`, `authentication_classes.txt`, `is_authenticated.txt`, `apiviews.txt` e `api_view.txt` mostrou que todas as 17 rotas sensíveis identificadas em `inventario_rotas.csv` utilizam algum mecanismo de proteção, como `IsAuthenticated`, `IsAuthenticatedOrReadOnly` ou `IsAdminUser`. O resultado de 100% de cobertura de proteção confirma a hipótese da equipe e mostra que o projeto trata a autenticidade e o controle de acesso de forma consistente.
@@ -103,7 +103,7 @@ A métrica M3.2 avaliou o percentual de rotas que manipulam dados sensíveis e q
 | ---------------- | ---------- | --------------------: |
 | Confiabilidade   | M1.1, M1.2 | (2 + 2) / 2 = **2,0** |
 | Manutenibilidade | M2.1, M2.2 | (4 + 4) / 2 = **4,0** |
-| Segurança        | M3.1, M3.2 | (3 + 4) / 2 = **3,5** |
+| Segurança        | M3.1, M3.2 | (1 + 4) / 2 = **2,5** |
 
 A consolidação por característica mostra um quadro bastante equilibrado. A **Confiabilidade** ficou em nível intermediário porque, embora a infraestrutura esteja bem montada, a cobertura de testes ainda é limitada. A **Manutenibilidade** atingiu o melhor resultado possível, apoiada por ausência de ciclos no frontend, estrutura modular do backend e baixa densidade de violações de estilo. A **Segurança** ficou alta, com proteção total das rotas sensíveis e apenas uma ocorrência pontual de chave privada no repositório, tratada como artefato local de desenvolvimento.
 
@@ -115,11 +115,11 @@ IQG = (Confiabilidade + Manutenibilidade + Segurança) / 3
 
 Substituindo os valores obtidos:
 
-IQG = (2,0 + 4,0 + 3,5) / 3
+IQG = (2,0 + 4,0 + 2,5) / 3
 
-IQG ≈ 3,17
+IQG ≈ 2,83
 
-Portanto, o AcheiUnB alcança **IQG ≈ 3,17**, o que o coloca na faixa de **Aceito** segundo a classificação definida na Fase 2. O resultado indica qualidade global boa, com destaque claro para a manutenibilidade e desempenho consistente em segurança, enquanto a principal fragilidade permanece concentrada na cobertura de testes.
+Portanto, o AcheiUnB alcança **IQG ≈ 2,83**, o que o coloca na faixa de **Aceito** segundo a classificação definida na Fase 2. O resultado indica qualidade global boa, com destaque claro para a manutenibilidade, sustentado pela boa organização arquitetural e pela baixa incidência de violações de estilo. Por outro lado, a confiabilidade permanece limitada pela cobertura intermediária de testes automatizados, e a segurança foi impactada pela identificação de uma chave privada versionada no repositório, reduzindo a pontuação da característica. Assim, embora o sistema apresente qualidade global satisfatória, existem oportunidades claras de melhoria, especialmente no fortalecimento da suíte de testes e na adoção de práticas mais rigorosas de gestão de segredos e credenciais.
 
 ## 5. Coerência dos Resultados com o Propósito (Fase 1)
 
