@@ -1,4 +1,4 @@
-# Fase 1
+# Fase 1: Requisitos de Avaliação
 
 ## 1. Requisitante e partes interessadas
 
@@ -8,16 +8,63 @@
 
 ### 1.2. Partes interessadas:
 
-- **Estudantes da UnB:** são os principais usuários, pois utilizam o sistema para registrar itens perdidos ou encontrados.
-- **Pessoas que encontram itens perdidos:** interagem com a plataforma para devolver objetos.
-- **Equipe mantenedora/desenvolvedores:** responsáveis pela evolução do sistema, correções e manutenção.
-- **Administração ou setores de apoio da universidade:** podem se beneficiar de um canal mais organizado para achados e perdidos.
+Para compreender as necessidades associadas ao sistema, foram identificadas as seguintes partes interessadas e seus respectivos critérios de sucesso:
+
+#### Estudantes da UnB
+
+Os estudantes constituem o principal grupo de usuários da plataforma, utilizando o sistema para registrar itens perdidos, consultar objetos encontrados e entrar em contato com possíveis responsáveis pelos registros. Seus critérios de sucesso estão listados abaixo:
+
+* Facilidade de uso e aprendizado da plataforma;
+* Rapidez para registrar ou localizar um item;
+* Disponibilidade do sistema quando necessário;
+* Informações claras e confiáveis sobre os objetos cadastrados;
+* Aumento das chances de recuperação de itens perdidos.
 
 ---
 
+#### Pessoas que encontram itens perdidos
+
+Incluem estudantes, servidores, professores ou visitantes que encontram objetos nas dependências da universidade e desejam auxiliar na devolução aos seus proprietários. Foram identificados os seguintes critérios de sucesso:
+
+* Processo simples para cadastrar um item encontrado;
+* Possibilidade de fornecer informações relevantes sobre o objeto;
+* Facilidade de contato com o possível proprietário;
+* Confiança de que as informações registradas serão utilizadas adequadamente;
+* Contribuição efetiva para a devolução dos itens.
+
+---
+
+#### Equipe mantenedora e desenvolvedores
+
+São os responsáveis pela manutenção, correção de falhas, evolução e sustentabilidade do sistema ao longo do tempo. Foi levantada a seguinte listagem de critério de sucesso:
+
+* Código-fonte organizado e de fácil manutenção;
+* Facilidade para correção de defeitos e implementação de novas funcionalidades;
+* Estabilidade e confiabilidade da aplicação;
+* Boa documentação técnica do projeto;
+* Baixo custo de manutenção e evolução.
+
+---
+
+#### Administração e setores de apoio da universidade
+
+Representam setores institucionais que podem se beneficiar de uma solução estruturada para apoiar processos relacionados a achados e perdidos no ambiente universitário. A eles estão associados os seguintes critérios de sucesso:
+
+* Existência de um canal centralizado para registro de itens;
+* Redução de processos informais de busca e devolução de objetos;
+* Disponibilidade de informações organizadas e atualizadas;
+* Apoio à comunidade universitária por meio de um serviço útil e acessível;
+* Fortalecimento da eficiência na gestão de achados e perdidos.
+
+---
+
+A identificação dessas partes interessadas permite compreender diferentes perspectivas sobre o sistema e fornece subsídios para a definição dos objetivos de avaliação de qualidade adotados nesse trabalho.
+
+<br>
+
 ## 2. Descrição estruturada do software selecionado
 
-O **AcheiUnB** é uma aplicação web de código aberto voltada ao gerenciamento de achados e perdidos da UnB. O projeto permite registrar e localizar objetos, facilitando o contato entre quem perdeu e quem encontrou o item.
+O **AcheiUnB** (ver [*ref. 1*](#bibliografia)) é uma aplicação web de código aberto voltada ao gerenciamento de achados e perdidos da UnB. O projeto permite registrar e localizar objetos, facilitando o contato entre quem perdeu e quem encontrou o item.
 
 Sua escolha como objeto de avaliação se deve aos seguintes fatores:
 
@@ -33,6 +80,8 @@ Do ponto de vista técnico, o AcheiUnB utiliza uma arquitetura cliente-servidor 
 
 ![Arquitetura do Projeto](../images/arquiteturaAcheiUnB.png)
 
+**Fonte:** [Arquitetura do Sistema - AcheiUnB](https://unb-mds.github.io/2024-2-AcheiUnB/Architecture/), 2024.
+
 </div>
 
 ---
@@ -45,9 +94,25 @@ O AcheiUnB pode ser classificado como um software web de código aberto, de natu
 
 ## 4. Propósito da avaliação
 
-O propósito é avaliar a qualidade do AcheiUnB com ênfase nas características e subcaracterísticas priorizadas. Ademais, pode-se também verificar se a plataforma cumpre bem seu papel de centralizar o registro e a recuperação de itens perdidos na UnB, oferecendo uma experiência funcional, organizada e adequada ao uso pela comunidade acadêmica.
+A avaliação de qualidade no *AcheiUnB* tem ênfase nas características e subcaracterísticas priorizadas, nos modelos de processo de avaliação e nas abordagens de medição estudadas pelos integrantes da equipe, com o objetivo geral de atender aos seguintes propósitos:
 
-Além disso, caso haja continuidade do projeto, a análise feita pode ser utilizada para futuras correções de inconsistências ou erros do projeto. Logo, o relatório e o repositório da análise da característica de Qualidade escrito pela equipe pode servir como contribuição direta para o projeto.
+* **4.1 Verificar cumprimento dos requisitos:** Avaliar se as funcionalidades implementadas correspondem às necessidades definidas pelos stakeholders;
+
+* **4.2 Medir o nível de qualidade do produto:** Quantificar as características de qualidade definidas pela equipe de avaliação (*Confiabilidade*, *Manutenibilidade* e *Segurança*), para determinar o nível geral de qualidade do software;
+
+* **4.3 Identificar oportunidades de melhoria:** Detectar problemas técnicos, falhas de processo ou aspectos do produto que precisam ou podem ser aperfeiçoados;
+
+* **4.4 Apoiar a tomada de decisão:** Fornecer dados objetivos para decisões relacionadas à liberação, manutenção, evolução ou substituição do *AcheiUnB*;
+
+* **4.5 Avaliar o alcance de objetivos:** Verificar se os objetivos definidos no GQM (fase 2) estão sendo atingidos dentro do produto;
+
+* **4.6 Reduzir riscos:** Identificar antecipadamente problemas que possam impactar custos, prazos, segurança ou satisfação dos usuários;
+
+* **4.7 Aumentar a satisfação dos usuários:** Verificar se o software atende às expectativas e necessidades de quem o utiliza;
+
+* **4.8 Fornecer evidências para auditorias e conformidade:** Demonstrar e atestar aderência a normas, modelos de qualidade ou requisitos regulatórios.
+
+A definição dos propósitos será utilizada, posteriormente, para comparação com os resultados na fase 4. 
 
 ---
 
@@ -62,6 +127,8 @@ A partir desse contexto, será feito a priorização através da matriz impacto 
 **Figura 2:** Matriz esforço x risco
 
 ![Matriz esforço x risco](../images/matrizEsforcoImpacto.png)
+
+**Fonte:** [Willian Silva](https://github.com/Wooo589), 2026.
 
 </div>
 
@@ -115,6 +182,8 @@ Mediante essa descrição, a **figura 3** exibe o modelo de qualidade adaptado a
 
 ![Modelo de qualidade](../images/modeloQualidade.jpg)
 
+**Fonte:** [Willian Silva](https://github.com/Wooo589), 2026.
+
 </div>
 
 ---
@@ -152,6 +221,14 @@ Essa abordagem permite verificar indícios de qualidade relacionados à **manute
 
 ### 6.3. Objetos de avaliação
 
+A **tabela 1** detalha elementos da estrutura do produto que serão alvo do processo de avaliação, bem como sua relação com a qualidade e a(s) característica(s) sobre as quais serão avaliados.
+
+<div align="center">
+
+**Tabela 1**: Arquitetura do produto e objetos de avaliação
+
+</div>
+
 | Objeto de avaliação                              | Relação com a qualidade                                                   | Característica associada                  |
 | ------------------------------------------------ | ------------------------------------------------------------------------- | ----------------------------------------- |
 | Estrutura de diretórios `/API`, `/web` e `/docs` | Permite verificar separação de responsabilidades e organização do projeto | **Manutenibilidade**                      |
@@ -162,6 +239,13 @@ Essa abordagem permite verificar indícios de qualidade relacionados à **manute
 | Organização dos módulos de backend e frontend    | Permite observar modularidade e separação de camadas                      | **Manutenibilidade**                      |
 | Documentação do projeto                          | Apoia compreensão, manutenção e evolução do sistema                       | **Manutenibilidade**                      |
 | Uso do Celery                                    | Indica suporte a tarefas assíncronas e processos em segundo plano         | **Confiabilidade**                        |
+
+<div align="center">
+
+**Fonte**: [Diogo Oliveira](https://github.com/Diogo-Olivv), 2026.
+
+</div>
+
 
 ### 6.4. Limitações da avaliação
 
@@ -192,7 +276,26 @@ Aqui estão as ODS que tem relevância direta com o projeto do AcheiUnB e suas d
 
 ---
 
-## Bibliografia
+## 8. Declaração de uso de Inteligência Artificial
+
+Neste trabalho, ferramentas baseadas em Inteligência Artificial (IA) foram utilizadas como apoio às atividades de pesquisa, aprendizagem e produção textual. O uso dessas ferramentas teve como objetivos principais os seguintes: 
+
+- Auxiliar na compreensão de conceitos relacionados à qualidade de software;
+- Esclarecer dúvidas sobre modelos, métricas e métodos de avaliação;
+- Apoiar a identificação de referências e materiais acadêmicos relevantes;
+- Contribuir para a elaboração de versões preliminares de textos.
+
+Os conteúdos gerados por IA foram empregados exclusivamente como material de apoio e ponto de partida para discussão e desenvolvimento das análises. Todo o material produzido foi posteriormente revisado, validado e adaptado pelos integrantes do grupo, que permaneceram responsáveis pela seleção das informações, pela verificação de sua precisão, pela interpretação dos resultados e pelas conclusões apresentadas.
+
+Ademais, segue abaixo uma listagem das principais ferramentas baseadas em Inteligência Artificial utilizadas pela equipe:
+
+- **ChatGPT** (*OpenAI*): https://chatgpt.com/ 🔗
+- **Gemini** (*Google*): https://gemini.google.com 🔗
+- **Copilot** (*Microsoft*): https://copilot.microsoft.com 🔗
+- **Claude** (*Anthropic*): https://claude.ai 🔗
+
+
+## Bibliografia e Referências
 
 - **AcheiUnB.** Repositório do Projeto Analisado: Contém o código e informações mais técnicas sobre o funcionamento da aplicação. Disponível em: <https://github.com/unb-mds/2024-2-AcheiUnB>. Acesso em: 14 mai. 2026.
 
@@ -219,3 +322,4 @@ Aqui estão as ODS que tem relevância direta com o projeto do AcheiUnB e suas d
 |  1.4   | 13/05/2026 | Adição dos tópicos 9, 11 e 16 dos ODS e formatação/refatoração da documentação             | [Diogo Oliveira](https://github.com/Diogo-Olivv) |
 |  1.5   | 13/05/2026 | Adição de novas subcaracterísticas ao tópico 5  | [Davi Leite](https://github.com/Withy-S) |
 |  1.6   | 13/05/2026 | Matriz de impacto x risco das características e revisão de organização lógica  | [Willian Silva](https://github.com/Wooo589) |
+|  1.7   | 12/06/2026 | Correção de critérios pós avaliação (propósito, declaração de ia, fontes, referências e links, partes interessadas) | [Eduardo de Pina](https://github.com/eduardodpms) |
