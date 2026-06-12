@@ -1,0 +1,68 @@
+web/src
+├── App.vue
+├── assets
+│   ├── base.css
+│   ├── icons
+│   ├── images
+│   └── main.css
+├── components
+│   ├── Alert.vue
+│   ├── Button-Add-Found.vue
+│   ├── Button-Add-Lost.vue
+│   ├── Button-Add.vue
+│   ├── Chatroom.vue
+│   ├── Empty-State-User.vue
+│   ├── Empty-State.vue
+│   ├── Form-Found.vue
+│   ├── Form-Lost.vue
+│   ├── Header-About.vue
+│   ├── Header-Found.vue
+│   ├── Header-Lost.vue
+│   ├── Header-Message.vue
+│   ├── Header-User.vue
+│   ├── Header-UserItem.vue
+│   ├── Item-Card.vue
+│   ├── Item-Header.vue
+│   ├── Logo.vue
+│   ├── Main-Menu.vue
+│   ├── Main-Menu.vue.css
+│   ├── ReportProblemModal.vue
+│   ├── Search-Header.vue
+│   ├── SearchBar.vue
+│   ├── Sub-Menu-Found.vue
+│   ├── Sub-Menu-Lost.vue
+│   ├── Sub-Menu-UserFound.vue
+│   └── Sub-Menu-UserLost.vue
+├── main.js
+├── models
+│   ├── Form.js
+│   └── Item.js
+├── router
+│   └── index.js
+├── services
+│   ├── api.js
+│   └── apiItems.js
+├── store
+│   └── filters.js
+├── utils
+│   └── dateUtils.js
+└── views
+    ├── About.vue
+    ├── Anonimo.vue
+    ├── BannedUser.vue
+    ├── Chats.vue
+    ├── EditItem.vue
+    ├── Found.vue
+    ├── ListItem.vue
+    ├── Login.vue
+    ├── Lost.vue
+    ├── Message.vue
+    ├── Register-Found.vue
+    ├── Register-Lost.vue
+    ├── Session-Expired.vue
+    ├── User.vue
+    ├── UserItems-Found.vue
+    ├── UserItems-Lost.vue
+    └── UserProfile.vue
+
+11 directories, 55 files

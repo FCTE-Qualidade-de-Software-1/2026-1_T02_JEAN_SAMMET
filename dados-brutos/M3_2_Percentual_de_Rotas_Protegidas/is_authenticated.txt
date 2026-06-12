@@ -1,0 +1,33 @@
+Binary file API/chat/__pycache__/views.cpython-310.pyc matches
+API/chat/views.py:6:from rest_framework.permissions import IsAdminUser, IsAuthenticated
+API/chat/views.py:22:    permission_classes = [IsAuthenticated]
+API/chat/views.py:120:    permission_classes = [IsAuthenticated]
+Binary file API/.ruff_cache/content/6629133451771106775 matches
+Binary file API/users/tests/__pycache__/test_views.cpython-311-pytest-9.0.3.pyc matches
+Binary file API/users/tests/__pycache__/test_views.cpython-310-pytest-9.0.3.pyc matches
+API/users/tests/test_views.py:199:        from rest_framework.permissions import IsAuthenticated
+API/users/tests/test_views.py:201:        with patch.object(MyItemsFoundView, "permission_classes", [IsAuthenticated]):
+API/users/tests/test_views.py:206:        from rest_framework.permissions import IsAuthenticated
+API/users/tests/test_views.py:208:        with patch.object(MyItemsLostView, "permission_classes", [IsAuthenticated]):
+Binary file API/users/__pycache__/views.cpython-310.pyc matches
+API/users/views.py:21:from rest_framework.permissions import IsAuthenticated, IsAuthenticatedOrReadOnly
+API/users/views.py:131:    permission_classes = [IsAuthenticatedOrReadOnly]
+API/users/views.py:209:     permission_classes = [IsAuthenticated]
+API/users/views.py:237:    permission_classes = [IsAuthenticated]
+API/users/views.py:274:    permission_classes = [IsAuthenticatedOrReadOnly]
+API/users/views.py:281:    permission_classes = [IsAuthenticatedOrReadOnly]
+API/users/views.py:301:    permission_classes = [IsAuthenticatedOrReadOnly]
+API/users/views.py:344:    permission_classes = [IsAuthenticated]
+API/users/views.py:355:    permission_classes = [IsAuthenticated]
+API/users/views.py:640:    permission_classes = [IsAuthenticated]
+API/users/views.py:657:    permission_classes = [IsAuthenticated]
+API/users/views.py:748:    permission_classes = [IsAuthenticated]
+API/users/views.py:796:    permission_classes = [IsAuthenticated]
+API/.venv/lib/python3.10/site-packages/rest_framework/viewsets.py:142:        # DEFAULT_PERMISSION_CLASSES to 'rest_framework.permissions.IsAuthenticated' instead
+Binary file API/.venv/lib/python3.10/site-packages/rest_framework/__pycache__/permissions.cpython-310.pyc matches
+API/.venv/lib/python3.10/site-packages/rest_framework/permissions.py:145:class IsAuthenticated(BasePermission):
+API/.venv/lib/python3.10/site-packages/rest_framework/permissions.py:163:class IsAuthenticatedOrReadOnly(BasePermission):
+API/.venv/lib/python3.10/site-packages/rest_framework/views.py:144:        # DEFAULT_PERMISSION_CLASSES to 'rest_framework.permissions.IsAuthenticated' instead
+Binary file API/reports/__pycache__/views.cpython-310.pyc matches
+API/reports/views.py:3:from rest_framework.permissions import IsAuthenticated
+API/reports/views.py:16:    permission_classes = [IsAuthenticated]

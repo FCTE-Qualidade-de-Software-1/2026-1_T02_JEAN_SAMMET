@@ -1,0 +1,22 @@
+[
+ {
+  "RuleID": "private-key",
+  "Description": "Identified a Private Key, which may compromise cryptographic security and sensitive data encryption.",
+  "StartLine": 1,
+  "EndLine": 28,
+  "StartColumn": 1,
+  "EndColumn": 26,
+  "Match": "Modificado para evitar vazemnto de key",
+  "Secret": "Modificado para evitar vazemnto de key",
+  "File": "API/certs/localhost.key",
+  "SymlinkFile": "",
+  "Commit": "",
+  "Entropy": 6.020994,
+  "Author": "",
+  "Email": "",
+  "Date": "",
+  "Message": "",
+  "Tags": [],
+  "Fingerprint": "API/certs/localhost.key:private-key:1"
+ }
+]

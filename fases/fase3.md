@@ -47,7 +47,7 @@ Para garantir objetividade nas métricas baseadas em inspeção (M1.2 e M2.2), o
 | 6 | Declaração de *healthchecks* nos serviços críticos | Não |
 | 7 | Presença de `.env.example` documentando variáveis necessárias | Não |
 | 8 | Documentação de *build* e execução no `README.md` (ou `Makefile`) | Sim |
-| 9 | Validação sintática do *Compose* (`docker compose config -q` retorna 0) | Sim |
+| 9 | Validação sintática do *Compose* (`docker compose config -q` retorna 0) | Não |
 
 **Tabela 3:** *Checklist* de Desacoplamento Arquitetural (M2.2).
 

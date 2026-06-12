@@ -1,0 +1,50 @@
+Binary file API/AcheiUnB/__pycache__/urls.cpython-310.pyc matches
+API/AcheiUnB/urls.py:27:    permission_classes=(permissions.AllowAny,),
+Binary file API/chat/__pycache__/views.cpython-310.pyc matches
+API/chat/views.py:22:    permission_classes = [IsAuthenticated]
+API/chat/views.py:120:    permission_classes = [IsAuthenticated]
+API/chat/views.py:221:    permission_classes = [IsAdminUser]
+Binary file API/users/tests/__pycache__/test_views.cpython-311-pytest-9.0.3.pyc matches
+Binary file API/users/tests/__pycache__/test_views.cpython-310-pytest-9.0.3.pyc matches
+API/users/tests/test_views.py:201:        with patch.object(MyItemsFoundView, "permission_classes", [IsAuthenticated]):
+API/users/tests/test_views.py:208:        with patch.object(MyItemsLostView, "permission_classes", [IsAuthenticated]):
+Binary file API/users/__pycache__/views.cpython-310.pyc matches
+API/users/views.py:131:    permission_classes = [IsAuthenticatedOrReadOnly]
+API/users/views.py:209:     permission_classes = [IsAuthenticated]
+API/users/views.py:237:    permission_classes = [IsAuthenticated]
+API/users/views.py:274:    permission_classes = [IsAuthenticatedOrReadOnly]
+API/users/views.py:281:    permission_classes = [IsAuthenticatedOrReadOnly]
+API/users/views.py:301:    permission_classes = [IsAuthenticatedOrReadOnly]
+API/users/views.py:344:    permission_classes = [IsAuthenticated]
+API/users/views.py:355:    permission_classes = [IsAuthenticated]
+API/users/views.py:640:    permission_classes = [IsAuthenticated]
+API/users/views.py:657:    permission_classes = [IsAuthenticated]
+API/users/views.py:748:    permission_classes = [IsAuthenticated]
+API/users/views.py:796:    permission_classes = [IsAuthenticated]
+Binary file API/.venv/lib/python3.10/site-packages/drf_yasg/__pycache__/views.cpython-310.pyc matches
+API/.venv/lib/python3.10/site-packages/drf_yasg/views.py:63:    permission_classes=None,
+API/.venv/lib/python3.10/site-packages/drf_yasg/views.py:80:    :param list permission_classes: permission classes for the schema view itself
+API/.venv/lib/python3.10/site-packages/drf_yasg/views.py:89:    _perm_classes = permission_classes
+API/.venv/lib/python3.10/site-packages/drf_yasg/views.py:119:        permission_classes = _perm_classes
+Binary file API/.venv/lib/python3.10/site-packages/rest_framework_simplejwt/__pycache__/views.cpython-310.pyc matches
+API/.venv/lib/python3.10/site-packages/rest_framework_simplejwt/views.py:15:    permission_classes = ()
+Binary file API/.venv/lib/python3.10/site-packages/rest_framework/authtoken/__pycache__/views.cpython-310.pyc matches
+API/.venv/lib/python3.10/site-packages/rest_framework/authtoken/views.py:10:    permission_classes = ()
+Binary file API/.venv/lib/python3.10/site-packages/rest_framework/__pycache__/views.cpython-310.pyc matches
+Binary file API/.venv/lib/python3.10/site-packages/rest_framework/__pycache__/decorators.cpython-310.pyc matches
+Binary file API/.venv/lib/python3.10/site-packages/rest_framework/__pycache__/permissions.cpython-310.pyc matches
+API/.venv/lib/python3.10/site-packages/rest_framework/schemas/__init__.py:33:        permission_classes=api_settings.DEFAULT_PERMISSION_CLASSES,
+API/.venv/lib/python3.10/site-packages/rest_framework/schemas/__init__.py:53:        permission_classes=permission_classes,
+Binary file API/.venv/lib/python3.10/site-packages/rest_framework/schemas/__pycache__/__init__.cpython-310.pyc matches
+API/.venv/lib/python3.10/site-packages/rest_framework/permissions.py:137:    permission_classes list, but it's useful because it makes the intention
+API/.venv/lib/python3.10/site-packages/rest_framework/views.py:112:    permission_classes = api_settings.DEFAULT_PERMISSION_CLASSES
+API/.venv/lib/python3.10/site-packages/rest_framework/views.py:284:        return [permission() for permission in self.permission_classes]
+API/.venv/lib/python3.10/site-packages/rest_framework/decorators.py:70:        WrappedAPIView.permission_classes = getattr(func, 'permission_classes',
+API/.venv/lib/python3.10/site-packages/rest_framework/decorators.py:71:                                                    APIView.permission_classes)
+API/.venv/lib/python3.10/site-packages/rest_framework/decorators.py:139:def permission_classes(permission_classes):
+API/.venv/lib/python3.10/site-packages/rest_framework/decorators.py:141:        _check_decorator_order(func, 'permission_classes')
+API/.venv/lib/python3.10/site-packages/rest_framework/decorators.py:142:        func.permission_classes = permission_classes
+API/.venv/lib/python3.10/site-packages/drf_yasg-1.21.15.dist-info/METADATA:203:      permission_classes=(permissions.AllowAny,),
+API/.venv/lib/python3.10/site-packages/drf_yasg-1.21.15.dist-info/METADATA:235:- ``permission_classes`` - permission classes for the schema view itself
+Binary file API/reports/__pycache__/views.cpython-310.pyc matches
+API/reports/views.py:16:    permission_classes = [IsAuthenticated]
