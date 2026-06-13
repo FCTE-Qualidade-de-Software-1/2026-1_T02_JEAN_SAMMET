@@ -4,6 +4,8 @@
 
 O objetivo desta fase é especificar o **Plano de Execução** da avaliação de qualidade do [AcheiUnB](https://github.com/unb-mds/2024-2-AcheiUnB), operacionalizando as decisões tomadas na [Fase 2](/fases/fase2). A Fase 3 traduz os [Objetivos de Medição](/fases/fase2#_2-objetivos-de-medição), as [Questões](/fases/fase2#_3-questões-e-hipóteses-de-medição) e, sobretudo, as [Métricas](/fases/fase2#_4-seleção-de-métricas) definidas pela equipe em um conjunto de procedimentos reprodutíveis, descrevendo o **método de avaliação**, os **recursos e o ambiente** necessários e o **cronograma** de execução que precederá a [Fase 4](/fases/fase4).
 
+<br>
+
 ## 2. Definição do Método e Instruções
 
 ### 2.1 Visão Geral do Método
@@ -16,9 +18,13 @@ O processo de medição segue três princípios:
 2. **Rastreabilidade**: cada execução gera artefatos brutos (logs, relatórios JSON/XML, *screenshots*) armazenados no diretório `/dados-brutos/` do repositório da disciplina, com referência cruzada à métrica correspondente.
 3. **Independência**: o método não exige conhecimento prévio do domínio de aplicação do AcheiUnB; o avaliador necessita apenas de familiaridade com ferramentas de análise estática padrão de mercado.
 
+---
+
 ### 2.2 Procedimento por Métrica
 
 A **Tabela 1** apresenta o procedimento operacional para cada uma das seis métricas estabelecidas na Fase 2, indicando ferramenta, comando de coleta e artefato gerado.
+
+<div align="center">
 
 **Tabela 1:** Procedimento operacional por métrica.
 
@@ -31,9 +37,17 @@ A **Tabela 1** apresenta o procedimento operacional para cada uma das seis métr
 | **M3.1** | Taxa de Credenciais *Hardcoded* | `gitleaks` + verificação manual com `grep` | `gitleaks detect --source . --no-git --report-format json --report-path gitleaks.json`; revisão manual de falsos positivos (especialmente em `.env.production`/`.env.vm` do frontend). Classificar achados por categoria (código de produção, *logs*/*prints*, testes/*mocks*). Opcionalmente, leverage do relatório **Bandit** já gerado pela pipeline de CI (`bandit_security_report.html`) como evidência complementar. | `gitleaks.json` + planilha de classificação |
 | **M3.2** | Percentual de Rotas Protegidas | Inspeção de `urls.py` + `views.py` | Inventariar todos os *endpoints* a partir dos arquivos `API/AcheiUnB/urls.py`, `API/users/urls.py`, `API/chat/urls.py`, `API/reports/urls.py` e `API/support/urls.py`; classificar quais manipulam dados sensíveis; para cada um, verificar nas *views* correspondentes a presença de `@permission_classes`, `IsAuthenticated`, ou autenticação via `rest_framework_simplejwt`/MSAL. Cálculo: `(rotas protegidas / rotas sensíveis totais) × 100`. | Planilha de inventário de rotas |
 
+**Fonte:** Elaborado por [Diogo Oliveira](https://github.com/Diogo-Olivv) (2026).
+
+</div>
+
+---
+
 ### 2.3 *Checklists* Auxiliares
 
 Para garantir objetividade nas métricas baseadas em inspeção (M1.2 e M2.2), os *checklists* abaixo formalizam os itens avaliados.
+
+<div align="center">
 
 **Tabela 2:** *Checklist* de Conformidade da Infraestrutura (M1.2).
 
@@ -49,6 +63,14 @@ Para garantir objetividade nas métricas baseadas em inspeção (M1.2 e M2.2), o
 | 8 | Documentação de *build* e execução no `README.md` (ou `Makefile`) | Sim |
 | 9 | Validação sintática do *Compose* (`docker compose config -q` retorna 0) | Não |
 
+**Fonte:** Elaborado por [Diogo Oliveira](https://github.com/Diogo-Olivv) (2026).
+
+</div>
+
+---
+
+<div align="center">
+
 **Tabela 3:** *Checklist* de Desacoplamento Arquitetural (M2.2).
 
 | # | Item Avaliado | Conforme? |
@@ -60,7 +82,13 @@ Para garantir objetividade nas métricas baseadas em inspeção (M1.2 e M2.2), o
 | 5 | Ausência de código de backend dentro de `web/` (e vice-versa, exceto *template* de servir o SPA) | Sim |
 | 6 | Inexistência de dependências cíclicas no frontend (`madge --circular` retorna vazio) | Sim |
 
+**Fonte:** Elaborado por [Diogo Oliveira](https://github.com/Diogo-Olivv) (2026).
+
+</div>
+
 > No item 4, na validação da etapa de Continuous Integration temos uma separação clara entre backend e frontend, porém não foi encontrado a etapa de build do frontend, por isso o "Parcialmente".
+
+---
 
 ### 2.4 Tratamento de Casos Especiais
 
@@ -68,9 +96,15 @@ Para garantir objetividade nas métricas baseadas em inspeção (M1.2 e M2.2), o
 - **Falsos positivos**: na M3.1, achados claramente falsos (ex.: valores em arquivos `.example`) são removidos manualmente, com registro da decisão em planilha auditável.
 - **Versões divergentes**: o ponto de referência oficial é o *commit* congelado declarado na Seção 3.3.
 
+<br>
+
 ## 3. Especificação dos Recursos e Ambiente de Avaliação
 
 ### 3.1 Requisitos de Hardware
+
+<div align="center">
+
+**Tabela 4:** Detalhamento dos requisitos de hardware.
 
 | Recurso | Especificação Mínima |
 | :--- | :--- |
@@ -79,11 +113,19 @@ Para garantir objetividade nas métricas baseadas em inspeção (M1.2 e M2.2), o
 | Armazenamento | 10 GB livres |
 | Conexão | Acesso à internet para *clone* do repositório e instalação de dependências |
 
+**Fonte:** Elaborado por [Diogo Oliveira](https://github.com/Diogo-Olivv) (2026).
+
+</div>
+
+---
+
 ### 3.2 Requisitos de Software
 
 As versões abaixo são fixadas para garantir reprodutibilidade entre execuções e entre avaliadores.
 
-**Tabela 4:** Versões fixadas das ferramentas de avaliação.
+<div align="center">
+
+**Tabela 5:** Versões fixadas das ferramentas de avaliação.
 
 | Ferramenta | Versão | Finalidade |
 | :--- | :--- | :--- |
@@ -100,6 +142,12 @@ As versões abaixo são fixadas para garantir reprodutibilidade entre execuçõe
 | `gitleaks` | 8.x | Coleta de M3.1 |
 | `bandit` / `safety` | versões da pipeline CI | Evidência complementar para M3.1 (já executadas no estágio `security-scan` do CI) |
 
+**Fonte:** Elaborado por [Diogo Oliveira](https://github.com/Diogo-Olivv) (2026).
+
+</div>
+
+---
+
 ### 3.3 Massa de Dados
 
 A massa de dados da avaliação consiste no **código-fonte público do AcheiUnB** obtido por *git clone* do repositório oficial. Para garantir reprodutibilidade absoluta, é definido um **commit de referência** que será congelado no início da Fase 4 e registrado no relatório de execução:
@@ -112,6 +160,8 @@ git checkout e917733
 
 Toda a execução posterior, incluindo eventuais re-execuções para fins de auditoria, utilizará exclusivamente este *snapshot*.
 
+---
+
 ### 3.4 Perfil dos Avaliadores
 
 Os avaliadores são membros da equipe Jean Sammet, estudantes de Engenharia de Software da UnB/FCTE, com:
@@ -121,11 +171,17 @@ Os avaliadores são membros da equipe Jean Sammet, estudantes de Engenharia de S
 - Leitura crítica de relatórios de CI/CD (GitHub Actions);
 - Não há exigência de conhecimento prévio sobre o domínio de aplicação do AcheiUnB, uma vez que as métricas escolhidas são de natureza estrutural e não funcional.
 
+---
+
+<br>
+
 ## 4. Cronograma de Avaliação
 
 O cronograma abaixo distribui as atividades da Fase 4 ao longo de **sete dias úteis**, agrupando as métricas por característica de qualidade para maximizar foco e minimizar troca de contexto. Cada bloco de coleta gera dados brutos que serão consolidados antes da etapa de análise.
 
-**Tabela 5:** Cronograma de execução da Fase 4.
+<div align="center">
+
+**Tabela 6:** Cronograma de execução da Fase 4.
 
 | Dia | Atividade | Métricas Envolvidas | Responsáveis | Entregável |
 | :---: | :--- | :--- | :--- | :--- |
@@ -137,11 +193,19 @@ O cronograma abaixo distribui as atividades da Fase 4 ao longo de **sete dias ú
 | D6 | Cálculo dos níveis de pontuação por métrica, IQ por característica e IQG global | Todas | Toda a equipe | Planilha consolidada de resultados |
 | D7 | Redação do relatório da Fase 4, revisão por pares, *release* | Todas | Toda a equipe | `fase4.md` + *release* EU2 |
 
+**Fonte:** Elaborado por [Diogo Oliveira](https://github.com/Diogo-Olivv) (2026).
+
+</div>
+
+<br>
+
 ## 5. Consistência entre Fase 2 e Fase 3
 
-A **Tabela 6** explicita a rastreabilidade entre cada métrica estabelecida na [Seção 4 da Fase 2](/fases/fase2#_4-seleção-de-métricas) e o instrumento operacional correspondente desta Fase 3, demonstrando que o Plano de Avaliação atende integralmente às exigências de medição previamente definidas.
+A **Tabela 7** explicita a rastreabilidade entre cada métrica estabelecida na [Seção 4 da Fase 2](/fases/fase2#_4-seleção-de-métricas) e o instrumento operacional correspondente desta Fase 3, demonstrando que o Plano de Avaliação atende integralmente às exigências de medição previamente definidas.
 
-**Tabela 6:** Rastreabilidade Fase 2 → Fase 3.
+<div align="center">
+
+**Tabela 7:** Rastreabilidade Fase 2 → Fase 3.
 
 | F2: Métrica | F2: Critério de Julgamento | F3: Ferramenta | F3: Procedimento | Justificativa de Coerência |
 | :--- | :--- | :--- | :--- | :--- |
@@ -152,9 +216,15 @@ A **Tabela 6** explicita a rastreabilidade entre cada métrica estabelecida na [
 | **M3.1** | Faixas por número e localização de ocorrências | `gitleaks` + revisão manual (+ `bandit` da CI) | Seção 2.2 — classificação por categoria (produção / *logs* / testes) | A ferramenta endereça diretamente as três categorias previstas nos níveis de pontuação da F2; relatórios Bandit/Safety da CI servem como evidência complementar |
 | **M3.2** | Faixas de percentual de rotas protegidas | Inspeção dos `urls.py` + `views.py` | Seção 2.2 — inventário dos cinco arquivos `urls.py` e verificação de `@permission_classes`/JWT/MSAL | Reproduz a fórmula percentual definida na F2 sobre o conjunto real de *endpoints* da API |
 
+**Fonte:** Elaborado por [Diogo Oliveira](https://github.com/Diogo-Olivv) (2026).
+
+</div>
+
 Como pode-se ver, cada métrica da Fase 2 foi transformada em um procedimento operacional específico na Fase 3, preservando a mesma unidade de análise, o mesmo foco de qualidade e o mesmo critério de julgamento.
 
 Adicionalmente, o método de análise estática, os recursos de ferramentas de mercado e o cronograma de 7 dias são integralmente compatíveis com o [Escopo da Avaliação declarado na Fase 1](/fases/fase1#_61-escopo-da-avalia%c3%a7%c3%a3o) e reforçado na [Seção 7 da Fase 2](/fases/fase2#_7-consistência-entre-fase-1-e-fase-2), garantindo **rastreabilidade total** das fases do projeto.
+
+<br>
 
 ## 6. Uso de Inteligência Artificial
 
@@ -200,3 +270,4 @@ Ademais, segue abaixo uma listagem das principais ferramentas baseadas em Inteli
 |  1.0   | 10/06/2026 | Criação da estrutura base do documento Fase 3                                              | [Euller Júlio](https://github.com/potatoyz908) |
 |  1.1   | 10/06/2026 | Popula documento da Fase 3                                              | [Diogo Oliveira](https://github.com/Diogo-Olivv) |
 |  1.2   | 12/06/2026 | Correções de formatação e informações e reforço de algumas ideias, conforme  especificações de entrega | [João Nascimento](https://github.com/JMPNascimento) |
+|  1.3   | 12/06/2026 | Adição de fonte nas tabelas e ajuste de estrutura do documento | [Eduardo de Pina](https://github.com/eduardodpms) |

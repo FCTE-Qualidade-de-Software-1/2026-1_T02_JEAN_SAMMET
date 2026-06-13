@@ -76,6 +76,10 @@ Os dados coletados foram transformados em métricas e comparados com os níveis 
 
 ### 4.1 Resultados por métrica
 
+<div align="center">
+
+**Tabela 1:** Resultados obtidos na execução
+
 | Métrica                                    |                                                 Resultado | Nota | Questão |
 | ------------------------------------------ | --------------------------------------------------------: | ---: | ------- |
 | M1.1 – Cobertura de Testes                 |                                                       43% |    2 | Q1.1    |
@@ -84,6 +88,10 @@ Os dados coletados foram transformados em métricas e comparados com os níveis 
 | M2.2 – Grau de Desacoplamento Arquitetural |                                 0 dependências circulares |    4 | Q2.2    |
 | M3.1 – Taxa de Credenciais Hardcoded       |                               Ocorrência de chave privada |    1 | Q3.1    |
 | M3.2 – Percentual de Rotas Protegidas      |                                                      100% |    4 | Q3.2    |
+
+**Fonte:** Elaborado por [João Nascimento](https://github.com/JMPNascimento) (2026).
+
+</div>
 
 ---
 
@@ -117,13 +125,21 @@ A métrica M3.2 avaliou o percentual de rotas que manipulam dados sensíveis e q
 
 ### 4.3 Consolidação por característica
 
+<div align="center">
+
+**Tabela 2:** Consolidação por característica na avaliação
+
 | Característica   | Métricas   |                    IQ |
 | ---------------- | ---------- | --------------------: |
 | **Confiabilidade**   | *M1.1, M1.2* | (2 + 2) / 2 = **2,0** |
 | **Manutenibilidade** | *M2.1, M2.2* | (4 + 4) / 2 = **4,0** |
 | **Segurança**        | *M3.1, M3.2* | (1 + 4) / 2 = **2,5** |
 
-A consolidação por característica mostra um quadro bastante equilibrado. A **Confiabilidade** ficou em nível intermediário porque, embora a infraestrutura esteja bem montada, a cobertura de testes ainda é limitada. A **Manutenibilidade** atingiu o melhor resultado possível, apoiada por ausência de ciclos no frontend, estrutura modular do backend e baixa densidade de violações de estilo. A **Segurança** ficou alta, com proteção total das rotas sensíveis e apenas uma ocorrência pontual de chave privada no repositório, tratada como artefato local de desenvolvimento.
+**Fonte:** Elaborado por [João Nascimento](https://github.com/JMPNascimento) (2026).
+
+</div>
+
+A consolidação por característica (tabela 2) mostra um quadro bastante equilibrado. A **Confiabilidade** ficou em nível intermediário porque, embora a infraestrutura esteja bem montada, a cobertura de testes ainda é limitada. A **Manutenibilidade** atingiu o melhor resultado possível, apoiada por ausência de ciclos no frontend, estrutura modular do backend e baixa densidade de violações de estilo. A **Segurança** ficou alta, com proteção total das rotas sensíveis e apenas uma ocorrência pontual de chave privada no repositório, tratada como artefato local de desenvolvimento.
 
 ---
 

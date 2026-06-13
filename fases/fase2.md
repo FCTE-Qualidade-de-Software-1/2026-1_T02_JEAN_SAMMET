@@ -6,11 +6,20 @@ O objetivo desta fase é definir [objetivos de medição](#_1-objetivos-de-medi�
 
 > Os objetivos acima fundamentam as questões de medição definidas na [Seção 3](#_3-questões-e-hipóteses-de-medição).
 
+<br>
+
 ## 2. Objetivos de Medição
 
 A definição dos objetivos de medição segue o template estruturado do paradigma GQM (Goal, Question, Metric), alinhando-se às três características de qualidade priorizadas na Fase 1 (**Confiabilidade**, **Manutenibilidade** e **Segurança**) e ao propósito de avaliação do sistema **AcheiUnB** por meio de análise estática e documental.
 
+---
+
 ### Objetivo 1: Foco em Confiabilidade
+
+<div align="center">
+
+**Tabela 1:** Detalhamento do Objetivo 1
+
 | Elemento GQM | Descrição |
 | :--- | :--- |
 | **Analisar** | A estrutura técnica, configurações de ambiente (Docker/Celery) e a suíte de testes automatizados do AcheiUnB. |
@@ -19,7 +28,18 @@ A definição dos objetivos de medição segue o template estruturado do paradig
 | **Do ponto de vista de** | Desenvolvedores e Comunidade acadêmica da UnB (usuários). |
 | **No contexto de** | Disciplina de Qualidade de Software, garantia de estabilidade e funcionamento contínuo do sistema de achados e perdidos da universidade. |
 
+**Fonte:** Elaborado por [Euller Júlio](https://github.com/potatoyz908) (2026).
+
+</div>
+
+---
+
 ### Objetivo 2: Foco em Manutenibilidade
+
+<div align="center">
+
+**Tabela 2:** Detalhamento do Objetivo 2
+
 | Elemento GQM | Descrição |
 | :--- | :--- |
 | **Analisar** | O código-fonte, a estrutura de diretórios, a configuração de pipeline (CI/CD) e a documentação técnica do AcheiUnB. |
@@ -28,7 +48,18 @@ A definição dos objetivos de medição segue o template estruturado do paradig
 | **Do ponto de vista de** | Equipe de desenvolvimento e futuros mantenedores do projeto open source. |
 | **No contexto de** | Disciplina de Qualidade de Software, evolução contínua e facilidade de manutenção do sistema por equipes rotativas em ambiente acadêmico. |
 
+**Fonte:** Elaborado por [Euller Júlio](https://github.com/potatoyz908) (2026).
+
+</div>
+
+---
+
 ### Objetivo 3: Foco em Segurança
+
+<div align="center">
+
+**Tabela 3:** Detalhamento do Objetivo 3
+
 | Elemento GQM | Descrição |
 | :--- | :--- |
 | **Analisar** | Os mecanismos de controle de acesso (autenticação MSAL), uso de variáveis de ambiente e restrições do banco de dados do AcheiUnB. |
@@ -37,11 +68,21 @@ A definição dos objetivos de medição segue o template estruturado do paradig
 | **Do ponto de vista de** | Administração da universidade e estudantes (titulares dos dados). |
 | **No contexto de** | Disciplina de Qualidade de Software, proteção de dados institucionais, identidade estudantil e restrição de acesso exclusivo à comunidade da UnB. |
 
+**Fonte:** Elaborado por [Euller Júlio](https://github.com/potatoyz908) (2026).
+
+</div>
+
+<br>
+
 > Os objetivos acima fundamentam as questões de medição definidas na [Seção 3](#_3-questões-e-hipóteses-de-medição).
+
+<br>
 
 ## 3. Questões e Hipóteses de medição
 
 As questões foram formuladas visando tornar os [objetivos de avaliação](#_2-objetivos-de-medição) em perguntas práticas que podem ser respondidas por meio da análise estática do repositório do [AcheiUnB](https://github.com/unb-mds/2024-2-AcheiUnB). As hipóteses representam as expectativas da equipe baseadas no entendimento prévio do *software*, guiando o processo de interpretação dos resultados.
+
+---
 
 ### Confiabilidade
 
@@ -57,6 +98,8 @@ O sistema utiliza e documenta adequadamente ferramentas de conteinerização (Do
 
 > **Hipótese 1.2:** Acredita-se que o repositório possua configurações completas e funcionais do Docker Compose e Celery, fundamentais para a tolerância a falhas na arquitetura proposta.
 
+---
+
 ### Manutenibilidade
 
 #### Questão 2.1 (Analisabilidade)
@@ -70,6 +113,8 @@ A arquitetura e a separação entre as camadas (Frontend, Backend, Documentaçã
 *([Referente às Partes Interessadas - Desenvolvedores e Mantenedores](/fases/fase1#_12-partes-interessadas))*
 
 > **Hipótese 2.2:** Estima-se um isolamento físico quase total dos diretórios de Frontend e Backend, existindo baixo acoplamento interno no repositório.
+
+---
 
 ### Segurança
 
@@ -87,9 +132,17 @@ O mecanismo de autenticação via MSAL restringe adequadamente o acesso aos *end
 
 > Cada questão formulada acima é respondida por uma métrica específica, conforme detalhado na [Seção 4](#_4-seleção-de-métricas).
 
+---
+
+<br>
+
 ## 4. Seleção de Métricas
 
-As métricas selecionadas visam ser objetivas e quantificáveis através de ferramentas de análise estática e inspeção visual do código.
+As métricas selecionadas, apresentadas na **tabela 4**, visam ser objetivas e quantificáveis através de ferramentas de análise estática e inspeção visual do código.
+
+<div align="center">
+
+**Tabela 4:** Métricas selecionadas para avaliação
 
 | ID | Métrica | Descrição e Forma de Coleta | Relacionamento |
 | :--- | :--- | :--- | :--- |
@@ -100,15 +153,29 @@ As métricas selecionadas visam ser objetivas e quantificáveis através de ferr
 | **M3.1** | Taxa de Credenciais *Hardcoded* | Contagem de instâncias onde senhas, chaves secretas ou conexões DB estejam abertas no código. | Responde [Q3.1](#questão-31-confidencialidade) |
 | **M3.2** | Percentual de Rotas Protegidas | Razão entre a quantidade de *endpoints* sensíveis na API que exigem autenticação (*middlewares*) e a quantidade total de *endpoints* sensíveis desenvolvidos. | Responde [Q3.2](#questão-32-autenticidade) |
 
+**Fonte:** Elaborado por [Euller Júlio](https://github.com/potatoyz908) (2026).
+
+</div>
+
 As métricas selecionadas atendem às seguintes propriedades desejáveis: **Simplicidade** — podem ser coletadas com ferramentas padrão de mercado (`pytest-cov`, ESLint, Flake8, Codecov) sem configuração especial; **Objetividade** — produzem valores numéricos ou categóricos sem margem de ambiguidade na interpretação; **Validade** — estão fundamentadas na literatura de Engenharia de Software (BASILI et al., 2003; SOLLAMI; AL-ZUBAIDI, 2019) e em práticas consolidadas de avaliação estática de qualidade.
 
 > Os critérios de julgamento para interpretação dos valores coletados estão definidos na [Seção 5](#_5-níveis-de-pontuação-e-critérios-de-julgamento).
+
+<br>
 
 ## 5. Níveis de Pontuação e Critérios de Julgamento
 
 Para remover a subjetividade, cada métrica receberá uma nota baseada em uma escala de 1 a 4, onde 1 representa a pior classificação e 4 representa a excelência, conforme os limiares abaixo:
 
+---
+
 ### 5.1 Níveis de Pontuação
+
+A tabela 5 define os intervalos sobre os quais a equipe orientará a análise dos resultados obtidos pelos dados, posteriormente.
+
+<div align="center">
+
+**Tabela 5: Definição dos intervalos de pontuação** 
 
 | Métrica | Nível 1 (Insuficiente) | Nível 2 (Satisfatório) | Nível 3 (Bom) | Nível 4 (Excelente) |
 | :--- | :--- | :--- | :--- | :--- |
@@ -118,6 +185,12 @@ Para remover a subjetividade, cada métrica receberá uma nota baseada em uma es
 | **M2.2** (Desacoplamento Arquitetural) | Sem separação (código fortemente acoplado) | Separação parcial (muitas dependências cruzadas) | Separação majoritária (poucos acoplamentos incorretos) | Separação total (backend expõe apenas a API, sem dependências do frontend) |
 | **M3.1** (Ocorrências *Hardcoded*) | Uma ou mais ocorrências no código-fonte ou em rotas de produção | Uma a duas ocorrências exclusivas em *logs* ou *prints* | Uma a duas ocorrências apenas em testes/*mocks* locais | Nenhuma ocorrência em todo o projeto |
 | **M3.2** (Rotas Sensíveis Protegidas) | < 70% | De 70% a 89% | De 90% a 99% | 100% |
+
+**Fonte:** Elaborado por [Euller Júlio](https://github.com/potatoyz908) (2026).
+
+</div>
+
+---
 
 ### 5.2 Critérios de Julgamento Geral
 
@@ -133,19 +206,25 @@ O valor final do IQG será mapeado no seguinte julgamento de qualidade para entr
 *   **2,51 a 3,25:** Aceito (Qualidade de mercado, pequenos ajustes recomendados)
 *   **3,26 a 4,00:** Excelente (Nível exemplar de maturidade de engenharia)
 
+---
+
+<br>
+
 ## 6. Representação da Hierarquia GQM (Gráfico GQM)
 
 A **Figura 4** apresenta a representação visual da hierarquia GQM (Goal-Question-Metric) adotada neste plano de medição. O diagrama ilustra como os [Objetivos de Medição](#_2-objetivos-de-medição) de alto nível (**Confiabilidade**, **Manutenibilidade** e **Segurança**) são decompostos em [Questões](#_3-questões-e-hipóteses-de-medição) específicas para avaliação. Por sua vez, cada Questão é conectada às [Métricas](#_4-seleção-de-métricas) quantitativas que fornecerão os dados necessários para respondê-las. A estrutura evidencia os três níveis lógicos da abordagem GQM, sendo eles o Conceitual (Objetivos), Operacional (Questões e Hipóteses) e Quantitativo (Métricas).
 
 <div align="center">
 
+**Figura 1:** Diagrama hierárquico GQM.
+
 ![Gráfico GQM](../images/graficogqm.png)
 
-**Figura 4:** Diagrama hierárquico GQM.
-
-**Fonte:** Elaborado pelo autor [Euller Júlio](https://github.com/potatoyz908) (2026).
+**Fonte:** Elaborado por [Euller Júlio](https://github.com/potatoyz908) (2026).
 
 </div>
+
+<br>
 
 ## 7. Consistência entre Fase 1 e Fase 2
 
@@ -156,6 +235,8 @@ Os objetivos GQM (Nível Conceitual) refletem diretamente:
 2.  **Os *stakeholders* elencados:** As visões dos desenvolvedores (focados em código e infraestrutura) e da administração/estudantes (preocupados com segurança de dados) conduziram a seleção das questões de qualidade do *software* (ver [Partes Interessadas, Fase 1](/fases/fase1#_12-partes-interessadas)).
 
 O alinhamento garante a rastreabilidade total do projeto e fundamenta o plano metodológico adotado para o processo avaliativo do AcheiUnB. Para deixar essaa rastreabilidade totalmente explícita, reforça-se que os objetivos de medição foram derivados diretamente das prioridades definidas na Fase 1: Confiabilidade -> Objetivo 1; Manutenibilidade -> Objetivo 2; Segurança -> Objetivo 3. Os pontos de vista adotados também seguem os stakeholders priorizados na Fase 1: desenvolvedores, estudantes e administração da universidade.
+
+<br>
 
 ## 8. Uso de Inteligência Artificial
 
@@ -204,3 +285,4 @@ Ademais, segue abaixo uma listagem das principais ferramentas baseadas em Inteli
 |  1.4   | 11/06/2026 | Expansão dos objetivos GQM, adição de referências bibliográficas, melhoria da declaração de uso de IA e correções de formatação | [Euller Júlio](https://github.com/potatoyz908) |
 |  1.5   | 11/06/2026 | Correções de digitação e enumeração                              | [Euller Júlio](https://github.com/potatoyz908) |
 |  1.6   | 12/06/2026 | Correções de formatação e reforço de algumas ideias, conforme  especificações de entrega | [João Nascimento](https://github.com/JMPNascimento) |
+|  1.7   | 12/06/2026 | Adição de fonte e legenda nas tabelas, e formatação geral do documento | [Eduardo de Pina](https://github.com/eduardodpms) |
