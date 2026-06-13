@@ -27,7 +27,7 @@ As tabelas abaixo quantificam o esforço e detalham as principais responsabilida
 | Davi Gonçalves Leite Feitosa | *(Descrever atividades realizadas)* | **16,66%** |
 | Diogo Oliveira Ferreira | *(Descrever atividades realizadas)* | **16,66%** |
 | Eduardo de Pina Moreira Santos | Correção de critérios na *entrega 1*, seções *5* e *6* da *fase 4*, e validação da *análise dos dados* | **16,66%** |
-| Euller Júlio da Silva | *(Descrever atividades realizadas)* | **16,66%** |
+| Euller Júlio da Silva | Implementação integral da *fase 2*: objetivos GQM, questões, hipóteses, métricas, níveis de pontuação, diagrama hierárquico e rastreabilidade entre fases | **16,66%** |
 | João Maurício Pilla Nascimento | *(Descrever atividades realizadas)* | **16,66%** |
 | Willian Wagner Xavier Ramos da Silva | *(Descrever atividades realizadas)* | **16,66%** |
 | **TOTAL** | | **100%** |
