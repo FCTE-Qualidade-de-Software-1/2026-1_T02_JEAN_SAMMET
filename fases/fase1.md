@@ -291,6 +291,7 @@ Ademais, segue abaixo uma listagem das principais ferramentas baseadas em Inteli
 
 - **ChatGPT** (*OpenAI*): https://chatgpt.com/ 🔗
 - **Gemini** (*Google*): https://gemini.google.com 🔗
+- **Antigravity** (*Google*): https://antigravity.google 🔗
 - **Copilot** (*Microsoft*): https://copilot.microsoft.com 🔗
 - **Claude** (*Anthropic*): https://claude.ai 🔗
 

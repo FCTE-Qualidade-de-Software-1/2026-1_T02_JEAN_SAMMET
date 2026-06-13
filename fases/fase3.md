@@ -158,9 +158,22 @@ Adicionalmente, o método de análise estática, os recursos de ferramentas de m
 
 ## 6. Uso de Inteligência Artificial
 
-Em conformidade com a exigência e a ética da disciplina de Qualidade de Software, certificamos que a Inteligência Artificial (Modelo LLM *Antigravity/Gemini/Claude*) foi utilizada no papel de **Assistente de Redação e de Estruturação**, auxiliando na organização das tabelas de procedimentos e na revisão gramatical do texto e como **Revisor do Repositório** do AcheiUnB como auxiliar para verificar as métricas de segurança.
+Neste trabalho, ferramentas baseadas em Inteligência Artificial (IA) foram utilizadas como apoio às atividades de pesquisa, aprendizagem e produção textual. O uso dessas ferramentas teve como objetivos principais os seguintes: 
 
-A seleção das ferramentas de avaliação, a definição dos itens dos *checklists* (Tabelas 2 e 3), as versões fixadas das ferramentas e a justificativa de coerência apresentada na Seção 5 foram pensadas, discutidas e validadas inteiramente por intervenção humana dos membros da equipe. Todo o conteúdo gerado pela IA foi submetido à leitura crítica individual por cada autor, com adaptação ao contexto específico do AcheiUnB realizada exclusivamente pelos integrantes do grupo. Nenhuma figura inadequada, ícone excessivo ou conclusão de dados foi gerada artificialmente.
+- Auxiliar na compreensão de conceitos relacionados à qualidade de software;
+- Esclarecer dúvidas sobre modelos, métricas e métodos de avaliação;
+- Apoiar a identificação de referências e materiais acadêmicos relevantes;
+- Contribuir para a elaboração de versões preliminares de textos.
+
+Os conteúdos gerados por IA foram empregados exclusivamente como material de apoio e ponto de partida para discussão e desenvolvimento das análises. Todo o material produzido foi posteriormente revisado, validado e adaptado pelos integrantes do grupo, que permaneceram responsáveis pela seleção das informações, pela verificação de sua precisão, pela interpretação dos resultados e pelas conclusões apresentadas.
+
+Ademais, segue abaixo uma listagem das principais ferramentas baseadas em Inteligência Artificial utilizadas pela equipe:
+
+- **ChatGPT** (*OpenAI*): https://chatgpt.com/ 🔗
+- **Gemini** (*Google*): https://gemini.google.com 🔗
+- **Antigravity** (*Google*): https://antigravity.google 🔗
+- **Copilot** (*Microsoft*): https://copilot.microsoft.com 🔗
+- **Claude** (*Anthropic*): https://claude.ai 🔗
 
 ---
 
