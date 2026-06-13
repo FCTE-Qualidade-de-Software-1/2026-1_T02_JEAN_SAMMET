@@ -24,12 +24,12 @@ As tabelas abaixo quantificam o esforço e detalham as principais responsabilida
 
 | Membro da Equipe | Papel / Principais Responsabilidades | Esforço (%) |
 | :--- | :--- | :---: |
-| Davi Gonçalves Leite Feitosa | *(Descrever atividades realizadas)* | **16,66%** |
-| Diogo Oliveira Ferreira | *(Descrever atividades realizadas)* | **16,66%** |
-| Eduardo de Pina Moreira Santos | Correção de critérios na *entrega 1*, seções *5* e *6* da *fase 4*, e validação da *análise dos dados* | **16,66%** |
+| Davi Gonçalves Leite Feitosa | Revisão do material desenvolvido nas fases *2*, *3* e *4* | **16,66%** |
+| Diogo Oliveira Ferreira | Elaboração da fase 3 (procedimentos, checklists, especificações da avaliação e cronograma) | **16,66%** |
+| Eduardo de Pina Moreira Santos | Correção de critérios na *entrega 1*, seções *5* e *6* da *fase 4*, validação da *análise dos dados* e relatório da *entrega 2* | **16,66%** |
 | Euller Júlio da Silva | Implementação integral da *fase 2*: objetivos GQM, questões, hipóteses, métricas, níveis de pontuação, diagrama hierárquico, rastreabilidade entre fases, base das paginas das fases 2 até 4 da entrega 2 | **16,66%** |
 | João Maurício Pilla Nascimento | Correção de incossistências e formatações inconstantes nas *fases 2 e 3*, coleta dos dados utilizados e elaboração das seções *2*, *3* e *4* da *fase 4*  | **16,66%** |
-| Willian Wagner Xavier Ramos da Silva | *(Descrever atividades realizadas)* | **16,66%** |
+| Willian Wagner Xavier Ramos da Silva | Elaboração da seção 1 na fase 4, relatório da entrega 2 e revisão da estrutura textual | **16,66%** |
 | **TOTAL** | | **100%** |
 
 ---
@@ -59,3 +59,4 @@ As tabelas abaixo quantificam o esforço e detalham as principais responsabilida
 |  1.0   | 10/06/2026 | Criação do artefato de Tabela de Contribuições                                             | [Euller Júlio](https://github.com/potatoyz908)       |
 |  1.1   | 12/06/2026 | Adição de contribuições para todas as entregas                                             | [Eduardo de Pina](https://github.com/eduardodpms)       |
 |  1.2   | 12/06/2026 | Atualização das contribuições da equipe, detalhando as atividades realizadas | [Euller Júlio](https://github.com/potatoyz908)       |
+|  1.3   | 12/06/2026 | Adição de contribuições faltantes | [Eduardo de Pina](https://github.com/eduardodpms)       |

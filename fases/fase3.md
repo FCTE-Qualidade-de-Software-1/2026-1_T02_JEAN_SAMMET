@@ -239,11 +239,11 @@ Os conteúdos gerados por IA foram empregados exclusivamente como material de ap
 
 Ademais, segue abaixo uma listagem das principais ferramentas baseadas em Inteligência Artificial utilizadas pela equipe:
 
-- **ChatGPT** (*OpenAI*): https://chatgpt.com/ 🔗
-- **Gemini** (*Google*): https://gemini.google.com 🔗
-- **Antigravity** (*Google*): https://antigravity.google 🔗
-- **Copilot** (*Microsoft*): https://copilot.microsoft.com 🔗
-- **Claude** (*Anthropic*): https://claude.ai 🔗
+- **ChatGPT** (*OpenAI*): https://chatgpt.com
+- **Gemini** (*Google*): https://gemini.google.com
+- **Antigravity** (*Google*): https://antigravity.google
+- **Copilot** (*Microsoft*): https://copilot.microsoft.com
+- **Claude** (*Anthropic*): https://claude.ai
 
 ---
 
@@ -251,17 +251,17 @@ Ademais, segue abaixo uma listagem das principais ferramentas baseadas em Inteli
 
 - **ACHEIUNB.** Repositório do Projeto Analisado. Disponível em: <https://github.com/unb-mds/2024-2-AcheiUnB>. Acesso em: 11 jun. 2026.
 
-- **ISO/IEC.** ISO/IEC 25040:2011 — Systems and software engineering — Systems and software Quality Requirements and Evaluation (SQuaRE) — Evaluation process. International Organization for Standardization, 2011.
+- **ISO/IEC 25040:2011 - Systems and software engineering - Systems and software Quality Requirements and Evaluation (SQuaRE) - Evaluation process.** International Organization for Standardization, 2011.
 
-- **ISO/IEC.** ISO/IEC 25010:2011 — Systems and software engineering — Systems and software Quality Requirements and Evaluation (SQuaRE) — System and software quality models. International Organization for Standardization, 2011.
+- **ISO/IEC 25010:2011 - Systems and software engineering - Systems and software Quality Requirements and Evaluation (SQuaRE) - System and software quality models.** International Organization for Standardization, 2011.
 
-- **BASILI, V. R. et al.** The Goal/Question/Metric Paradigm. *Fraunhofer IESE*, 2003.
+- BASILI, V. R. et al. **The Goal/Question/Metric Paradigm**. Fraunhofer IESE, 2003.
 
-- **GITLEAKS.** *Open-source secret scanner*. Disponível em: <https://github.com/gitleaks/gitleaks>. Acesso em: 11 jun. 2026.
+- **GITLEAKS.** Open-source secret scanner. Disponível em: <https://github.com/gitleaks/gitleaks>. Acesso em: 11 jun. 2026.
 
-- **MADGE.** *Module dependency graph generator*. Disponível em: <https://github.com/pahen/madge>. Acesso em: 11 jun. 2026.
+- **MADGE.** Module dependency graph generator. Disponível em: <https://github.com/pahen/madge>. Acesso em: 11 jun. 2026.
 
----
+<br>
 
 ## Histórico de Versão
 

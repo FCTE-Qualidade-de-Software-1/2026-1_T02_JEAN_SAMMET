@@ -289,26 +289,26 @@ Os conteúdos gerados por IA foram empregados exclusivamente como material de ap
 
 Ademais, segue abaixo uma listagem das principais ferramentas baseadas em Inteligência Artificial utilizadas pela equipe:
 
-- **ChatGPT** (*OpenAI*): https://chatgpt.com/ 🔗
-- **Gemini** (*Google*): https://gemini.google.com 🔗
-- **Antigravity** (*Google*): https://antigravity.google 🔗
-- **Copilot** (*Microsoft*): https://copilot.microsoft.com 🔗
-- **Claude** (*Anthropic*): https://claude.ai 🔗
+- **ChatGPT** (*OpenAI*): https://chatgpt.com
+- **Gemini** (*Google*): https://gemini.google.com
+- **Antigravity** (*Google*): https://antigravity.google
+- **Copilot** (*Microsoft*): https://copilot.microsoft.com
+- **Claude** (*Anthropic*): https://claude.ai
 
 
 ## Bibliografia e Referências
 
 - **AcheiUnB.** Repositório do Projeto Analisado: Contém o código e informações mais técnicas sobre o funcionamento da aplicação. Disponível em: <https://github.com/unb-mds/2024-2-AcheiUnB>. Acesso em: 14 mai. 2026.
 
-- **ISO/IEC 25010:2023 — Systems and software engineering — Systems and software Quality Requirements and Evaluation (SQuaRE) — Product quality model.** International Organization for Standardization, 2023. Disponível em: [https://www.iso.org/obp/ui/en/#iso:std:iso-iec:25010:ed-2:v1:en](https://www.iso.org/obp/ui/en/#iso:std:iso-iec:25010:ed-2:v1:en).
+- **ISO/IEC 25010:2023 - Systems and software engineering - Systems and software Quality Requirements and Evaluation (SQuaRE) - Product quality model.** International Organization for Standardization, 2023. Disponível em: [https://www.iso.org/obp/ui/en/#iso:std:iso-iec:25010:ed-2:v1:en](https://www.iso.org/obp/ui/en/#iso:std:iso-iec:25010:ed-2:v1:en).
 
-- **ODS 4. Educação de qualidade.** — Instituto de Pesquisa Econômica Aplicada, 2019. Disponível em: [https://www.ipea.gov.br/ods/ods4.html](https://www.ipea.gov.br/ods/ods4.html).
+- **ODS 4 - Educação de qualidade.** Instituto de Pesquisa Econômica Aplicada, 2019. Disponível em: [https://www.ipea.gov.br/ods/ods4.html](https://www.ipea.gov.br/ods/ods4.html).
 
-- **ODS 9. Indústria, Inovação e Infraestrutura.** — Instituto de Pesquisa Econômica Aplicada, 2019. Disponível em: [https://www.ipea.gov.br/ods/ods9.html](https://www.ipea.gov.br/ods/ods9.html).
+- **ODS 9 - Indústria, Inovação e Infraestrutura.** - Instituto de Pesquisa Econômica Aplicada, 2019. Disponível em: [https://www.ipea.gov.br/ods/ods9.html](https://www.ipea.gov.br/ods/ods9.html).
 
-- **ODS 12. Consumo e Produção Sustentáveis** — Instituto de Pesquisa Econômica Aplicada, 2019. Disponível em: [https://www.ipea.gov.br/ods/ods12.html](https://www.ipea.gov.br/ods/ods12.html).
+- **ODS 12 - Consumo e Produção Sustentáveis** - Instituto de Pesquisa Econômica Aplicada, 2019. Disponível em: [https://www.ipea.gov.br/ods/ods12.html](https://www.ipea.gov.br/ods/ods12.html).
 
-- **ODS 16. Paz, Justiça e Instituições Eficazes.** — Instituto de Pesquisa Econômica Aplicada, 2019. Disponível em: [https://www.ipea.gov.br/ods/ods16.html](https://www.ipea.gov.br/ods/ods16.html).
+- **ODS 16 - Paz, Justiça e Instituições Eficazes.** - Instituto de Pesquisa Econômica Aplicada, 2019. Disponível em: [https://www.ipea.gov.br/ods/ods16.html](https://www.ipea.gov.br/ods/ods16.html).
 
 ---
 

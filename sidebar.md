@@ -1,7 +1,7 @@
 - [**Jean Sammet - T02**](index.md)
 - **Fases**
-  - [_Fase 1_](fases/fase1.md)
-  - [_Fase 2_](fases/fase2.md)
-  - [_Fase 3_](fases/fase3.md)
-  - [_Fase 4_](fases/fase4.md)
+  - [**Fase 1** *(Requisitos de Avaliação)*](fases/fase1.md)
+  - [**Fase 2** *(Definição de Objetivos de Medição)*](fases/fase2.md)
+  - [**Fase 3** *(Plano de Execução da Avaliação)*](fases/fase3.md)
+  - [**Fase 4** *(Execução, Análise e Julgamento)*](fases/fase4.md)
 - [**Contribuições**](contribuicoes.md)

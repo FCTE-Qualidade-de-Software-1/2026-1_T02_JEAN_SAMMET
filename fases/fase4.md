@@ -171,9 +171,9 @@ Portanto, o AcheiUnB alcança **IQG ≈ 2,83**, o que o coloca na faixa de **Ace
 
 Os resultados obtidos nesta avaliação são coerentes com o propósito definido na [**fase 1**](/fases/fase1?id=_4-prop%c3%b3sito-da-avalia%c3%a7%c3%a3o) pois a análise foi construída exatamente a partir das prioridades estabelecidas para o *AcheiUnB*: **verificar cumprimento de requisitos**, **medir o nível de qualidade do produto**, **identificar oportunidades de melhoria**, **apoiar a tomada de decisão**, **avaliar o alcance dos objetivos GQM**, **reduzir riscos**, **aumentar a satisfação dos usuários** e **fornecer evidências para auditoria e conformidade** (conforme apresentado na [**fase 1**](/fases/fase1?id=_4-prop%c3%b3sito-da-avalia%c3%a7%c3%a3o)). Seguindo a formulação dos objetivos de medição na [**fase 2**](/fases/fase2?id=_2-objetivos-de-medi%c3%a7%c3%a3o), abaixo está detalhada a relação dos resultados da medição obtidos com os três objetivos centrais:
 
-- A **Confiabilidade** foi avaliada por meio da cobertura de testes e da conformidade da infraestrutura, o que responde diretamente ao propósito de verificar se as funcionalidades e a base técnica do sistema sustentam sua operação com estabilidade e menor risco de falhas. A cobertura de testes de `43%` e o checklist de infraestrutura com 6 de 9 itens conformes mostram que o sistema possui uma base funcional, mas ainda não em nível robusto para sustentar mudanças com alto grau de confiança. Isso atende ao propósito de *detectar limitações operacionais* e *apoiar melhorias na maturidade técnica* do produto.
+- A **Confiabilidade** foi avaliada por meio da cobertura de testes e da conformidade da infraestrutura, o que responde diretamente ao propósito de verificar se as funcionalidades e a base técnica do sistema sustentam sua operação com estabilidade e menor risco de falhas. A cobertura de testes de `43%` e o checklist de infraestrutura com 6 de 9 itens conformes mostram que o sistema possui uma base funcional, mas ainda não em nível robusto para sustentar mudanças com alto grau de confiança. Isso atende ao propósito de *detectar limitações operacionais* e *apoiar melhorias na maturidade técnica* do produto;
 
-- A **Manutenibilidade** também está coerente com o propósito da avaliação, pois as métricas de densidade de violações de estilo e desacoplamento arquitetural examinam justamente a facilidade de evolução do código, a clareza estrutural do repositório e a possibilidade de manutenção por equipes futuras. O resultado máximo em M2.2 e o valor muito baixo em M2.1 mostram que o *AcheiUnB* apresenta boa organização interna e baixa incidência de problemas de padronização, o que favorece a *leitura*, a *correção* e a *expansão do sistema*. Assim, a avaliação cumpre o objetivo de fornecer evidências objetivas para a tomada de decisão sobre continuidade e evolução do projeto.
+- A **Manutenibilidade** também está coerente com o propósito da avaliação, pois as métricas de densidade de violações de estilo e desacoplamento arquitetural examinam justamente a facilidade de evolução do código, a clareza estrutural do repositório e a possibilidade de manutenção por equipes futuras. O resultado máximo em M2.2 e o valor muito baixo em M2.1 mostram que o *AcheiUnB* apresenta boa organização interna e baixa incidência de problemas de padronização, o que favorece a *leitura*, a *correção* e a *expansão do sistema*. Assim, a avaliação cumpre o objetivo de fornecer evidências objetivas para a tomada de decisão sobre continuidade e evolução do projeto;
 
 - A **Segurança**, por sua vez, foi verificada por meio da taxa de credenciais hardcoded e do percentual de rotas protegidas, o que se relaciona diretamente ao propósito de *reduzir riscos*, *proteger dados institucionais* e *avaliar a adequação do controle de acesso*. O fato de `100%` das rotas sensíveis estarem protegidas demonstra aderência ao objetivo de autenticidade e restringe adequadamente o acesso a dados relevantes. Ao mesmo tempo, a ocorrência pontual de uma chave privada no repositório mostra uma vulnerabilidade localizada que deve ser tratada preventivamente, reforçando o valor da avaliação como mecanismo de *antecipação de riscos*.
 
@@ -216,21 +216,21 @@ Os conteúdos gerados por IA foram empregados exclusivamente como material de ap
 
 Ademais, segue abaixo uma listagem das principais ferramentas baseadas em Inteligência Artificial utilizadas pela equipe:
 
-- **ChatGPT** (*OpenAI*): https://chatgpt.com/ 🔗
-- **Gemini** (*Google*): https://gemini.google.com 🔗
-- **Antigravity** (*Google*): https://antigravity.google 🔗
-- **Copilot** (*Microsoft*): https://copilot.microsoft.com 🔗
-- **Claude** (*Anthropic*): https://claude.ai 🔗
+- **ChatGPT** (*OpenAI*): https://chatgpt.com
+- **Gemini** (*Google*): https://gemini.google.com
+- **Antigravity** (*Google*): https://antigravity.google
+- **Copilot** (*Microsoft*): https://copilot.microsoft.com
+- **Claude** (*Anthropic*): https://claude.ai
 
----
+<br>
 
 ## Bibliografia
 
 - **ACHEIUNB.** Repositório do Projeto Analisado. Disponível em: <https://github.com/unb-mds/2024-2-AcheiUnB>. Acesso em: 11 jun. 2026.
 
-- **ISO/IEC.** ISO/IEC 25010:2011 — Systems and software engineering — Systems and software Quality Requirements and Evaluation (SQuaRE) — System and software quality models. International Organization for Standardization, 2011.
+- **ISO/IEC 25010:2011 - Systems and software engineering - Systems and software Quality Requirements and Evaluation (SQuaRE) - System and software quality models.** International Organization for Standardization, 2011.
 
----
+<br>
 
 ## Histórico de Versão
 

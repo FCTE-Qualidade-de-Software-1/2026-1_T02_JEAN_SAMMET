@@ -49,41 +49,35 @@ Para guiar nossa avaliação, selecionamos características críticas baseadas n
 
 ## ODS Escolhidos
 
-- **ODS 4 — Educação de qualidade:**  A plataforma contribui para esse objetivo ao oferecer um canal institucional para registro e recuperação de objetos perdidos, reduzindo o impacto da perda de materiais acadêmicos como livros, documentos e equipamentos sobre a rotina dos estudantes.
+- **ODS 4 - Educação de qualidade:**  A plataforma contribui para esse objetivo ao oferecer um canal institucional para registro e recuperação de objetos perdidos, reduzindo o impacto da perda de materiais acadêmicos como livros, documentos e equipamentos sobre a rotina dos estudantes;
+  
+- **ODS 9 - Indústria, Inovação e Infraestrutura:** O projeto é uma solução digital que organiza um serviço antes disperso, usando tecnologia web para melhorar a infraestrutura de comunicação e atendimento da comunidade acadêmica;
 
-- **ODS 9 — Indústria, Inovação e Infraestrutura:** O projeto é uma solução digital que organiza um serviço antes disperso, usando tecnologia web para melhorar a infraestrutura de comunicação e atendimento da comunidade acadêmica.
+- **ODS 11 - Cidades e Comunidades Sustentáveis:** O sistema contribui para uma comunidade universitária mais organizada, colaborativa e funcional, facilitando a circulação de objetos e reduzindo perdas desnecessárias;
 
-- **ODS 11 — Cidades e Comunidades Sustentáveis:** O sistema contribui para uma comunidade universitária mais organizada, colaborativa e funcional, facilitando a circulação de objetos e reduzindo perdas desnecessárias.
+- **ODS 12 - Consumo e produção sustentáveis:** Ao evitar perdas de objetos, evitamos que os universitários realizem compras substituindo os objetos que perderam, isso incentiva padrões de produção e de consumo sustentáveis;
 
-- **ODS 12 – Consumo e produção sustentáveis:** Ao evitar perdas de objetos, evitamos que os universitários realizem compras substituindo os objetos que perderam, isso incentiva padrões de produção e de consumo sustentáveis.
-
-- **ODS 16 – Paz, justiça e instituições eficazes:** O sistema incentiva a honestidade dos alunos, promovendo sociedades mais pacíficas e inclusivas para as universidades, proporcionando o acesso à justiça para todos.
+- **ODS 16 - Paz, justiça e instituições eficazes:** O sistema incentiva a honestidade dos alunos, promovendo sociedades mais pacíficas e inclusivas para as universidades, proporcionando o acesso à justiça para todos.
 
 ---
 
+<br>
+
 ## Documentação do Projeto (Ciclo de Avaliação)
 
-Abaixo apresentamos a narrativa completa da nossa avaliação.
+Abaixo está resumida a narrativa do processo de avaliação seguido pela nossa equipe:
 
-### 1. Planejamento e Definição
+#### [**Fase 1:** Definição dos Requisitos da Avaliação](fases/fase1.md)
+  - *Definição do produto, partes interessadas, priorização das características de qualidade, propósito e escopo da avaliação, e relação com ODS.*
 
-- [**Fase 1:** Definição do Modelo de Qualidade e Escopo](fases/fase1.md)
-  - _Definição do produto, partes interessadas e priorização das características de qualidade._
+#### [**Fase 2:** Definição de Objetivos de Medição](fases/fase2.md)
+  - *Definição dos objetivos de medição, seleção de métricas e critérios e hierarquia GQM.*
 
-### 2. Definição da Medição
+#### [**Fase 3:** Plano de Execução da Avaliação](fases/fase3.md)
+  - *Definição do método de avaliação, especificação dos recursos e ambiente, procedimentos e checklists pra avaliação e cronograma.*
 
-- [**Fase 2:** Definição de Objetivos de Medição e Métricas](fases/fase2.md)
-  - _Objetivos, questões, hipóteses, métricas e critérios de julgamento baseados no modelo GQM._
-
-### 3. Plano de Execução da Avaliação
-
-- [**Fase 3:** Plano de Execução](fases/fase3.md)
-  - _Método de avaliação, recursos, ambiente e cronograma._
-
-### 4. Execução e Análise
-
-- [**Fase 4:** Execução, Análise e Julgamento](fases/fase4.md)
-  - _Coleta de dados, análise GQM, julgamento final e sugestões de melhoria._
+#### [**Fase 4:** Execução, Análise e Julgamento](fases/fase4.md)
+  - *Obtenção das métricas, separação e organização dos dados brutos, análise com base em GQM, e conclusão da avaliação.*
 
 ---
 
@@ -134,29 +128,41 @@ Abaixo apresentamos a narrativa completa da nossa avaliação.
 
 ---
 
+<br>
+
 ## Bibliografia
 
 - **AcheiUnB.** Repositório do Projeto Analisado: Contém o código e informações mais técnicas sobre o funcionamento da aplicação. Disponível em: <https://github.com/unb-mds/2024-2-AcheiUnB>. Acesso em: 14 mai. 2026.
 
-- **ISO/IEC 25010:2023 — Systems and software engineering — Systems and software Quality Requirements and Evaluation (SQuaRE) — Product quality model.** International Organization for Standardization, 2023. Disponível em: [https://www.iso.org/obp/ui/en/#iso:std:iso-iec:25010:ed-2:v1:en](https://www.iso.org/obp/ui/en/#iso:std:iso-iec:25010:ed-2:v1:en).
+- **ISO/IEC 25010:2023 - Systems and software engineering - Systems and software Quality Requirements and Evaluation (SQuaRE) - Product quality model.** International Organization for Standardization, 2023. Disponível em: [https://www.iso.org/obp/ui/en/#iso:std:iso-iec:25010:ed-2:v1:en](https://www.iso.org/obp/ui/en/#iso:std:iso-iec:25010:ed-2:v1:en).
 
-- **NAÇÕES UNIDAS BRASIL.** Objetivos de Desenvolvimento Sustentável. Disponível em: <https://brasil.un.org/pt-br/sdgs>. Acesso em: 13 mai. 2026.
+- **Objetivos de Desenvolvimento Sustentável.** Nações Unidas Brasil. Disponível em: <https://brasil.un.org/pt-br/sdgs>. Acesso em: 13 mai. 2026.
 
-- **INSTITUTO AURORA.** Educação em Direitos Humanos e ODS. Disponível em: <https://institutoaurora.org/>. Acesso em: 13 mai. 2026.
+- **Educação em Direitos Humanos e ODS.** Instituto Aurora. Disponível em: <https://institutoaurora.org/>. Acesso em: 13 mai. 2026.
 
-- **ODS 4. Educação de qualidade.** — Instituto de Pesquisa Econômica Aplicada, 2019. Disponível em: [https://www.ipea.gov.br/ods/ods4.html](https://www.ipea.gov.br/ods/ods4.html).
+- **ODS 4 - Educação de qualidade.** - Instituto de Pesquisa Econômica Aplicada, 2019. Disponível em: [https://www.ipea.gov.br/ods/ods4.html](https://www.ipea.gov.br/ods/ods4.html).
 
-- **ODS 9. Indústria, Inovação e Infraestrutura.** — Instituto de Pesquisa Econômica Aplicada, 2019. Disponível em: [https://www.ipea.gov.br/ods/ods9.html](https://www.ipea.gov.br/ods/ods9.html).
+- **ODS 9 - Indústria, Inovação e Infraestrutura.** - Instituto de Pesquisa Econômica Aplicada, 2019. Disponível em: [https://www.ipea.gov.br/ods/ods9.html](https://www.ipea.gov.br/ods/ods9.html).
 
-- **ODS 12. Consumo e Produção Sustentáveis** — Instituto de Pesquisa Econômica Aplicada, 2019. Disponível em: [https://www.ipea.gov.br/ods/ods12.html](https://www.ipea.gov.br/ods/ods12.html).
+- **ODS 12 - Consumo e Produção Sustentáveis** - Instituto de Pesquisa Econômica Aplicada, 2019. Disponível em: [https://www.ipea.gov.br/ods/ods12.html](https://www.ipea.gov.br/ods/ods12.html).
 
-- **ODS 16. Paz, Justiça e Instituições Eficazes.** — Instituto de Pesquisa Econômica Aplicada, 2019. Disponível em: [https://www.ipea.gov.br/ods/ods16.html](https://www.ipea.gov.br/ods/ods16.html).
+- **ODS 16 - Paz, Justiça e Instituições Eficazes.** - Instituto de Pesquisa Econômica Aplicada, 2019. Disponível em: [https://www.ipea.gov.br/ods/ods16.html](https://www.ipea.gov.br/ods/ods16.html).
 
-- **MARTINEZ, L. et al.** Assistant for the Evaluation of Software Product Quality Characteristics Proposed by ISO/IEC 25010 Based on GQM-Defined Metrics. *SEDICI*, 2018. Disponível em: <https://sedici.unlp.edu.ar>.
+- **ISO/IEC 25010:2011 - Systems and software engineering - Systems and software Quality Requirements and Evaluation (SQuaRE) - System and software quality models.** International Organization for Standardization, 2011.
 
-- **BASILI, V. R. et al.** The Goal/Question/Metric Paradigm. *Fraunhofer IESE*, 2003.
+- **ISO/IEC 25040:2011 - Systems and software engineering - Systems and software Quality Requirements and Evaluation (SQuaRE) - Evaluation process.** International Organization for Standardization, 2011.
 
-- **SOLLAMI, T.; AL-ZUBAIDI, L.** Software Quality Metrics and Evaluation Using GQM Approach. *International Journal of Computer Applications*, 2019.
+- MARTINEZ, L. et al. **Assistant for the Evaluation of Software Product Quality Characteristics Proposed by ISO/IEC 25010 Based on GQM-Defined Metrics.** SEDICI, 2018. Disponível em: <https://sedici.unlp.edu.ar>.
+
+- BASILI, V. R. et al. **The Goal/Question/Metric Paradigm**. Fraunhofer IESE, 2003.
+
+- SOLLAMI, T.; AL-ZUBAIDI, L. **Software Quality Metrics and Evaluation Using GQM Approach**. International Journal of Computer Applications, 2019.
+
+- **GITLEAKS.** Open-source secret scanner. Disponível em: <https://github.com/gitleaks/gitleaks>. Acesso em: 11 jun. 2026.
+
+- **MADGE.** Module dependency graph generator. Disponível em: <https://github.com/pahen/madge>. Acesso em: 11 jun. 2026.
+
+<br>
 
 ---
 
@@ -164,6 +170,6 @@ Abaixo apresentamos a narrativa completa da nossa avaliação.
 
 **Projeto da Disciplina de Qualidade de Software 1 - FGA/UnB**
 
-**Versão Atual:** 2.0 | **Data de Atualização:** 11/06/2026
+**Versão Atual:** 2.0 | **Data de Atualização:** 12/06/2026
 
 </div>
