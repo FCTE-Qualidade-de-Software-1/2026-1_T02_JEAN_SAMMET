@@ -238,27 +238,6 @@ O alinhamento garante a rastreabilidade total do projeto e fundamenta o plano me
 
 <br>
 
-## 8. Uso de Inteligência Artificial
-
-Neste trabalho, ferramentas baseadas em Inteligência Artificial (IA) foram utilizadas como apoio às atividades de pesquisa, aprendizagem e produção textual. O uso dessas ferramentas teve como objetivos principais os seguintes: 
-
-- Auxiliar na compreensão de conceitos relacionados à qualidade de software;
-- Esclarecer dúvidas sobre modelos, métricas e métodos de avaliação;
-- Apoiar a identificação de referências e materiais acadêmicos relevantes;
-- Contribuir para a elaboração de versões preliminares de textos.
-
-Os conteúdos gerados por IA foram empregados exclusivamente como material de apoio e ponto de partida para discussão e desenvolvimento das análises. Todo o material produzido foi posteriormente revisado, validado e adaptado pelos integrantes do grupo, que permaneceram responsáveis pela seleção das informações, pela verificação de sua precisão, pela interpretação dos resultados e pelas conclusões apresentadas.
-
-Ademais, segue abaixo uma listagem das principais ferramentas baseadas em Inteligência Artificial utilizadas pela equipe:
-
-- **ChatGPT** (*OpenAI*): https://chatgpt.com
-- **Gemini** (*Google*): https://gemini.google.com
-- **Antigravity** (*Google*): https://antigravity.google
-- **Copilot** (*Microsoft*): https://copilot.microsoft.com
-- **Claude** (*Anthropic*): https://claude.ai
-
----
-
 ## Bibliografia
 
 - **ACHEIUNB.** Repositório do Projeto Analisado. Disponível em: <https://github.com/unb-mds/2024-2-AcheiUnB>. Acesso em: 10 jun. 2026.
@@ -286,3 +265,4 @@ Ademais, segue abaixo uma listagem das principais ferramentas baseadas em Inteli
 |  1.5   | 11/06/2026 | Correções de digitação e enumeração                              | [Euller Júlio](https://github.com/potatoyz908) |
 |  1.6   | 12/06/2026 | Correções de formatação e reforço de algumas ideias, conforme  especificações de entrega | [João Nascimento](https://github.com/JMPNascimento) |
 |  1.7   | 12/06/2026 | Adição de fonte e legenda nas tabelas, e formatação geral do documento | [Eduardo de Pina](https://github.com/eduardodpms) |
+|  1.8   | 17/06/2026 | Migração da declaração de uso de IA | [Eduardo de Pina](https://github.com/eduardodpms) |

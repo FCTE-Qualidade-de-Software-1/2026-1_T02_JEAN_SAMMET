@@ -226,27 +226,6 @@ Adicionalmente, o método de análise estática, os recursos de ferramentas de m
 
 <br>
 
-## 6. Uso de Inteligência Artificial
-
-Neste trabalho, ferramentas baseadas em Inteligência Artificial (IA) foram utilizadas como apoio às atividades de pesquisa, aprendizagem e produção textual. O uso dessas ferramentas teve como objetivos principais os seguintes: 
-
-- Auxiliar na compreensão de conceitos relacionados à qualidade de software;
-- Esclarecer dúvidas sobre modelos, métricas e métodos de avaliação;
-- Apoiar a identificação de referências e materiais acadêmicos relevantes;
-- Contribuir para a elaboração de versões preliminares de textos.
-
-Os conteúdos gerados por IA foram empregados exclusivamente como material de apoio e ponto de partida para discussão e desenvolvimento das análises. Todo o material produzido foi posteriormente revisado, validado e adaptado pelos integrantes do grupo, que permaneceram responsáveis pela seleção das informações, pela verificação de sua precisão, pela interpretação dos resultados e pelas conclusões apresentadas.
-
-Ademais, segue abaixo uma listagem das principais ferramentas baseadas em Inteligência Artificial utilizadas pela equipe:
-
-- **ChatGPT** (*OpenAI*): https://chatgpt.com
-- **Gemini** (*Google*): https://gemini.google.com
-- **Antigravity** (*Google*): https://antigravity.google
-- **Copilot** (*Microsoft*): https://copilot.microsoft.com
-- **Claude** (*Anthropic*): https://claude.ai
-
----
-
 ## Bibliografia
 
 - **ACHEIUNB.** Repositório do Projeto Analisado. Disponível em: <https://github.com/unb-mds/2024-2-AcheiUnB>. Acesso em: 11 jun. 2026.
@@ -271,3 +250,4 @@ Ademais, segue abaixo uma listagem das principais ferramentas baseadas em Inteli
 |  1.1   | 10/06/2026 | Popula documento da Fase 3                                              | [Diogo Oliveira](https://github.com/Diogo-Olivv) |
 |  1.2   | 12/06/2026 | Correções de formatação e informações e reforço de algumas ideias, conforme  especificações de entrega | [João Nascimento](https://github.com/JMPNascimento) |
 |  1.3   | 12/06/2026 | Adição de fonte nas tabelas e ajuste de estrutura do documento | [Eduardo de Pina](https://github.com/eduardodpms) |
+|  1.4   | 17/06/2026 | Migração da declaração de uso de IA | [Eduardo de Pina](https://github.com/eduardodpms) |

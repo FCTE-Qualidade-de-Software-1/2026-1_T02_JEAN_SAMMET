@@ -139,7 +139,7 @@ A métrica M3.2 avaliou o percentual de rotas que manipulam dados sensíveis e q
 
 </div>
 
-A consolidação por característica (tabela 2) mostra um quadro bastante equilibrado. A **Confiabilidade** ficou em nível intermediário porque, embora a infraestrutura esteja bem montada, a cobertura de testes ainda é limitada. A **Manutenibilidade** atingiu o melhor resultado possível, apoiada por ausência de ciclos no frontend, estrutura modular do backend e baixa densidade de violações de estilo. A **Segurança** ficou alta, com proteção total das rotas sensíveis e apenas uma ocorrência pontual de chave privada no repositório, tratada como artefato local de desenvolvimento.
+A consolidação por característica (tabela 2) mostra um quadro bastante equilibrado. A **Confiabilidade** ficou em nível intermediário porque, embora a infraestrutura esteja bem montada, a cobertura de testes ainda é limitada. A **Manutenibilidade** atingiu o melhor resultado possível, apoiada por ausência de ciclos no frontend, estrutura modular do backend e baixa densidade de violações de estilo. A **Segurança** ficou alta, com proteção total das rotas sensíveis e apenas uma ocorrência pontual de chave privada no repositório.
 
 ---
 
@@ -167,17 +167,17 @@ Portanto, o AcheiUnB alcança **IQG ≈ 2,83**, o que o coloca na faixa de **Ace
 
 <br>
 
-## 5. Coerência dos resultados com o propósito (Fase 1)
+## 5. Coerência dos resultados com o propósito e com os objetivos
 
-Os resultados obtidos nesta avaliação são coerentes com o propósito definido na [**fase 1**](/fases/fase1?id=_4-prop%c3%b3sito-da-avalia%c3%a7%c3%a3o) pois a análise foi construída exatamente a partir das prioridades estabelecidas para o *AcheiUnB*: **verificar cumprimento de requisitos**, **medir o nível de qualidade do produto**, **identificar oportunidades de melhoria**, **apoiar a tomada de decisão**, **avaliar o alcance dos objetivos GQM**, **reduzir riscos**, **aumentar a satisfação dos usuários** e **fornecer evidências para auditoria e conformidade** (conforme apresentado na [**fase 1**](/fases/fase1?id=_4-prop%c3%b3sito-da-avalia%c3%a7%c3%a3o)). Seguindo a formulação dos objetivos de medição na [**fase 2**](/fases/fase2?id=_2-objetivos-de-medi%c3%a7%c3%a3o), abaixo está detalhada a relação dos resultados da medição obtidos com os três objetivos centrais:
+Os resultados obtidos nesta avaliação são coerentes com o propósito definido na [**fase 1**](/fases/fase1?id=_4-prop%c3%b3sito-da-avalia%c3%a7%c3%a3o) pois a análise foi construída exatamente a partir das prioridades estabelecidas para o *AcheiUnB*: **verificar cumprimento de requisitos**, **medir o nível de qualidade do produto**, **identificar oportunidades de melhoria**, **avaliar o alcance dos objetivos GQM** e **reduzir riscos** (conforme apresentado na [**fase 1**](/fases/fase1?id=_4-prop%c3%b3sito-da-avalia%c3%a7%c3%a3o)). Seguindo a formulação dos objetivos de medição na [**fase 2**](/fases/fase2?id=_2-objetivos-de-medi%c3%a7%c3%a3o), abaixo está detalhada a relação dos resultados da medição obtidos com os três objetivos centrais:
 
-- A **Confiabilidade** foi avaliada por meio da cobertura de testes e da conformidade da infraestrutura, o que responde diretamente ao propósito de verificar se as funcionalidades e a base técnica do sistema sustentam sua operação com estabilidade e menor risco de falhas. A cobertura de testes de `43%` e o checklist de infraestrutura com 6 de 9 itens conformes mostram que o sistema possui uma base funcional, mas ainda não em nível robusto para sustentar mudanças com alto grau de confiança. Isso atende ao propósito de *detectar limitações operacionais* e *apoiar melhorias na maturidade técnica* do produto;
+- A **Confiabilidade** foi avaliada por meio da cobertura de testes e da conformidade da infraestrutura, com o objetivo central de se adequar ao propósito de **identificar oportunidades de melhoria**. A cobertura de testes de `43%` e o checklist de infraestrutura com 6 de 9 itens conformes mostram que o sistema possui uma base funcional, mas ainda não em nível robusto para sustentar mudanças com alto grau de confiança;
 
-- A **Manutenibilidade** também está coerente com o propósito da avaliação, pois as métricas de densidade de violações de estilo e desacoplamento arquitetural examinam justamente a facilidade de evolução do código, a clareza estrutural do repositório e a possibilidade de manutenção por equipes futuras. O resultado máximo em M2.2 e o valor muito baixo em M2.1 mostram que o *AcheiUnB* apresenta boa organização interna e baixa incidência de problemas de padronização, o que favorece a *leitura*, a *correção* e a *expansão do sistema*. Assim, a avaliação cumpre o objetivo de fornecer evidências objetivas para a tomada de decisão sobre continuidade e evolução do projeto;
+- A **Manutenibilidade** também está coerente com o propósito da avaliação, pois as métricas de **densidade de violações de estilo** e **desacoplamento arquitetural** examinam justamente a facilidade de evolução do código, a clareza estrutural do repositório e a possibilidade de manutenção por equipes futuras. O resultado máximo em M2.2 e o valor muito baixo em M2.1 mostram que o *AcheiUnB* apresenta boa organização interna e baixa incidência de problemas de padronização, o que favorece a *leitura*, a *correção* e a *expansão do sistema*. Assim, a avaliação cumpre, principalmente, o propósito de **verificar cumprimento de requisitos** no contexto de desenvolvimento do produto junto às partes interessadas;
 
-- A **Segurança**, por sua vez, foi verificada por meio da taxa de credenciais hardcoded e do percentual de rotas protegidas, o que se relaciona diretamente ao propósito de *reduzir riscos*, *proteger dados institucionais* e *avaliar a adequação do controle de acesso*. O fato de `100%` das rotas sensíveis estarem protegidas demonstra aderência ao objetivo de autenticidade e restringe adequadamente o acesso a dados relevantes. Ao mesmo tempo, a ocorrência pontual de uma chave privada no repositório mostra uma vulnerabilidade localizada que deve ser tratada preventivamente, reforçando o valor da avaliação como mecanismo de *antecipação de riscos*.
+- A **Segurança**, por sua vez, foi verificada por meio da taxa de credenciais hardcoded e do percentual de rotas protegidas, o que se relaciona diretamente aos propósitos de **identificar oportunidades de melhoria** e de **reduzir riscos**, protegendo dados institucionais e avaliando a adequação do controle de acesso. O fato de `100%` das rotas sensíveis estarem protegidas demonstra aderência ao objetivo de autenticidade e restringe adequadamente o acesso a dados relevantes. Ao mesmo tempo, a ocorrência pontual de uma chave privada no repositório mostra uma vulnerabilidade localizada que deve ser tratada preventivamente, reforçando o valor da avaliação como mecanismo de **antecipação de riscos**.
 
-Por fim, o **IQG ≈ `2,83`** enquadra o AcheiUnB na faixa de **Aceito**, o que está de acordo com o propósito de apoiar decisões de liberação, manutenção e evolução. O resultado indica que o produto tem qualidade global boa, com destaque para a manutenibilidade e segurança, mas ainda com fragilidades relevantes na confiabilidade, principalmente pela cobertura limitada de testes. Dessa forma, a avaliação não apenas responde ao *GQM*, como também fornece evidências úteis para a *equipe* e para eventuais *auditagens ou revisões de conformidade*.
+Por fim, o **IQG ≈ `2,83`** enquadra o AcheiUnB na faixa de **Aceito**. O resultado indica que o produto tem qualidade global boa, com destaque para a **manutenibilidade** e **segurança**, mas ainda com fragilidades relevantes na **confiabilidade**, principalmente pela cobertura limitada de testes. Dessa forma, a avaliação não apenas responde aos propósitos de **medir o nível de qualidade do produto** e **avaliar o alcance dos objetivos GQM**, como também fornece evidências úteis para a *equipe* e para eventuais *auditagens ou revisões de conformidade*.
 
 <br>
 
@@ -191,36 +191,15 @@ A cobertura de testes de `43%` confirma que existe validação automatizada, por
 
 Assim, as sugestões de melhoria, elaboradas pelo time, estão apresentadas abaixo e devem ser priorizadas por impacto sobre a qualidade geral do produto:
 
-1. **Ampliar a suíte de testes automatizados** no backend e, quando aplicável, no frontend, com foco nas regras de negócio centrais, nas rotas sensíveis e nas integrações entre camadas. O objetivo deve ser elevar a cobertura para a faixa de qualidade superior definida pela equipe, reduzindo o risco de regressões e aumentando a confiança em futuras alterações;
+1. **Ampliar a suíte de testes automatizados**, implementando testes unitários para as regras de negócio dos módulos `users`, `reports`, `chat` e `support`, além da criação de testes de integração para validar **autenticação**, **autorização** e **persistência de dados** na API. Também é recomendável incluir esses testes como requisito obrigatório na pipeline de CI/CD, impedindo a aprovação de alterações que reduzam a cobertura abaixo de um limite mínimo definido pela equipe;
 
 2. **Corrigir a infraestrutura de execução e implantação**, adicionando `healthchecks`, incluindo um `.env.example` completo e garantindo que os arquivos `docker-compose.yml` e `docker-compose.prod.yml` passem na validação sintática de forma consistente. Isso torna a reprodução do ambiente mais confiável e reduz falhas operacionais durante instalação, testes e publicação;
 
-3. **Remover a chave privada detectada em `API/certs/localhost.key` do repositório**, recriando certificados localmente sempre que necessário e garantindo que segredos nunca sejam versionados. Mesmo sendo um artefato local de desenvolvimento, essa prática elimina um risco desnecessário e fortalece a postura de segurança do projeto;
+3. **Remover a chave privada detectada em `API/certs/localhost.key` do repositório**, recriando certificados localmente sempre que necessário e garantindo que segredos nunca sejam versionados. Essa prática elimina um risco desnecessário e fortalece a postura de segurança do projeto;
 
 4. **Manter e reforçar as boas práticas de modularidade e proteção de rotas**, uma vez que esses foram os pontos mais fortes da avaliação. A arquitetura já apresenta boa separação entre frontend e backend, e o controle de acesso cobre integralmente as rotas sensíveis; portanto, aqui a recomendação é preservar o padrão atual e usá-lo como referência para novas funcionalidades.
 
 > Em síntese, o *AcheiUnB* deve ser tratado como um sistema **aprovado com recomendações de melhoria**. O esforço imediato da equipe de desenvolvimento deve se concentrar em **testes e infraestrutura**, porque esses são os fatores que mais limitam a confiabilidade geral. As demais características já mostram maturidade satisfatória ou excelente, o que indica que o projeto tem boa base para evolução contínua sem necessidade de reestruturação ampla.
-
-<br>
-
-## 7. Uso de Inteligência Artificial
-
-Neste trabalho, ferramentas baseadas em Inteligência Artificial (IA) foram utilizadas como apoio às atividades de pesquisa, aprendizagem e produção textual. O uso dessas ferramentas teve como objetivos principais os seguintes: 
-
-- Auxiliar na compreensão de conceitos relacionados à qualidade de software;
-- Esclarecer dúvidas sobre modelos, métricas e métodos de avaliação;
-- Apoiar a identificação de referências e materiais acadêmicos relevantes;
-- Contribuir para a elaboração de versões preliminares de textos.
-
-Os conteúdos gerados por IA foram empregados exclusivamente como material de apoio e ponto de partida para discussão e desenvolvimento das análises. Todo o material produzido foi posteriormente revisado, validado e adaptado pelos integrantes do grupo, que permaneceram responsáveis pela seleção das informações, pela verificação de sua precisão, pela interpretação dos resultados e pelas conclusões apresentadas.
-
-Ademais, segue abaixo uma listagem das principais ferramentas baseadas em Inteligência Artificial utilizadas pela equipe:
-
-- **ChatGPT** (*OpenAI*): https://chatgpt.com
-- **Gemini** (*Google*): https://gemini.google.com
-- **Antigravity** (*Google*): https://antigravity.google
-- **Copilot** (*Microsoft*): https://copilot.microsoft.com
-- **Claude** (*Anthropic*): https://claude.ai
 
 <br>
 
@@ -240,3 +219,4 @@ Ademais, segue abaixo uma listagem das principais ferramentas baseadas em Inteli
 |  1.1   | 11/06/2026 | Adicionar seção de introdução e referências bibliográficas no documento da fase 4                                              | [Willian Silva](https://github.com/Wooo589) |
 |  1.2   | 12/06/2026 | Obtenção, execução, análise e julgamentos dos dados obtidos | [João Nascimento](https://github.com/JMPNascimento) |
 |  1.3   | 12/06/2026 | Adição dos tópicos 5 e 6, e validação dos dados e resultados obtidos | [Eduardo de Pina](https://github.com/eduardodpms) |
+|  1.4   | 17/06/2026 | Ajuste de sugestão de melhoria e da relação com os propósitos, migração da declaração de uso de IA  | [Eduardo de Pina](https://github.com/eduardodpms) |

@@ -100,17 +100,11 @@ A avaliação de qualidade no *AcheiUnB* tem ênfase nas características e subc
 
 * **4.2 Medir o nível de qualidade do produto:** Quantificar as características de qualidade definidas pela equipe de avaliação (*Confiabilidade*, *Manutenibilidade* e *Segurança*), para determinar o nível geral de qualidade do software;
 
-* **4.3 Identificar oportunidades de melhoria:** Detectar problemas técnicos, falhas de processo ou aspectos do produto que precisam ou podem ser aperfeiçoados;
+* **4.3 Identificar oportunidades de melhoria:** Detectar problemas técnicos, falhas de processo ou aspectos do produto que precisam ou podem ser aperfeiçoados, fornecendo dados objetivos para tomadas de decisão envolvendo esses problemas;
 
-* **4.4 Apoiar a tomada de decisão:** Fornecer dados objetivos para decisões relacionadas à liberação, manutenção, evolução ou substituição do *AcheiUnB*;
+* **4.4 Avaliar o alcance de objetivos:** Verificar se os objetivos definidos no GQM (fase 2) estão sendo atingidos dentro do produto;
 
-* **4.5 Avaliar o alcance de objetivos:** Verificar se os objetivos definidos no GQM (fase 2) estão sendo atingidos dentro do produto;
-
-* **4.6 Reduzir riscos:** Identificar antecipadamente problemas que possam impactar custos, prazos, segurança ou satisfação dos usuários;
-
-* **4.7 Aumentar a satisfação dos usuários:** Verificar se o software atende às expectativas e necessidades de quem o utiliza;
-
-* **4.8 Fornecer evidências para auditorias e conformidade:** Demonstrar e atestar aderência a normas, modelos de qualidade ou requisitos regulatórios.
+* **4.5 Reduzir riscos:** Identificar antecipadamente problemas que possam impactar custos, prazos, segurança ou satisfação dos usuários;
 
 A definição dos propósitos será utilizada, posteriormente, para comparação com os resultados na fase 4. 
 
@@ -274,27 +268,7 @@ Aqui estão as ODS que tem relevância direta com o projeto do AcheiUnB e suas d
 - **ODS 16 – Paz, justiça e instituições eficazes:**
   A meta associada é a **16.6**, que busca desenvolver instituições eficazes, responsáveis e transparentes em todos os níveis. O AcheiUnB contribui para esse objetivo ao criar um canal oficial, rastreável e organizado para a gestão de objetos perdidos no campus. A plataforma reduz a informalidade e a desorganização do serviço de Achados e Perdidos, garantindo um processo transparente que diminui a apropriação indevida de bens alheios. Dessa forma, o sistema apoia a universidade a atuar como uma instituição mais eficaz e responsável na garantia e no respeito à propriedade de seus alunos e funcionários.
 
----
-
-## 8. Declaração de uso de Inteligência Artificial
-
-Neste trabalho, ferramentas baseadas em Inteligência Artificial (IA) foram utilizadas como apoio às atividades de pesquisa, aprendizagem e produção textual. O uso dessas ferramentas teve como objetivos principais os seguintes: 
-
-- Auxiliar na compreensão de conceitos relacionados à qualidade de software;
-- Esclarecer dúvidas sobre modelos, métricas e métodos de avaliação;
-- Apoiar a identificação de referências e materiais acadêmicos relevantes;
-- Contribuir para a elaboração de versões preliminares de textos.
-
-Os conteúdos gerados por IA foram empregados exclusivamente como material de apoio e ponto de partida para discussão e desenvolvimento das análises. Todo o material produzido foi posteriormente revisado, validado e adaptado pelos integrantes do grupo, que permaneceram responsáveis pela seleção das informações, pela verificação de sua precisão, pela interpretação dos resultados e pelas conclusões apresentadas.
-
-Ademais, segue abaixo uma listagem das principais ferramentas baseadas em Inteligência Artificial utilizadas pela equipe:
-
-- **ChatGPT** (*OpenAI*): https://chatgpt.com
-- **Gemini** (*Google*): https://gemini.google.com
-- **Antigravity** (*Google*): https://antigravity.google
-- **Copilot** (*Microsoft*): https://copilot.microsoft.com
-- **Claude** (*Anthropic*): https://claude.ai
-
+<br>
 
 ## Bibliografia e Referências
 
@@ -324,3 +298,4 @@ Ademais, segue abaixo uma listagem das principais ferramentas baseadas em Inteli
 |  1.5   | 13/05/2026 | Adição de novas subcaracterísticas ao tópico 5  | [Davi Leite](https://github.com/Withy-S) |
 |  1.6   | 13/05/2026 | Matriz de impacto x risco das características e revisão de organização lógica  | [Willian Silva](https://github.com/Wooo589) |
 |  1.7   | 12/06/2026 | Correção de critérios pós avaliação (propósito, declaração de ia, fontes, referências e links, partes interessadas) | [Eduardo de Pina](https://github.com/eduardodpms) |
+|  1.8   | 17/06/2026 | Atualização dos propósitos da avaliação e migração da declaração de uso de IA | [Eduardo de Pina](https://github.com/eduardodpms) |
