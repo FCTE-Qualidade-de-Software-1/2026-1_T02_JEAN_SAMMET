@@ -4,4 +4,5 @@
   - [**Fase 2** *(Definição de Objetivos de Medição)*](fases/fase2.md)
   - [**Fase 3** *(Plano de Execução da Avaliação)*](fases/fase3.md)
   - [**Fase 4** *(Execução, Análise e Julgamento)*](fases/fase4.md)
+- [**Declaração de Uso de IA**](declaracao_ia.md)
 - [**Contribuições**](contribuicoes.md)
