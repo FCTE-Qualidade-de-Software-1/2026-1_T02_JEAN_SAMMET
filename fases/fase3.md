@@ -185,13 +185,13 @@ O cronograma abaixo distribui as atividades da Fase 4 ao longo de **sete dias ú
 
 | Dia | Atividade | Métricas Envolvidas | Responsáveis | Entregável |
 | :---: | :--- | :--- | :--- | :--- |
-| D1 | Preparação do ambiente, *clone* do repositório, registro do *commit* de referência | — | Toda a equipe | `commit-referencia.txt` |
-| D2 | Coleta das métricas de **Confiabilidade** | M1.1, M1.2 | Todos | `coverage.xml`, *checklist* M1.2 |
-| D3 | Coleta das métricas de **Manutenibilidade** | M2.1, M2.2 | Todos | `ruff.json`, `black.txt`, `prettier.txt`, `cloc.json`, *checklist* M2.2 |
-| D4 | Coleta das métricas de **Segurança** | M3.1, M3.2 | Todos | `gitleaks.json`, inventário de rotas |
-| D5 | Consolidação dos dados brutos no repositório (`/dados-brutos/`) e validação cruzada entre duplas | Todas | Toda a equipe | Diretório `/dados-brutos/` organizado |
-| D6 | Cálculo dos níveis de pontuação por métrica, IQ por característica e IQG global | Todas | Toda a equipe | Planilha consolidada de resultados |
-| D7 | Redação do relatório da Fase 4, revisão por pares, *release* | Todas | Toda a equipe | `fase4.md` + *release* EU2 |
+| 03/06 | Preparação do ambiente, *clone* do repositório, registro do *commit* de referência | — | Toda a equipe | `commit-referencia.txt` |
+| 04/06 | Coleta das métricas de **Confiabilidade** | M1.1, M1.2 | Todos | `coverage.xml`, *checklist* M1.2 |
+| 05/06 | Coleta das métricas de **Manutenibilidade** | M2.1, M2.2 | Todos | `ruff.json`, `black.txt`, `prettier.txt`, `cloc.json`, *checklist* M2.2 |
+| 06/06 | Coleta das métricas de **Segurança** | M3.1, M3.2 | Todos | `gitleaks.json`, inventário de rotas |
+| 08/06 | Consolidação dos dados brutos no repositório (`/dados-brutos/`) e validação cruzada entre duplas | Todas | Toda a equipe | Diretório `/dados-brutos/` organizado |
+| 10/06 | Cálculo dos níveis de pontuação por métrica, IQ por característica e IQG global | Todas | Toda a equipe | Planilha consolidada de resultados |
+| 12/06 | Redação do relatório da Fase 4, revisão por pares, *release* | Todas | Toda a equipe | `fase4.md` + *release* EU2 |
 
 **Fonte:** Elaborado por [Diogo Oliveira](https://github.com/Diogo-Olivv) (2026).
 
@@ -251,3 +251,4 @@ Adicionalmente, o método de análise estática, os recursos de ferramentas de m
 |  1.2   | 12/06/2026 | Correções de formatação e informações e reforço de algumas ideias, conforme  especificações de entrega | [João Nascimento](https://github.com/JMPNascimento) |
 |  1.3   | 12/06/2026 | Adição de fonte nas tabelas e ajuste de estrutura do documento | [Eduardo de Pina](https://github.com/eduardodpms) |
 |  1.4   | 17/06/2026 | Migração da declaração de uso de IA | [Eduardo de Pina](https://github.com/eduardodpms) |
+|  1.5   | 21/06/2026 | Adição de datas no cronograma | [Davi Leite](https://github.com/Withy-S) |
