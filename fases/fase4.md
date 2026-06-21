@@ -127,9 +127,10 @@ A métrica M3.2 avaliou o percentual de rotas que manipulam dados sensíveis e q
 
 <div align="center">
 
-**Figura 1:** Gráfcio do cálculo do IQ por característica
+**Figura 1:** Gráfico do cálculo do IQ por característica
 
 ![Grafico IQ](../images/grafico_caracteristicas.png)
+
 **Fonte:** Elaborado por [Davi Leite](https://github.com/Withy-S) (2026).
 
 </div>
