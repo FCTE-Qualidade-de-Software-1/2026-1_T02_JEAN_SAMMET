@@ -4,7 +4,7 @@
 
 ### 1.1. Requisitante:
 
-- **Comunidade acadêmica da Universidade de Brasília (UnB)**: com destaque para os estudantes, uma vez que o sistema foi desenvolvido para atender à necessidade de centralizar e facilitar o processo de registro e recuperação de objetos perdidos dentro da universidade
+- **Docente *MSc. Cristiane Soares Ramos*, no contexto da disciplina *Qualidade de Software 1 (T02)***: a avaliação está sendo desenvolvida sob orientação da docente, que se coloca como requisitante da mesma, com o objetivo final de desenvolver as competências necessárias para a disciplina aos integrantes da equipe de avaliação.
 
 ### 1.2. Partes interessadas:
 
@@ -280,6 +280,8 @@ Aqui estão as ODS que tem relevância direta com o projeto do AcheiUnB e suas d
 
 - **ODS 9 - Indústria, Inovação e Infraestrutura.** - Instituto de Pesquisa Econômica Aplicada, 2019. Disponível em: [https://www.ipea.gov.br/ods/ods9.html](https://www.ipea.gov.br/ods/ods9.html).
 
+- **ODS 11 - Cidades e Comunidades Sustentáveis.** - Instituto de Pesquisa Econômica Aplicada, 2019. Disponível em: https://www.ipea.gov.br/ods/ods11.html.
+
 - **ODS 12 - Consumo e Produção Sustentáveis** - Instituto de Pesquisa Econômica Aplicada, 2019. Disponível em: [https://www.ipea.gov.br/ods/ods12.html](https://www.ipea.gov.br/ods/ods12.html).
 
 - **ODS 16 - Paz, Justiça e Instituições Eficazes.** - Instituto de Pesquisa Econômica Aplicada, 2019. Disponível em: [https://www.ipea.gov.br/ods/ods16.html](https://www.ipea.gov.br/ods/ods16.html).
@@ -299,3 +301,4 @@ Aqui estão as ODS que tem relevância direta com o projeto do AcheiUnB e suas d
 |  1.6   | 13/05/2026 | Matriz de impacto x risco das características e revisão de organização lógica  | [Willian Silva](https://github.com/Wooo589) |
 |  1.7   | 12/06/2026 | Correção de critérios pós avaliação (propósito, declaração de ia, fontes, referências e links, partes interessadas) | [Eduardo de Pina](https://github.com/eduardodpms) |
 |  1.8   | 17/06/2026 | Atualização dos propósitos da avaliação e migração da declaração de uso de IA | [Eduardo de Pina](https://github.com/eduardodpms) |
+|  1.9   | 21/06/2026 | Correção de requisitante e adição de referência | [Eduardo de Pina](https://github.com/eduardodpms) |

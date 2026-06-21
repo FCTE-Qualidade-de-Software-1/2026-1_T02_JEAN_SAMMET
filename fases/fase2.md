@@ -90,7 +90,7 @@ As questões foram formuladas visando tornar os [objetivos de avaliação](#_2-o
 Qual é a abrangência da cobertura de testes automatizados no sistema? <br>
 *([Referente às Partes Interessadas - Desenvolvedores e Usuários](/fases/fase1#_12-partes-interessadas))*
 
-> **Hipótese 1.1:** Espera-se que a cobertura de testes da aplicação seja superior a 70%, indicando um esforço razoável da equipe de desenvolvimento em garantir estabilidade.
+> **Hipótese 1.1:** Espera-se que a cobertura de testes da aplicação seja superior ou igual a 80%, indicando um esforço competente da equipe de desenvolvimento em garantir estabilidade.
 
 #### Questão 1.2 (Tolerância a Falhas/Disponibilidade)
 O sistema utiliza e documenta adequadamente ferramentas de conteinerização (Docker) e geradores de tarefas assíncronas (Celery) para garantir a manutenção contínua da operação? <br>
@@ -234,7 +234,7 @@ Os objetivos GQM (Nível Conceitual) refletem diretamente:
 1.  **As características priorizadas:** Confiabilidade, Manutenibilidade e Segurança foram preservadas como o núcleo dos focos de medição (ver [Modelo de Qualidade, Fase 1](/fases/fase1#_5-modelo-de-qualidade-descri%c3%a7%c3%a3o-e-prioriza%c3%a7%c3%a3o)).
 2.  **Os *stakeholders* elencados:** As visões dos desenvolvedores (focados em código e infraestrutura) e da administração/estudantes (preocupados com segurança de dados) conduziram a seleção das questões de qualidade do *software* (ver [Partes Interessadas, Fase 1](/fases/fase1#_12-partes-interessadas)).
 
-O alinhamento garante a rastreabilidade total do projeto e fundamenta o plano metodológico adotado para o processo avaliativo do AcheiUnB. Para deixar essaa rastreabilidade totalmente explícita, reforça-se que os objetivos de medição foram derivados diretamente das prioridades definidas na Fase 1: Confiabilidade -> Objetivo 1; Manutenibilidade -> Objetivo 2; Segurança -> Objetivo 3. Os pontos de vista adotados também seguem os stakeholders priorizados na Fase 1: desenvolvedores, estudantes e administração da universidade.
+O alinhamento garante a rastreabilidade total do projeto e fundamenta o plano metodológico adotado para o processo avaliativo do AcheiUnB. Para deixar essa rastreabilidade totalmente explícita, reforça-se que os objetivos de medição foram derivados diretamente das prioridades definidas na Fase 1: Confiabilidade -> Objetivo 1; Manutenibilidade -> Objetivo 2; Segurança -> Objetivo 3. Os pontos de vista adotados também seguem os stakeholders priorizados na Fase 1: desenvolvedores, estudantes e administração da universidade.
 
 <br>
 
@@ -266,3 +266,4 @@ O alinhamento garante a rastreabilidade total do projeto e fundamenta o plano me
 |  1.6   | 12/06/2026 | Correções de formatação e reforço de algumas ideias, conforme  especificações de entrega | [João Nascimento](https://github.com/JMPNascimento) |
 |  1.7   | 12/06/2026 | Adição de fonte e legenda nas tabelas, e formatação geral do documento | [Eduardo de Pina](https://github.com/eduardodpms) |
 |  1.8   | 17/06/2026 | Migração da declaração de uso de IA | [Eduardo de Pina](https://github.com/eduardodpms) |
+|  1.9   | 21/06/2026 | Correção de erro gramatical e ajuste de consistência da hipótese 1.1 | [Eduardo de Pina](https://github.com/eduardodpms) |

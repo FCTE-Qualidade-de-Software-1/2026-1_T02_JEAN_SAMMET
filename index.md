@@ -6,6 +6,22 @@ O AcheiUnB é uma aplicação web de código aberto voltada ao gerenciamento de 
 
 ---
 
+## Links
+
+- [**GitPages (*Home*)**](https://fcte-qualidade-de-software-1.github.io/2026-1_T02_JEAN_SAMMET/#/README);
+  - [**Fase 1 (Requisitos)**](https://fcte-qualidade-de-software-1.github.io/2026-1_T02_JEAN_SAMMET/#/fases/fase1);
+  - [**Fase 2 (Objetivos)**](https://fcte-qualidade-de-software-1.github.io/2026-1_T02_JEAN_SAMMET/#/fases/fase2);
+  - [**Fase 3 (Plano de Execução)**](https://fcte-qualidade-de-software-1.github.io/2026-1_T02_JEAN_SAMMET/#/fases/fase3);
+  - [**Fase 4 (Execução e Análise)**](https://fcte-qualidade-de-software-1.github.io/2026-1_T02_JEAN_SAMMET/#/fases/fase4);
+
+- [**Release 1 (*EU1*)**](https://github.com/FCTE-Qualidade-de-Software-1/2026-1_T02_JEAN_SAMMET/releases/tag/Latest);
+- [**Release 2 (*EU2*)**](https://github.com/FCTE-Qualidade-de-Software-1/2026-1_T02_JEAN_SAMMET/releases/tag/EU2);
+- [**Release 3 (*EU3*)**](https://github.com/FCTE-Qualidade-de-Software-1/2026-1_T02_JEAN_SAMMET/releases/tag/EU3);
+
+---
+
+<br>
+
 ## Características de Qualidade (ISO/IEC 25010)
 
 Para guiar nossa avaliação, selecionamos características críticas baseadas na norma ISO/IEC 25010:
@@ -143,6 +159,8 @@ Abaixo está resumida a narrativa do processo de avaliação seguido pela nossa 
 - **ODS 4 - Educação de qualidade.** - Instituto de Pesquisa Econômica Aplicada, 2019. Disponível em: [https://www.ipea.gov.br/ods/ods4.html](https://www.ipea.gov.br/ods/ods4.html).
 
 - **ODS 9 - Indústria, Inovação e Infraestrutura.** - Instituto de Pesquisa Econômica Aplicada, 2019. Disponível em: [https://www.ipea.gov.br/ods/ods9.html](https://www.ipea.gov.br/ods/ods9.html).
+
+- **ODS 11 - Cidades e Comunidades Sustentáveis.** - Instituto de Pesquisa Econômica Aplicada, 2019. Disponível em: https://www.ipea.gov.br/ods/ods11.html.
 
 - **ODS 12 - Consumo e Produção Sustentáveis** - Instituto de Pesquisa Econômica Aplicada, 2019. Disponível em: [https://www.ipea.gov.br/ods/ods12.html](https://www.ipea.gov.br/ods/ods12.html).
 

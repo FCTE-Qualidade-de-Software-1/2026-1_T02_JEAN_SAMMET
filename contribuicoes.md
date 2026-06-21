@@ -62,10 +62,10 @@ As tabelas abaixo quantificam o esforço e detalham as principais responsabilida
 | :--- | :--- | :---: |
 | Davi Gonçalves Leite Feitosa | *(Descrever atividades realizadas)* | 0% |
 | Diogo Oliveira Ferreira | *(Descrever atividades realizadas)* | 0% |
-| Eduardo de Pina Moreira Santos | *Criar template para nova declaração de IA, ajuste de métrica na fase 4, ajuste de propósitos (fases 1 e 4), e ajuste de sugestão de melhoria na fase 4*. | 0% |
+| Eduardo de Pina Moreira Santos | *Criação de template para nova declaração de IA, ajuste de métrica na fase 4, ajuste de hipótese na fase 2, ajuste de propósitos (fases 1 e 4), ajuste de sugestão de melhoria na fase 4, e correção de requisitante na fase 1.* | **16,66%** |
 | Euller Júlio da Silva | *(Descrever atividades realizadas)* | 0% |
 | João Maurício Pilla Nascimento | *(Descrever atividades realizadas)* | 0% |
-| Willian Wagner Xavier Ramos da Silva | *(Descrever atividades realizadas)* | 0% |
+| Willian Wagner Xavier Ramos da Silva | *Adição de sumário, correções de gramática, e ajuste de datas no cronograma.* | **16,66%** |
 | **TOTAL** | | **100%** |
 
 **Fonte:** [Eduardo de Pina](https://github.com/eduardodpms), 2026.
@@ -85,3 +85,4 @@ As tabelas abaixo quantificam o esforço e detalham as principais responsabilida
 |  1.2   | 12/06/2026 | Atualização das contribuições da equipe, detalhando as atividades realizadas | [Euller Júlio](https://github.com/potatoyz908)       |
 |  1.3   | 12/06/2026 | Adição de contribuições faltantes | [Eduardo de Pina](https://github.com/eduardodpms)       |
 |  1.4   | 17/06/2026 | Adição de contribuição na EU3, e ajustes gerais | [Eduardo de Pina](https://github.com/eduardodpms)       |
+|  1.5   | 21/06/2026 | Adição de contribuições na EU3 | [Eduardo de Pina](https://github.com/eduardodpms)       |

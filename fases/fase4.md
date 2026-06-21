@@ -70,7 +70,7 @@ dados-brutos/
 
 ## 4. Análise e Respostas GQM (Métricas e Questões)
 
-Os dados coletados foram transformados em métricas e comparados com os níveis de pontuação definidos na Fase 2, mantendo rastreabilidade com o plano de execução da Fase 3. A leitura dos resultados considera não apenas os valores numéricos, mas também o contexto arquitetural do AcheiUnB, a natureza das evidências obtidas e a relação entre cada métrica e a questão GQM correspondente.
+Os dados coletados foram transformados em métricas e comparados com os níveis de pontuação definidos na Fase 2, mantendo rastreabilidade com o plano de execução da Fase 3. Essa relação está disposta na **tabela 12**. A leitura dos resultados considera não apenas os valores numéricos, mas também o contexto arquitetural do AcheiUnB, a natureza das evidências obtidas e a relação entre cada métrica e a questão GQM correspondente.
 
 ---
 
@@ -78,7 +78,7 @@ Os dados coletados foram transformados em métricas e comparados com os níveis 
 
 <div align="center">
 
-**Tabela 1:** Resultados obtidos na execução
+**Tabela 1:** Resultados e rastreabilidade dos dados
 
 | Métrica                                    |                                                 Resultado | Nota | Questão |
 | ------------------------------------------ | --------------------------------------------------------: | ---: | ------- |
@@ -127,7 +127,7 @@ A métrica M3.2 avaliou o percentual de rotas que manipulam dados sensíveis e q
 
 <div align="center">
 
-**Tabela 2:** Consolidação por característica na avaliação
+**Tabela 2:** Cálculo do IQ por característica
 
 | Característica   | Métricas   |                    IQ |
 | ---------------- | ---------- | --------------------: |
@@ -161,7 +161,7 @@ O **Índice de Qualidade Global (IQG)** é calculado pela média aritmética sim
 </div>
 <br>
 
-Portanto, o AcheiUnB alcança **IQG ≈ 2,83**, o que o coloca na faixa de **Aceito** segundo a classificação definida na Fase 2. O resultado indica qualidade global boa, com destaque claro para a **manutenibilidade**, sustentado pela boa organização arquitetural e pela baixa incidência de violações de estilo. Por outro lado, a **confiabilidade** permanece limitada pela cobertura intermediária de testes automatizados, e a **segurança** foi impactada pela identificação de uma chave privada versionada no repositório, reduzindo a pontuação da característica. Assim, embora o sistema apresente qualidade global satisfatória, existem oportunidades claras de melhoria, especialmente no fortalecimento da suíte de testes e na adoção de práticas mais rigorosas de gestão de segredos e credenciais.
+Portanto, o *AcheiUnB* alcança **IQG ≈ 2,83**, o que o coloca na faixa de **Aceito** segundo a classificação definida na Fase 2. O resultado indica qualidade global boa, com destaque claro para a **manutenibilidade**, sustentado pela boa organização arquitetural e pela baixa incidência de violações de estilo. Por outro lado, a **confiabilidade** permanece limitada pela cobertura intermediária de testes automatizados, e a **segurança** foi impactada pela identificação de uma chave privada versionada no repositório, reduzindo a pontuação da característica. Assim, embora o sistema apresente qualidade global satisfatória, existem oportunidades claras de melhoria, especialmente no fortalecimento da suíte de testes e na adoção de práticas mais rigorosas de gestão de segredos e credenciais.
 
 ---
 
@@ -220,3 +220,4 @@ Assim, as sugestões de melhoria, elaboradas pelo time, estão apresentadas abai
 |  1.2   | 12/06/2026 | Obtenção, execução, análise e julgamentos dos dados obtidos | [João Nascimento](https://github.com/JMPNascimento) |
 |  1.3   | 12/06/2026 | Adição dos tópicos 5 e 6, e validação dos dados e resultados obtidos | [Eduardo de Pina](https://github.com/eduardodpms) |
 |  1.4   | 17/06/2026 | Ajuste de sugestão de melhoria e da relação com os propósitos, migração da declaração de uso de IA  | [Eduardo de Pina](https://github.com/eduardodpms) |
+|  1.5   | 21/06/2026 | Ajuste de títulos das tabelas 1 e 2  | [Eduardo de Pina](https://github.com/eduardodpms) |
