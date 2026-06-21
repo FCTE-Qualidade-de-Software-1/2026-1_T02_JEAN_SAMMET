@@ -60,7 +60,7 @@ As tabelas abaixo quantificam o esforço e detalham as principais responsabilida
 
 | Membro da Equipe | Papel / Principais Responsabilidades | Esforço (%) |
 | :--- | :--- | :---: |
-| Davi Gonçalves Leite Feitosa | *(Descrever atividades realizadas)* | 0% |
+| Davi Gonçalves Leite Feitosa | Adição de data no cronograma, criação do gráfico de cálculo do IQ no tópico 5.3 | **16,66%** |
 | Diogo Oliveira Ferreira | *(Descrever atividades realizadas)* | 0% |
 | Eduardo de Pina Moreira Santos | *Criação de template para nova declaração de IA, ajuste de métrica na fase 4, ajuste de hipótese na fase 2, ajuste de propósitos (fases 1 e 4), ajuste de sugestão de melhoria na fase 4, e correção de requisitante na fase 1.* | **16,66%** |
 | Euller Júlio da Silva | *(Descrever atividades realizadas)* | 0% |
@@ -86,3 +86,4 @@ As tabelas abaixo quantificam o esforço e detalham as principais responsabilida
 |  1.3   | 12/06/2026 | Adição de contribuições faltantes | [Eduardo de Pina](https://github.com/eduardodpms)       |
 |  1.4   | 17/06/2026 | Adição de contribuição na EU3, e ajustes gerais | [Eduardo de Pina](https://github.com/eduardodpms)       |
 |  1.5   | 21/06/2026 | Adição de contribuições na EU3 | [Eduardo de Pina](https://github.com/eduardodpms)       |
+|  1.6   | 21/06/2026 | Adição de contribuições na EU3 | [Davi Leite](https://github.com/Withy-S)       |
