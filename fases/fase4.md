@@ -127,19 +127,14 @@ A métrica M3.2 avaliou o percentual de rotas que manipulam dados sensíveis e q
 
 <div align="center">
 
-**Tabela 2:** Cálculo do IQ por característica
+**Figura 1:** Gráfcio do cálculo do IQ por característica
 
-| Característica   | Métricas   |                    IQ |
-| ---------------- | ---------- | --------------------: |
-| **Confiabilidade**   | *M1.1, M1.2* | (2 + 2) / 2 = **2,0** |
-| **Manutenibilidade** | *M2.1, M2.2* | (4 + 4) / 2 = **4,0** |
-| **Segurança**        | *M3.1, M3.2* | (1 + 4) / 2 = **2,5** |
-
-**Fonte:** Elaborado por [João Nascimento](https://github.com/JMPNascimento) (2026).
+(../images/grafico_caracteristicas.png)
+**Fonte:** Elaborado por [Davi Leite](https://github.com/Withy-S) (2026).
 
 </div>
 
-A consolidação por característica (tabela 2) mostra um quadro bastante equilibrado. A **Confiabilidade** ficou em nível intermediário porque, embora a infraestrutura esteja bem montada, a cobertura de testes ainda é limitada. A **Manutenibilidade** atingiu o melhor resultado possível, apoiada por ausência de ciclos no frontend, estrutura modular do backend e baixa densidade de violações de estilo. A **Segurança** ficou alta, com proteção total das rotas sensíveis e apenas uma ocorrência pontual de chave privada no repositório.
+A consolidação por característica (Gráfico 1) mostra um quadro bastante equilibrado. A **Confiabilidade** ficou em nível intermediário porque, embora a infraestrutura esteja bem montada, a cobertura de testes ainda é limitada. A **Manutenibilidade** atingiu o melhor resultado possível, apoiada por ausência de ciclos no frontend, estrutura modular do backend e baixa densidade de violações de estilo. A **Segurança** ficou alta, com proteção total das rotas sensíveis e apenas uma ocorrência pontual de chave privada no repositório.
 
 ---
 
@@ -221,3 +216,4 @@ Assim, as sugestões de melhoria, elaboradas pelo time, estão apresentadas abai
 |  1.3   | 12/06/2026 | Adição dos tópicos 5 e 6, e validação dos dados e resultados obtidos | [Eduardo de Pina](https://github.com/eduardodpms) |
 |  1.4   | 17/06/2026 | Ajuste de sugestão de melhoria e da relação com os propósitos, migração da declaração de uso de IA  | [Eduardo de Pina](https://github.com/eduardodpms) |
 |  1.5   | 21/06/2026 | Ajuste de títulos das tabelas 1 e 2  | [Eduardo de Pina](https://github.com/eduardodpms) |
+|  1.6   | 21/06/2026 | Gráfico das características adicionado | [Davi Leite](https://github.com/Withy-S) |
