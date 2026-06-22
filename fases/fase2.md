@@ -212,7 +212,7 @@ O valor final do IQG será mapeado no seguinte julgamento de qualidade para entr
 
 ## 6. Representação da Hierarquia GQM (Gráfico GQM)
 
-A **Figura 4** apresenta a representação visual da hierarquia GQM (Goal-Question-Metric) adotada neste plano de medição. O diagrama ilustra como os [Objetivos de Medição](#_2-objetivos-de-medição) de alto nível (**Confiabilidade**, **Manutenibilidade** e **Segurança**) são decompostos em [Questões](#_3-questões-e-hipóteses-de-medição) específicas para avaliação. Por sua vez, cada Questão é conectada às [Métricas](#_4-seleção-de-métricas) quantitativas que fornecerão os dados necessários para respondê-las. A estrutura evidencia os três níveis lógicos da abordagem GQM, sendo eles o Conceitual (Objetivos), Operacional (Questões e Hipóteses) e Quantitativo (Métricas).
+A **Figura 1** apresenta a representação visual da hierarquia GQM (Goal-Question-Metric) adotada neste plano de medição. O diagrama ilustra como os [Objetivos de Medição](#_2-objetivos-de-medição) de alto nível (**Confiabilidade**, **Manutenibilidade** e **Segurança**) são decompostos em [Questões](#_3-questões-e-hipóteses-de-medição) específicas para avaliação. Por sua vez, cada Questão é conectada às [Métricas](#_4-seleção-de-métricas) quantitativas que fornecerão os dados necessários para respondê-las. A estrutura evidencia os três níveis lógicos da abordagem GQM, sendo eles o Conceitual (Objetivos), Operacional (Questões e Hipóteses) e Quantitativo (Métricas).
 
 <div align="center">
 

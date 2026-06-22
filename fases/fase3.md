@@ -86,7 +86,7 @@ Para garantir objetividade nas métricas baseadas em inspeção (M1.2 e M2.2), o
 
 </div>
 
-> No item 4, na validação da etapa de Continuous Integration temos uma separação clara entre backend e frontend, porém não foi encontrado a etapa de build do frontend, por isso o "Parcialmente".
+> No item 4, na validação da etapa de Continuous Integration, temos uma separação clara entre backend e frontend, porém não foi encontrada a etapa de build do frontend, por isso o "Parcialmente".
 
 ---
 

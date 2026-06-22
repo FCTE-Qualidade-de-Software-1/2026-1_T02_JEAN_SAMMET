@@ -28,7 +28,7 @@ Para a **M3.2 (Percentual de Rotas Protegidas)**, foram inventariadas as rotas d
 
 ## 3. Dados Brutos (Arquivos e Imagens)
 
-Os artefatos brutos foram organizados por métrica, para facilitar a auditoria e a localização dos resultados. Eles se encontram em uma pasta dedicada na root do projeto e possui a seguinte estrutura adotada:
+Os artefatos brutos foram organizados por métrica, para facilitar a auditoria e a localização dos resultados. Eles se encontram em uma pasta dedicada na raiz do projeto e possuem a seguinte estrutura adotada:
 
 ```text
 dados-brutos/
@@ -70,7 +70,7 @@ dados-brutos/
 
 ## 4. Análise e Respostas GQM (Métricas e Questões)
 
-Os dados coletados foram transformados em métricas e comparados com os níveis de pontuação definidos na Fase 2, mantendo rastreabilidade com o plano de execução da Fase 3. Essa relação está disposta na **tabela 12**. A leitura dos resultados considera não apenas os valores numéricos, mas também o contexto arquitetural do AcheiUnB, a natureza das evidências obtidas e a relação entre cada métrica e a questão GQM correspondente.
+Os dados coletados foram transformados em métricas e comparados com os níveis de pontuação definidos na Fase 2, mantendo rastreabilidade com o plano de execução da Fase 3. Essa relação está disposta na **Tabela 1**. A leitura dos resultados considera não apenas os valores numéricos, mas também o contexto arquitetural do AcheiUnB, a natureza das evidências obtidas e a relação entre cada métrica e a questão GQM correspondente.
 
 ---
 
@@ -99,7 +99,7 @@ Os dados coletados foram transformados em métricas e comparados com os níveis 
 
 **Q1.1 – Cobertura de testes automatizados**
 
-A cobertura global obtida foi de **43%**, o que confirma a existência de uma suíte de testes, mas ainda em patamar intermediário. O resultado não invalida a estratégia de teste adotada pelo projeto, porém mostra que a base de testes ainda não cobre o sistema de forma ampla o suficiente para sustentar alterações com alto grau de confiança. Em termos práticos, isso significa que o projeto possui validação automatizada, mas ainda não em nível robusto de proteção contra regressões. A cobertura declarada no `codecov.yml` superior a 90%, não se confirmou, o que faz a métrica responder à questão de forma apenas parcialmente satisfatória.
+A cobertura global obtida foi de **43%**, o que confirma a existência de uma suíte de testes, mas ainda em patamar intermediário. O resultado não invalida a estratégia de teste adotada pelo projeto, porém mostra que a base de testes ainda não cobre o sistema de forma ampla o suficiente para sustentar alterações com alto grau de confiança. Em termos práticos, isso significa que o projeto possui validação automatizada, mas ainda não em nível robusto de proteção contra regressões. A cobertura declarada no `codecov.yml` é superior a 90%, mas não se confirmou, o que faz a métrica responder à questão de forma apenas parcialmente satisfatória.
 
 **Q1.2 – Infraestrutura e tolerância a falhas**
 
@@ -127,9 +127,9 @@ A métrica M3.2 avaliou o percentual de rotas que manipulam dados sensíveis e q
 
 <div align="center">
 
-**Figura 1:** Gráfico do cálculo do IQ por característica
+**Gráfico 1:** Gráfico do cálculo do IQ por característica
 
-![Grafico IQ](../images/grafico_caracteristicas.png)
+![Gráfico IQ](../images/grafico_caracteristicas.png)
 
 **Fonte:** Elaborado por [Davi Leite](https://github.com/Withy-S) (2026).
 

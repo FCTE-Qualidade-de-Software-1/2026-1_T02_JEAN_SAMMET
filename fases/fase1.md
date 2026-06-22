@@ -36,7 +36,7 @@ Incluem estudantes, servidores, professores ou visitantes que encontram objetos 
 
 #### Equipe mantenedora e desenvolvedores
 
-São os responsáveis pela manutenção, correção de falhas, evolução e sustentabilidade do sistema ao longo do tempo. Foi levantada a seguinte listagem de critério de sucesso:
+São os responsáveis pela manutenção, correção de falhas, evolução e sustentabilidade do sistema ao longo do tempo. Foi levantada a seguinte listagem de critérios de sucesso:
 
 * Código-fonte organizado e de fácil manutenção;
 * Facilidade para correção de defeitos e implementação de novas funcionalidades;
@@ -114,7 +114,7 @@ A definição dos propósitos será utilizada, posteriormente, para comparação
 
 Como dito anteriormente, o AcheiUnB é uma plataforma de achados e perdidos voltada para a comunidade acadêmica da UnB. Seus principais stakeholders são estudantes que perderam ou encontraram objetos no campus, e a equipe de desenvolvimento responsável pela manutenção contínua do sistema.
 
-A partir desse contexto, será feito a priorização através da matriz impacto x risco nas características que serão empregadas  pela equipe para avaliar o software, sendo que os quadrantes da matriz foram categorizadas, respectivamente, como 'prioritário', 'prioritário e exigente', 'desvirtua do propósito' e 'descartar' para o 1º, 2º, 3º e 4º quadrante, para reforçar a visão da equipe sobre a alocação dessas características. Dessa forma, as características selecionadas devem pertencer ao 1º e 2º quadrante, pois enfatizamos aquelas que terão alto impacto para o propósito da nossa avaliação. A **figura 2** expõe o resultado da priorização.      
+A partir desse contexto, será feita a priorização através da matriz impacto x risco nas características que serão empregadas pela equipe para avaliar o software, sendo que os quadrantes da matriz foram categorizados, respectivamente, como 'prioritário', 'prioritário e exigente', 'desvirtua do propósito' e 'descartar' para o 1º, 2º, 3º e 4º quadrante, para reforçar a visão da equipe sobre a alocação dessas características. Dessa forma, as características selecionadas devem pertencer ao 1º e 2º quadrante, pois enfatizamos aquelas que terão alto impacto para o propósito da nossa avaliação. A **figura 2** expõe o resultado da priorização.
 
 <div align="center">
 
@@ -130,7 +130,7 @@ Como é possível observar, três características da norma ISO/IEC 25010 foram 
 
 Dessa forma, é importante destacar que entre as três selecionadas, um _trade-off_ observável nessa escolha irá advir de **segurança**, pois a avaliação dessa característica será simplificada por conta da limitação de recursos acessíveis à equipe.
 
-De acordo com as características escolhidas. separamos subcaracterísticas no modelo de qualidade que serão avaliadas durante as fases e que tem relação entre elas.
+De acordo com as características escolhidas, separamos subcaracterísticas no modelo de qualidade que serão avaliadas durante as fases e que têm relação entre elas.
 
 ### **Subcaracterísticas de Confiabilidade**
 
@@ -163,8 +163,6 @@ De acordo com as características escolhidas. separamos subcaracterísticas no m
 - Ausência de Repúdio: O sistema mantém um histórico rastreável de tudo o que é feito. Isso é possível graças ao pipeline de CI/CD do GitHub Actions, que registra as execuções e alterações submetidas ao repositório.
 
 - Rastreabilidade de Uso: O repositório consegue vincular as ações a usuários específicos. Essa identificação é feita pelo mecanismo de autenticação da Microsoft (MSAL), que associa cada sessão a uma identidade única da comunidade acadêmica da UnB.
-
-- A plataforma valida se o usuário realmente pertence à instituição. Como o login é vinculado ao sistema da Universidade de Brasília via MSAL, o acesso fica restrito apenas a quem faz parte da comunidade acadêmica.
 
 - Autenticidade: A plataforma valida se o usuário realmente pertence à instituição. Como o login é vinculado ao sistema da Universidade de Brasília via MSAL, o acesso fica restrito apenas a quem faz parte da comunidade acadêmica.
 
@@ -251,7 +249,7 @@ Assim, a avaliação terá caráter documental e estático, com foco na análise
 
 ## 7. ODS e sua relação com o software
 
-Aqui estão as ODS que tem relevância direta com o projeto do AcheiUnB e suas devidas explicações.
+Aqui estão as ODS que têm relevância direta com o projeto do AcheiUnB e suas devidas explicações.
 
 - **ODS 4 — Educação de Qualidade:**
   O meta associada é a **4.a**, que trata da oferta de infraestrutura e ambientes de aprendizagem seguros, inclusivos e eficazes para todos. A plataforma contribui para esse objetivo ao oferecer à comunidade acadêmica da UnB um canal institucional para registro e recuperação de objetos perdidos, reduzindo o impacto da perda de materiais acadêmicos como livros, documentos e equipamentos sobre a rotina dos estudantes. Ao substituir grupos informais de mensagens por um sistema estruturado e acessível, o AcheiUnB apoia a continuidade das atividades de estudo de forma organizada e adequada ao contexto universitário.

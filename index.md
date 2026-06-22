@@ -56,7 +56,7 @@ Para guiar nossa avaliação, selecionamos características críticas baseadas n
 **Subcaracterísticas:**
 
 1. Confidencialidade - produto ou sistema é capaz de garantir que dados são acessados apenas por aqueles que têm acesso autorizado.
-2. Integridade - capacidade de prevenir acesso não-autorizado e modificação de dados ou programas de computador.
+2. Integridade - capacidade de prevenir acesso não autorizado e modificação de dados ou programas de computador.
 3. Ausência de repúdio - capacidade de provar que ações ou eventos aconteceram.
 4. Rastreabilidade de uso - ações de usuários não autorizados devem ser ligados a eles.
 5. Autenticidade - a identidade de um sujeito ou recurso pode ser provada.
@@ -90,7 +90,7 @@ Abaixo está resumida a narrativa do processo de avaliação seguido pela nossa 
   - *Definição dos objetivos de medição, seleção de métricas e critérios e hierarquia GQM.*
 
 #### [**Fase 3:** Plano de Execução da Avaliação](fases/fase3.md)
-  - *Definição do método de avaliação, especificação dos recursos e ambiente, procedimentos e checklists pra avaliação e cronograma.*
+  - *Definição do método de avaliação, especificação dos recursos e ambiente, procedimentos e checklists para avaliação e cronograma.*
 
 #### [**Fase 4:** Execução, Análise e Julgamento](fases/fase4.md)
   - *Obtenção das métricas, separação e organização dos dados brutos, análise com base em GQM, e conclusão da avaliação.*

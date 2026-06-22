@@ -39,8 +39,8 @@ As tabelas abaixo quantificam o esforço e detalham as principais responsabilida
 | Davi Gonçalves Leite Feitosa | Revisão do material desenvolvido nas fases *2*, *3* e *4*. | **16,66%** |
 | Diogo Oliveira Ferreira | Elaboração da fase 3 (procedimentos, checklists, especificações da avaliação e cronograma). | **16,66%** |
 | Eduardo de Pina Moreira Santos | Correção de critérios na *entrega 1*, seções *5* e *6* da *fase 4*, validação da *análise dos dados* e relatório da *entrega 2*. | **16,66%** |
-| Euller Júlio da Silva | Implementação integral da *fase 2*: objetivos GQM, questões, hipóteses, métricas, níveis de pontuação, diagrama hierárquico, rastreabilidade entre fases, base das paginas das fases 2 até 4 da entrega 2. | **16,66%** |
-| João Maurício Pilla Nascimento | Correção de incossistências e formatações inconstantes nas *fases 2 e 3*, coleta dos dados utilizados e elaboração das seções *2*, *3* e *4* da *fase 4*.  | **16,66%** |
+| Euller Júlio da Silva | Implementação integral da *fase 2*: objetivos GQM, questões, hipóteses, métricas, níveis de pontuação, diagrama hierárquico, rastreabilidade entre fases, base das páginas das fases 2 até 4 da entrega 2. | **16,66%** |
+| João Maurício Pilla Nascimento | Correção de inconsistências e formatações inconstantes nas *fases 2 e 3*, coleta dos dados utilizados e elaboração das seções *2*, *3* e *4* da *fase 4*.  | **16,66%** |
 | Willian Wagner Xavier Ramos da Silva | Elaboração da seção 1 na fase 4, relatório da entrega 2 e revisão da estrutura textual. | **16,66%** |
 | **TOTAL** | | **100%** |
 
@@ -60,11 +60,11 @@ As tabelas abaixo quantificam o esforço e detalham as principais responsabilida
 
 | Membro da Equipe | Papel / Principais Responsabilidades | Esforço (%) |
 | :--- | :--- | :---: |
-| Davi Gonçalves Leite Feitosa | Adição de data no cronograma, criação do gráfico de cálculo do IQ no tópico 5.3 | **16,66%** |
+| Davi Gonçalves Leite Feitosa | Adição de data no cronograma, criação do gráfico de cálculo do IQ no tópico 4.3 | **16,66%** |
 | Diogo Oliveira Ferreira | *(Descrever atividades realizadas)* | 0% |
 | Eduardo de Pina Moreira Santos | *Criação de template para nova declaração de IA, ajuste de métrica na fase 4, ajuste de hipótese na fase 2, ajuste de propósitos (fases 1 e 4), ajuste de sugestão de melhoria na fase 4, e correção de requisitante na fase 1.* | **16,66%** |
 | Euller Júlio da Silva | *(Descrever atividades realizadas)* | 0% |
-| João Maurício Pilla Nascimento | *(Descrever atividades realizadas)* | 0% |
+| João Maurício Pilla Nascimento | *Diversas correções de ortografia, gramática e formatação nas fases 1, 2, 3 e 4* | **16,66%** |
 | Willian Wagner Xavier Ramos da Silva | *Adição de sumário, correções de gramática, e ajuste de datas no cronograma.* | **16,66%** |
 | **TOTAL** | | **100%** |
 
