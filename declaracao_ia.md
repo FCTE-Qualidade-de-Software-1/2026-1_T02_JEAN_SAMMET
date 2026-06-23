@@ -52,7 +52,7 @@ Segue abaixo, na **Tabela 1**, uma listagem das principais ferramentas baseadas 
 | Diogo Oliveira Ferreira | *Não foi utilizada nenhuma ferramenta de IA na EU1.* | - |
 | Eduardo de Pina Moreira Santos | *Não foi utilizada nenhuma ferramenta de IA na EU1.* | - |
 | Euller Júlio da Silva | *Não foi utilizada nenhuma ferramenta de IA na EU1.* | - |
-| João Maurício Pilla Nascimento | *-* | - |
+| João Maurício Pilla Nascimento | *Não foi utilizada nenhuma ferramenta de IA na EU1.* | - |
 | Willian Wagner Xavier Ramos da Silva | *Não foi utilizada nenhuma ferramenta de IA na EU1.* | - |
 
 **Fonte:** [Eduardo de Pina](https://github.com/eduardodpms), 2026.
@@ -75,7 +75,7 @@ Segue abaixo, na **Tabela 1**, uma listagem das principais ferramentas baseadas 
 | Diogo Oliveira Ferreira | *Claude + Gemini(Pro 3.1)* | Me ajudou a pesquisar e entender as características e ferramentas + escrita e revisão ortográfica. |
 | Eduardo de Pina Moreira Santos | *ChatGPT (GPT-4o Mini)* | Redação e resumo de textos (**tópico 4** na **Fase 1**, **tópicos 5 e 6** na **Fase 4**), e dúvidas técnicas de Qualidade de Software. |
 | Euller Júlio da Silva | *Gemini( Pro 3.1)* | Correções ortográficas, formatação Markdown e estruturação visual do diagrama hierárquico GQM na Fase 2. |
-| João Maurício Pilla Nascimento | *-* | - |
+| João Maurício Pilla Nascimento | *ChatGPT (GPT-4o Mini)* | Auxílio técnico durante a coleta de dados quando algum comando falhava/dava erro e ajuda na escrita/ortografia. |
 | Willian Wagner Xavier Ramos da Silva | *Não foi utilizada nenhuma ferramenta de IA na EU2.* | - |
 
 **Fonte:** [Eduardo de Pina](https://github.com/eduardodpms), 2026.
@@ -98,7 +98,7 @@ Segue abaixo, na **Tabela 1**, uma listagem das principais ferramentas baseadas 
 | Diogo Oliveira Ferreira | *Claude + Gemini(Pro 3.1)* | Me ajudou a pesquisar, a entender as características e ferramentas + escrita e revisão ortográfica. |
 | Eduardo de Pina Moreira Santos | *ChatGPT (GPT-4o Mini)* | Detalhamento de sugestões de melhoria no tópico 6 da Fase 4. |
 | Euller Júlio da Silva | *Não foi utilizada nenhuma ferramenta de IA na EU3.*  | - |
-| João Maurício Pilla Nascimento | *-* | - |
+| João Maurício Pilla Nascimento | *Não foi utilizada nenhuma ferramenta de IA na EU3.* | - |
 | Willian Wagner Xavier Ramos da Silva | *Não foi utilizada nenhuma ferramenta de IA na EU3.* | - |
 
 **Fonte:** [Eduardo de Pina](https://github.com/eduardodpms), 2026.
