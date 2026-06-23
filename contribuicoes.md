@@ -63,7 +63,7 @@ As tabelas abaixo quantificam o esforço e detalham as principais responsabilida
 | Davi Gonçalves Leite Feitosa | Adição de data no cronograma, criação do gráfico de cálculo do IQ no tópico 4.3 | **16,66%** |
 | Diogo Oliveira Ferreira | *(Descrever atividades realizadas)* | 0% |
 | Eduardo de Pina Moreira Santos | *Criação de template para nova declaração de IA, ajuste de métrica na fase 4, ajuste de hipótese na fase 2, ajuste de propósitos (fases 1 e 4), ajuste de sugestão de melhoria na fase 4, e correção de requisitante na fase 1.* | **16,66%** |
-| Euller Júlio da Silva | *(Descrever atividades realizadas)* | 0% |
+| Euller Júlio da Silva | *Atualização do documento de contribuições e declarações de IA, e execução da avaliação/revisão por pares do relatório de outro grupo.* | **16,66%** |
 | João Maurício Pilla Nascimento | *Diversas correções de ortografia, gramática e formatação nas fases 1, 2, 3 e 4* | **16,66%** |
 | Willian Wagner Xavier Ramos da Silva | *Adição de sumário, correções de gramática, e ajuste de datas no cronograma.* | **16,66%** |
 | **TOTAL** | | **100%** |
@@ -87,3 +87,4 @@ As tabelas abaixo quantificam o esforço e detalham as principais responsabilida
 |  1.4   | 17/06/2026 | Adição de contribuição na EU3, e ajustes gerais | [Eduardo de Pina](https://github.com/eduardodpms)       |
 |  1.5   | 21/06/2026 | Adição de contribuições na EU3 | [Eduardo de Pina](https://github.com/eduardodpms)       |
 |  1.6   | 21/06/2026 | Adição de contribuições na EU3 | [Davi Leite](https://github.com/Withy-S)       |
+|  1.7   | 22/06/2026 | Atualização da contribuição na EU3 | [Euller Júlio](https://github.com/potatoyz908)       |

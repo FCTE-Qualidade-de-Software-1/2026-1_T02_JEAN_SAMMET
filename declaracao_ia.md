@@ -51,7 +51,7 @@ Segue abaixo, na **Tabela 1**, uma listagem das principais ferramentas baseadas 
 | Davi Gonçalves Leite Feitosa | *-* | - |
 | Diogo Oliveira Ferreira | *-* | - |
 | Eduardo de Pina Moreira Santos | *Não foi utilizada nenhuma ferramenta de IA na EU1.* | - |
-| Euller Júlio da Silva | *-* | - |
+| Euller Júlio da Silva | *Não foi utilizada nenhuma ferramenta de IA na EU1.* | - |
 | João Maurício Pilla Nascimento | *-* | - |
 | Willian Wagner Xavier Ramos da Silva | *-* | - |
 
@@ -74,7 +74,7 @@ Segue abaixo, na **Tabela 1**, uma listagem das principais ferramentas baseadas 
 | Davi Gonçalves Leite Feitosa | *-* | - |
 | Diogo Oliveira Ferreira | *-* | - |
 | Eduardo de Pina Moreira Santos | *ChatGPT (GPT-4o Mini)* | Redação e resumo de textos (**tópico 4** na **Fase 1**, **tópicos 5 e 6** na **Fase 4**), e dúvidas técnicas de Qualidade de Software. |
-| Euller Júlio da Silva | *-* | - |
+| Euller Júlio da Silva | *Antigravity (Gemini)* | Correções ortográficas, formatação Markdown e estruturação visual do diagrama hierárquico GQM (Fase 2). |
 | João Maurício Pilla Nascimento | *-* | - |
 | Willian Wagner Xavier Ramos da Silva | *-* | - |
 
@@ -97,7 +97,7 @@ Segue abaixo, na **Tabela 1**, uma listagem das principais ferramentas baseadas 
 | Davi Gonçalves Leite Feitosa | *-* | - |
 | Diogo Oliveira Ferreira | *-* | - |
 | Eduardo de Pina Moreira Santos | *ChatGPT (GPT-4o Mini)* | Detalhamento de sugestões de melhoria no tópico 6 da Fase 4. |
-| Euller Júlio da Silva | *-* | - |
+| Euller Júlio da Silva | *Antigravity (Gemini)* | Auxílio na análise dos critérios para revisão por pares (avaliação de outro grupo) e formatação Markdown do documento de contribuições. |
 | João Maurício Pilla Nascimento | *-* | - |
 | Willian Wagner Xavier Ramos da Silva | *-* | - |
 
@@ -114,3 +114,4 @@ Segue abaixo, na **Tabela 1**, uma listagem das principais ferramentas baseadas 
 | Versão | Data | Descrição | Autor |
 | :-: | :-: | - | - |
 | 1.0 | 17/06/2026 | Criação do artefato de declaração do uso de IA | [Eduardo de Pina](https://github.com/eduardodpms) |
+| 1.1 | 22/06/2026 | Atualização das declarações de uso de IA na EU1, EU2 e EU3 | [Euller Júlio](https://github.com/potatoyz908) |
