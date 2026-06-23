@@ -174,7 +174,7 @@ Mediante essa descrição, a **figura 3** exibe o modelo de qualidade adaptado a
 
 ![Modelo de qualidade](../images/modeloQualidade.jpg)
 
-**Fonte:** [Willian Silva](https://github.com/Wooo589), 2026.
+**Fonte:** [Davi Leite](https://github.com/Withy-S), 2026.
 
 </div>
 
